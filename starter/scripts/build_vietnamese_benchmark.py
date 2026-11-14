@@ -1,0 +1,234 @@
+"""Generate and verify 20 benchmark questions against Vietnamese Handbook PDF."""
+import json
+import unicodedata
+from pathlib import Path
+import pypdf
+
+QUESTIONS = [
+    {
+        "id": "q01",
+        "split": "dev",
+        "question": "Điểm IELTS tối thiểu để được xét tuyển thẳng không điều kiện vào VinUniversity là bao nhiêu?",
+        "expected_answer": "IELTS Academic tối thiểu 6.5, không kỹ năng nào dưới 6.0.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 4,
+        "evidence_quote": "Chuẩn năng lực tiếng Anh tối thiểu để được xét tuyển thẳng không điều kiện (unconditional admission) là điểm IELTS Academic tổng thể từ 6.5 trở lên, trong đó không có kỹ năng thành phần nào (Nghe, Đọc, Viết, Nói) dưới 6.0.",
+        "filter": {"section": "admissions"}
+    },
+    {
+        "id": "q02",
+        "split": "dev",
+        "question": "Điểm trung bình học tập THPT tối thiểu để được nộp hồ sơ xét tuyển vào trường là bao nhiêu?",
+        "expected_answer": "Điểm GPA THPT tối thiểu 7.5/10.0 hoặc 3.0/4.0.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 3,
+        "evidence_quote": "Điểm trung bình học tập bậc trung học phổ thông tối thiểu để được nộp hồ sơ xét tuyển là 7.5 trên thang điểm 10.0, hoặc 3.0 trên thang điểm 4.0."
+    },
+    {
+        "id": "q03",
+        "split": "dev",
+        "question": "Sinh viên trúng tuyển phải nộp khoản đặt cọc nhập học bao nhiêu tiền và trong thời hạn bao lâu?",
+        "expected_answer": "35.000.000 VNĐ trong vòng 15 ngày làm việc kể từ ngày nhận thông báo.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 6,
+        "evidence_quote": "phải hoàn thành thủ tục xác nhận nhập học và nộp khoản Đặt cọc Nhập học (Enrollment Deposit) không hoàn lại trị giá 35.000.000 VNĐ trong vòng 15 ngày làm việc kể từ ngày nhận thông báo."
+    },
+    {
+        "id": "q04",
+        "split": "dev",
+        "question": "Một học kỳ chính sinh viên bắt buộc phải đăng ký tối thiểu và tối đa bao nhiêu tín chỉ?",
+        "expected_answer": "Tối thiểu 12 tín chỉ và tối đa 18 tín chỉ mỗi học kỳ chính.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 7,
+        "evidence_quote": "bắt buộc phải đăng ký khối lượng học tập tối thiểu là 12 tín chỉ để duy trì tư cách sinh viên toàn thời gian (full-time student status), và không được đăng ký vượt quá mức tối đa là 18 tín chỉ mỗi học kỳ"
+    },
+    {
+        "id": "q05",
+        "split": "dev",
+        "question": "Sinh viên muốn đăng ký học quá tải môn học (Course Overload) cần đáp ứng điều kiện gì về điểm CGPA?",
+        "expected_answer": "Điểm CGPA tích lũy từ 3.50 trở lên ở học kỳ liền kề trước đó.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 8,
+        "evidence_quote": "Sinh viên muốn đăng ký học quá tải (Course Overload) vượt mức 18 tín chỉ (tối đa không quá 21 tín chỉ trong một học kỳ) bắt buộc phải đạt điểm trung bình tích lũy CGPA từ 3.50 trở lên ở học kỳ liền kề trước đó",
+        "filter": {"section": "course_registration"}
+    },
+    {
+        "id": "q06",
+        "split": "dev",
+        "question": "Thời hạn tối đa sinh viên được nộp đơn xin rút môn học (Course Withdrawal) là đến tuần thứ mấy?",
+        "expected_answer": "Từ tuần thứ 3 đến hết tuần thứ 8 của học kỳ chính.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 10,
+        "evidence_quote": "Từ tuần học thứ 3 cho đến hết tuần học thứ 8 của học kỳ chính, sinh viên có thể nộp đơn xin Rút môn học (Course Withdrawal)."
+    },
+    {
+        "id": "q07",
+        "split": "dev",
+        "question": "Tỷ lệ tham dự lớp học tối thiểu bắt buộc của mỗi môn học là bao nhiêu phần trăm?",
+        "expected_answer": "Tối thiểu 80% tổng số giờ học được lên lịch; vắng quá 20% sẽ nhận điểm F.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 11,
+        "evidence_quote": "Tỷ lệ tham dự lớp học tối thiểu bắt buộc đối với mỗi môn học là 80% tổng số giờ học được lên lịch. Sinh viên vắng mặt quá 20% tổng số buổi học của một môn học (dù có lý do hay không có lý do chính đáng) sẽ tự động bị truất quyền tham gia kỳ thi kết thúc học phần và nhận điểm F (Fail)"
+    },
+    {
+        "id": "q08",
+        "split": "dev",
+        "question": "Tổng thời gian nghỉ học tạm thời tối đa tích lũy trong toàn bộ khóa học đại học là bao lâu?",
+        "expected_answer": "Tối đa không quá 4 học kỳ chính (2 năm).",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 13,
+        "evidence_quote": "Tổng thời gian nghỉ học tạm thời tích lũy trong toàn bộ khóa học đại học không được vượt quá 4 học kỳ chính (2 năm)."
+    },
+    {
+        "id": "q09",
+        "split": "dev",
+        "question": "Để đạt điểm A tương đương 4.0 trong môn học thì sinh viên cần đạt kết quả tổng kết tối thiểu bao nhiêu phần trăm?",
+        "expected_answer": "Từ 90% trở lên.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 15,
+        "evidence_quote": "Điểm A đạt 4.0 (Xuất sắc, từ 90% trở lên); Điểm A- đạt 3.7 (từ 85% đến 89%); Điểm B+ đạt 3.3 (từ 80% đến 84%); Điểm B đạt 3.0 (Khá giỏi, từ 75% đến 79%)"
+    },
+    {
+        "id": "q10",
+        "split": "dev",
+        "question": "Mỗi sinh viên được phép học lại tối đa bao nhiêu môn học để cải thiện điểm số trong toàn khóa học?",
+        "expected_answer": "Tối đa 4 môn học.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 17,
+        "evidence_quote": "Mỗi sinh viên không được học lại quá 4 môn học để cải thiện điểm trong toàn khóa học."
+    },
+    {
+        "id": "q11",
+        "split": "dev",
+        "question": "Thời hạn và mức lệ phí nộp đơn phúc khảo điểm thi kết thúc môn học là bao nhiêu?",
+        "expected_answer": "Trong vòng 10 ngày làm việc kể từ ngày công bố điểm; lệ phí 500.000 VNĐ/môn.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 18,
+        "evidence_quote": "Đơn phúc khảo phải nộp cho Trưởng Khoa trong vòng 10 ngày làm việc kể từ ngày công bố điểm chính thức trên cổng đào tạo, kèm lệ phí phúc khảo 500.000 VNĐ cho mỗi môn học."
+    },
+    {
+        "id": "q12",
+        "split": "dev",
+        "question": "Điều kiện điểm số GPA để sinh viên được vinh danh trong Danh sách Danh dự của Trưởng Khoa (Dean's List) là gì?",
+        "expected_answer": "SGPA từ 3.60 đến 4.00, đăng ký từ 15 tín chỉ trở lên và không có điểm dưới B.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 19,
+        "evidence_quote": "Sinh viên đạt điểm SGPA từ 3.60 đến 4.00 trong một học kỳ chính (với khối lượng đăng ký từ 15 tín chỉ trở lên, không có điểm dưới B và không bị kỷ luật) sẽ được vinh danh trong Danh sách Danh dự của Trưởng Khoa (Dean's List of Academic Excellence)"
+    },
+    {
+        "id": "q13",
+        "split": "dev",
+        "question": "Sinh viên rơi vào tình trạng Cảnh báo Học thuật Cấp độ 2 (Academic Probation) khi nào?",
+        "expected_answer": "Khi có điểm CGPA tích lũy dưới 2.00 trong hai học kỳ liên tiếp.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 20,
+        "evidence_quote": "Sinh viên bị Cảnh báo Học thuật Cấp độ 2 (Academic Probation) khi có điểm CGPA tích lũy dưới 2.00 trong hai học kỳ liên tiếp."
+    },
+    {
+        "id": "q14",
+        "split": "dev",
+        "question": "Trường hợp nào sinh viên sẽ bị áp dụng chế tài đình chỉ học tập tạm thời 1 học kỳ chính do học lực yếu?",
+        "expected_answer": "CGPA dưới 1.50 trong hai học kỳ liên tiếp hoặc thuộc Cảnh báo Cấp 2 mà không nâng được CGPA lên 2.00.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 21,
+        "evidence_quote": "Sinh viên sẽ bị áp dụng chế tài Đình chỉ Học tập Tạm thời (Academic Suspension) trong thời hạn 1 học kỳ chính nếu rơi vào một trong các trường hợp sau: (1) Điểm trung bình tích lũy CGPA dưới 1.50 trong hai học kỳ liên tiếp; hoặc (2) Thuộc diện Cảnh báo Học thuật Cấp độ 2 mà không nâng được điểm CGPA lên mức tối thiểu 2.00 ở học kỳ tiếp theo."
+    },
+    {
+        "id": "q15",
+        "split": "dev",
+        "question": "Quy chế nhà trường nghiêm cấm những nhóm hành vi vi phạm liêm chính học thuật nào?",
+        "expected_answer": "Đạo văn (Plagiarism), Gian lận thi cử (Cheating), Ngụy tạo dữ liệu (Fabrication), và Thi hộ/làm bài hộ (Collusion).",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 23,
+        "evidence_quote": "Các hành vi bị nghiêm cấm bao gồm: (1) Đạo văn (Plagiarism), được định nghĩa là việc sao chép từ ngữ, ý tưởng, dữ liệu hoặc lập luận của người khác mà không dẫn nguồn trích dẫn đầy đủ và đúng quy cách học thuật; (2) Gian lận thi cử (Cheating), bao gồm việc sử dụng tài liệu cấm, trao đổi thông tin trong phòng thi hoặc xem bài người khác; (3) Ngụy tạo dữ liệu thí nghiệm hoặc thông số nghiên cứu (Fabrication); (4) Thi hộ hoặc nhờ người khác làm hộ bài tập đánh giá (Collusion)."
+    },
+    {
+        "id": "q16",
+        "split": "test",
+        "question": "Hành vi sử dụng công cụ AI tạo sinh nộp bài mà không khai báo minh bạch bị xếp vào mức độ vi phạm nào?",
+        "expected_answer": "Vi phạm Liêm chính Học thuật Mức độ II (Category II Violation).",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 24,
+        "evidence_quote": "Hành vi nộp văn bản, mã nguồn hoặc dữ liệu do AI tạo ra mạo nhận là sản phẩm sáng tạo trí tuệ của chính mình mà không khai báo minh bạch sẽ bị xếp vào Vi phạm Liêm chính Học thuật Mức độ II (Category II Violation).",
+        "filter": {"section": "academic_integrity"}
+    },
+    {
+        "id": "q17",
+        "split": "test",
+        "question": "Số tín chỉ tích lũy tối thiểu và điều kiện cư trú học thuật tại trường (Academic Residency) để tốt nghiệp chương trình cử nhân 4 năm là bao nhiêu?",
+        "expected_answer": "Tối thiểu 120 tín chỉ tích lũy, trong đó ít nhất 60 tín chỉ học trực tiếp tại trường.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 27,
+        "evidence_quote": "hoàn thành tối thiểu 120 tín chỉ học thuật tích lũy đối với các chương trình đào tạo 4 năm (bao gồm các ngành Quản trị Kinh doanh, Khoa học Máy tính, và Khoa học Dữ liệu), hoặc 150 tín chỉ đối với chương trình Kỹ sư 5 năm. Sinh viên bắt buộc phải đáp ứng yêu cầu Cư trú Học thuật (Academic Residency): hoàn thành tối thiểu 60 tín chỉ học tập trực tiếp tại VinUniversity"
+    },
+    {
+        "id": "q18",
+        "split": "test",
+        "question": "Mức điểm GPA tích lũy tối thiểu để sinh viên tốt nghiệp được trao danh hiệu danh dự Summa Cum Laude là bao nhiêu?",
+        "expected_answer": "CGPA từ 3.90 đến 4.00, không có điểm F và không bị kỷ luật.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 30,
+        "evidence_quote": "(1) Danh hiệu Xuất sắc Tối cao (Summa Cum Laude) dành cho sinh viên có điểm tốt nghiệp CGPA từ 3.90 đến 4.00; (2) Danh hiệu Xuất sắc (Magna Cum Laude) dành cho sinh viên có điểm CGPA từ 3.75 đến 3.89; (3) Danh hiệu Giỏi (Cum Laude) dành cho sinh viên có điểm CGPA từ 3.50 đến 3.74."
+    },
+    {
+        "id": "q19",
+        "split": "test",
+        "question": "Sinh viên nhận học bổng tài năng 70% và 50% phải duy trì điểm GPA tích lũy tối thiểu là bao nhiêu sau mỗi năm học?",
+        "expected_answer": "CGPA tối thiểu từ 3.20 trở lên.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 33,
+        "evidence_quote": "Sinh viên nhận Học bổng 70% và Học bổng 50% phải duy trì điểm tích lũy CGPA tối thiểu từ 3.20 trở lên."
+    },
+    {
+        "id": "q20",
+        "split": "test",
+        "question": "Chính sách hoàn học phí khi sinh viên chính thức rút học trong tuần thứ 3 đến tuần thứ 4 của học kỳ là bao nhiêu phần trăm?",
+        "expected_answer": "Hoàn trả 50% học phí.",
+        "gold_source_id": "vinuni-handbook-2025",
+        "gold_page": 35,
+        "evidence_quote": "(2) Rút học trong Tuần 3 đến Tuần 4: Hoàn trả 50% học phí; (3) Rút học trong Tuần 5 đến Tuần 6: Hoàn trả 25% học phí; (4) Rút học sau Tuần 6: Hoàn trả 0% (không được hoàn lại học phí trong bất kỳ hoàn cảnh nào)."
+    }
+]
+
+
+def normalize_text(text: str) -> str:
+    text = unicodedata.normalize("NFC", text)
+    return " ".join(text.split()).lower()
+
+
+def main():
+    root = Path(__file__).resolve().parent.parent.parent
+    pdf_path = root / "data" / "vinuni_academic_handbook_2025_2026.pdf"
+    reader = pypdf.PdfReader(str(pdf_path))
+
+    print(f"Verifying {len(QUESTIONS)} questions against {pdf_path.name} ({len(reader.pages)} pages)...")
+    passed = 0
+    for q in QUESTIONS:
+        p_num = q["gold_page"]
+        page_text = reader.pages[p_num - 1].extract_text()
+        norm_page = normalize_text(page_text)
+        norm_quote = normalize_text(q["evidence_quote"])
+
+        if norm_quote in norm_page:
+            passed += 1
+        else:
+            print(f"FAILED on {q['id']} (Page {p_num})!")
+            print(f"Quote: {norm_quote[:80]}...")
+            print(f"Page text sample: {norm_page[:150]}...")
+
+    print(f"Verification result: {passed}/{len(QUESTIONS)} questions passed perfectly!")
+    if passed == len(QUESTIONS):
+        # Save to benchmark/questions.json and starter/benchmark/questions.json
+        out_paths = [
+            root / "benchmark" / "questions.json",
+            root / "starter" / "benchmark" / "questions.json"
+        ]
+        for p in out_paths:
+            p.parent.mkdir(parents=True, exist_ok=True)
+            with open(p, "w", encoding="utf-8") as f:
+                json.dump(QUESTIONS, f, ensure_ascii=False, indent=2)
+            print(f"Saved: {p}")
+
+
+if __name__ == "__main__":
+    main()

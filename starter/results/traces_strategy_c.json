@@ -6,7 +6,7 @@
     "expected_answer": "IELTS Academic tối thiểu 6.5, không kỹ năng nào dưới 6.0.",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 4,
-    "evidence_quote": "overall band score of at least 6.5 on the International English Language Testing System (IELTS Academic), with no individual sub-band score falling below 6.0",
+    "evidence_quote": "Chuẩn năng lực tiếng Anh tối thiểu để được xét tuyển thẳng không điều kiện (unconditional admission) là điểm IELTS Academic tổng thể từ 6.5 trở lên, trong đó không có kỹ năng thành phần nào (Nghe, Đọc, Viết, Nói) dưới 6.0.",
     "filter": {
       "section": "admissions"
     },
@@ -16,7 +16,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 4,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.2 English Language Proficiency Prerequisites Because the official medium of instruction and academic research across all colleges at VinUniversity is English, candidates must substantiate adequate linguistic competence prior to formal matriculation into credit-bearing coursework. The standard baseline English qualification for unconditional admission is an overall band score of at least 6.5 on the International English Language Testing System (IELTS Academic), with no individual sub-band score falling below 6.0 in Listening, Reading, Writing, and Speaking. Equivalently, a score of 79 on the Test of English as a Foreign Language internet-based test (TOEFL iBT) with minimum section scores of 19, or a Pearson Test of English Academic (PTE Academic) score of 58 is accepted. Exemption from English testing is granted strictly to candidates whose native language is English, or those who have successfully completed three consecutive years of secondary instruction in a school where English is the sole instructional language, supported by official accreditation documentation. Applicants presenting an IELTS score between 5.5 and 6.0 are granted provisional admission conditional upon mandatory enrollment in the Pathway English Immersion Program during the summer prior to the fall semester.",
+        "text": "Trang 4 | Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) 1.2 Yêu cầu Chuẩn Trình độ Tiếng Anh Đầu vào (English Language Proficiency Prerequisites) Vì tiếng Anh là ngôn ngữ giảng dạy và nghiên cứu chính thức trong tất cả các chương trình đào tạo tại VinUniversity, ứng viên phải chứng minh năng lực ngoại ngữ trước khi nhập học chính thức vào các môn học tích lũy tín chỉ. Chuẩn năng lực tiếng Anh tối thiểu để được xét tuyển thẳng không điều kiện (unconditional admission) là điểm IELTS Academic tổng thể từ 6.5 trở lên, trong đó không có kỹ năng thành phần nào (Nghe, Đọc, Viết, Nói) dưới 6.0. Các chứng chỉ tương đương được chấp nhận bao gồm điểm TOEFL iBT tối thiểu 79 điểm (các phần không dưới 19), hoặc chứng chỉ PTE Academic đạt tối thiểu 58 điểm. Miễn nộp chứng chỉ tiếng Anh chỉ áp dụng nghiêm ngặt cho thí sinh là người bản xứ sử dụng tiếng Anh, hoặc thí sinh đã hoàn thành tối thiểu ba năm học THPT liên tục tại các trường giảng dạy hoàn toàn bằng tiếng Anh có kiểm định quốc tế hợp lệ. Thí sinh có điểm IELTS từ 5.5 đến 6.0 được cấp thư trúng tuyển có điều kiện và bắt buộc phải hoàn thành Khóa tiếng Anh dự bị Pathway Immersion trước khi bắt đầu học kỳ mùa thu. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -25,14 +25,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8071066539000863
+        "score": 0.8202417322247657
       },
       {
         "chunk_id": "vinuni-handbook-2025_p3_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 3,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.1 General Admissions Standards and Holistic Review VinUniversity undergraduate admissions employs a comprehensive holistic assessment framework designed to evaluate intellectual capability, personal character, and leadership aspiration. Every application is independently reviewed by members of the Admissions Committee across four core dimensions: Academic Excellence, Leadership Potential, Creative Thinking, and Inherent Passion. Applicants must have completed recognized secondary education equivalent to high school graduation in Vietnam or international curricula (including IB Diploma, Cambridge A-Levels, or Advanced Placement credentials). The minimum secondary cumulative grade point average required for consideration is 7.5 on a 10.0 scale, or 3.0 on a 4.0 scale. All application packages must include verified high school transcripts for grades 10, 11, and 12, standardized test scores (if applicable), two confidential letters of recommendation from secondary school teachers or counselors, and a personal statement between 500 and 700 words addressing the candidate's life motivations and community impact goals. Special consideration is given to national Olympiad medalists and candidates demonstrating extraordinary entrepreneurial or social service achievements, subject to ratification by the Academic Council.",
+        "text": "Trang 3 | Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) 1.1 Tiêu chuẩn Tuyển sinh Toàn diện & Quy trình Xét tuyển (Holistic Review) VinUniversity áp dụng phương thức xét tuyển toàn diện (holistic assessment) nhằm đánh giá năng lực học thuật, phẩm chất cá nhân và khát vọng lãnh đạo của ứng viên. Mọi hồ sơ dự tuyển đều được thẩm định độc lập bởi Hội đồng Tuyển sinh qua bốn tiêu chí cốt lõi: A-Academic Excellence (Năng lực học thuật xuất sắc), L-Leadership Potential (Tố chất lãnh đạo), C-Creative Thinking (Tư duy sáng tạo), và P-Inherent Passion (Đam mê mãnh liệt). Thí sinh phải tốt nghiệp trung học phổ thông tại Việt Nam hoặc hoàn thành các chương trình quốc tế tương đương (chứng chỉ Tú tài Quốc tế IB Diploma, chứng chỉ Cambridge A-Levels, hoặc các môn Nâng cao Advanced Placement). Điểm trung bình học tập bậc trung học phổ thông tối thiểu để được nộp hồ sơ xét tuyển là 7.5 trên thang điểm 10.0, hoặc 3.0 trên thang điểm 4.0. Hồ sơ xét tuyển chính thức phải bao gồm học bạ 3 năm THPT (lớp 10, 11 và 12), điểm các kỳ thi chuẩn hóa quốc tế (SAT, ACT nếu có), hai thư giới thiệu bảo mật từ giáo viên THPT, và bài luận cá nhân từ 500 đến 700 từ trình bày về mục tiêu cống hiến cho cộng đồng. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -41,14 +41,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7554998834281211
+        "score": 0.7725743961365955
       },
       {
         "chunk_id": "vinuni-handbook-2025_p5_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 5,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.3 Application Rounds, Deadlines, and Evaluative Interview The annual undergraduate admissions cycle comprises three sequential evaluation windows: the Early Decision Round, the Regular Decision Round, and the Rolling Admissions Round. Applicants are strongly advised to submit documentation during earlier windows to optimize merit scholarship consideration. For the 2025-2026 academic year, the deadline for the Early Decision Round is November 15, 2025; the Regular Decision Round closes on March 15, 2026; and the final Rolling Admissions Round concludes on May 31, 2026. Submissions past 23:59 Indochina Time (UTC+7) on the respective deadline dates will not be reviewed for that cycle. Shortlisted candidates must complete a 30-minute interactive evaluative interview conducted in English by a dual-member faculty panel. The interview assesses problem-solving methodology, ethical reasoning, collaborative mindset, and alignment with the university's core institutional values: EXCEL (Empathy, Exception, Creativity, Entrepreneurship, Leadership). Interview performance contributes 35% of the composite score used in final admission and scholarship allocation determinations.",
+        "text": "Trang 5 | Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) 1.3 Các Đợt Tuyển sinh, Hạn nộp Hồ sơ & Phỏng vấn Đánh giá (Application Rounds & Interviews) Kỳ tuyển sinh đại học hàng năm của VinUniversity bao gồm ba đợt kế tiếp nhau: Đợt Quyết định Sớm (Early Decision Round), Đợt Tuyển sinh Tiêu chuẩn (Regular Decision Round), và Đợt Tuyển sinh Bổ sung (Rolling Admissions Round). Thí sinh nộp hồ sơ trong Đợt Quyết định Sớm được ưu tiên xét duyệt học bổng tài năng cao nhất. Mọi hồ sơ vượt qua vòng sàng lọc sơ tuyển bắt buộc phải tham gia vòng Phỏng vấn Đánh giá trực tiếp với Giảng viên và Ban Tuyển sinh. Thời gian phỏng vấn kéo dài 45 phút hoàn toàn bằng tiếng Anh, tập trung đánh giá tư duy phản biện, khả năng phản xạ ngôn ngữ và động lực học tập. Ứng viên trúng tuyển nhận Thư mời nhập học chính thức có giá trị trong vòng 30 ngày kể từ ngày công bố kết quả. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -57,7 +57,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.675052192101213
+        "score": 0.7427317498807232
       }
     ],
     "hit_at_1": true,
@@ -68,19 +68,19 @@
   {
     "question_id": "q02",
     "split": "dev",
-    "question": "Tiền đặt cọc xác nhận nhập học sau khi nhận Offer of Admission là bao nhiêu và thời hạn chấp nhận là bao lâu?",
-    "expected_answer": "20.000.000 VNĐ, hoàn thành trong vòng 14 ngày kể từ khi nhận thư mời.",
+    "question": "Điểm trung bình học tập THPT tối thiểu để được nộp hồ sơ xét tuyển vào trường là bao nhiêu?",
+    "expected_answer": "Điểm GPA THPT tối thiểu 7.5/10.0 hoặc 3.0/4.0.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 6,
-    "evidence_quote": "non-refundable enrollment deposit of 20,000,000 VND is required upon acceptance",
+    "gold_page": 3,
+    "evidence_quote": "Điểm trung bình học tập bậc trung học phổ thông tối thiểu để được nộp hồ sơ xét tuyển là 7.5 trên thang điểm 10.0, hoặc 3.0 trên thang điểm 4.0.",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p6_para_000",
+        "chunk_id": "vinuni-handbook-2025_p3_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 6,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.4 Enrollment Confirmation, Deposit and Document Verification Successful applicants receive an official Offer of Admission issued electronically by the Office of the University Registrar. To secure a seat in the matriculating cohort, admitted students must complete formal acceptance within 14 calendar days of offer transmission. A non-refundable enrollment deposit of 20,000,000 VND is required upon acceptance. This deposit is credited in full toward the first semester's tuition liability but is forfeited should the admitted candidate decline enrollment subsequent to confirmation. Matriculation is contingent upon physical verification of original diplomas, apostilled transcripts, medical clearance records confirming immunization compliance, and valid identification. Falsification or withholding of academic history constitutes grounds for immediate revocation of admission and permanent disqualification from future university programs. All verified new students must participate in the mandatory New Student Orientation Week commencing exactly one week prior to the start of classes in the Fall Semester.",
+        "page": 3,
+        "text": "Trang 3 | Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) 1.1 Tiêu chuẩn Tuyển sinh Toàn diện & Quy trình Xét tuyển (Holistic Review) VinUniversity áp dụng phương thức xét tuyển toàn diện (holistic assessment) nhằm đánh giá năng lực học thuật, phẩm chất cá nhân và khát vọng lãnh đạo của ứng viên. Mọi hồ sơ dự tuyển đều được thẩm định độc lập bởi Hội đồng Tuyển sinh qua bốn tiêu chí cốt lõi: A-Academic Excellence (Năng lực học thuật xuất sắc), L-Leadership Potential (Tố chất lãnh đạo), C-Creative Thinking (Tư duy sáng tạo), và P-Inherent Passion (Đam mê mãnh liệt). Thí sinh phải tốt nghiệp trung học phổ thông tại Việt Nam hoặc hoàn thành các chương trình quốc tế tương đương (chứng chỉ Tú tài Quốc tế IB Diploma, chứng chỉ Cambridge A-Levels, hoặc các môn Nâng cao Advanced Placement). Điểm trung bình học tập bậc trung học phổ thông tối thiểu để được nộp hồ sơ xét tuyển là 7.5 trên thang điểm 10.0, hoặc 3.0 trên thang điểm 4.0. Hồ sơ xét tuyển chính thức phải bao gồm học bạ 3 năm THPT (lớp 10, 11 và 12), điểm các kỳ thi chuẩn hóa quốc tế (SAT, ACT nếu có), hai thư giới thiệu bảo mật từ giáo viên THPT, và bài luận cá nhân từ 500 đến 700 từ trình bày về mục tiêu cống hiến cho cộng đồng. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -89,30 +89,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7354656204062534
+        "score": 0.7427909510358535
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p31_para_000",
+        "chunk_id": "vinuni-handbook-2025_p4_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 31,
-        "text": "Section 8: Tuition Schedule & Scholarships 8.1 Undergraduate Tuition Schedule and Payment Deadlines Tuition fees at VinUniversity are determined annually by the University Board of Trustees and reflect the high standards of faculty recruitment, research infrastructure, and experiential learning environments provided. For the 2025-2026 academic year, the published annual tuition fee for standard undergraduate programs in the College of Business Management and the College of Engineering & Computer Science is 815,000,000 VND (equivalent to approximately 35,000 USD), billed in two equal semester installments. Tuition invoices are issued electronically 30 calendar days prior to the start of each semester. The mandatory payment deadline is 17:00 on the Friday preceding the first day of class for that semester. Late payments incur an automatic administrative late surcharge of 2% per month calculated on the unpaid balance. Students with outstanding unpaid tuition balances past the conclusion of the Add/Drop Period will have their course registrations cancelled and be placed on involuntary financial suspension.",
-        "metadata": {
-          "year": 2025,
-          "section": "tuition_scholarships",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.6792415144320381
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p5_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 5,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.3 Application Rounds, Deadlines, and Evaluative Interview The annual undergraduate admissions cycle comprises three sequential evaluation windows: the Early Decision Round, the Regular Decision Round, and the Rolling Admissions Round. Applicants are strongly advised to submit documentation during earlier windows to optimize merit scholarship consideration. For the 2025-2026 academic year, the deadline for the Early Decision Round is November 15, 2025; the Regular Decision Round closes on March 15, 2026; and the final Rolling Admissions Round concludes on May 31, 2026. Submissions past 23:59 Indochina Time (UTC+7) on the respective deadline dates will not be reviewed for that cycle. Shortlisted candidates must complete a 30-minute interactive evaluative interview conducted in English by a dual-member faculty panel. The interview assesses problem-solving methodology, ethical reasoning, collaborative mindset, and alignment with the university's core institutional values: EXCEL (Empathy, Exception, Creativity, Entrepreneurship, Leadership). Interview performance contributes 35% of the composite score used in final admission and scholarship allocation determinations.",
+        "page": 4,
+        "text": "Trang 4 | Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) 1.2 Yêu cầu Chuẩn Trình độ Tiếng Anh Đầu vào (English Language Proficiency Prerequisites) Vì tiếng Anh là ngôn ngữ giảng dạy và nghiên cứu chính thức trong tất cả các chương trình đào tạo tại VinUniversity, ứng viên phải chứng minh năng lực ngoại ngữ trước khi nhập học chính thức vào các môn học tích lũy tín chỉ. Chuẩn năng lực tiếng Anh tối thiểu để được xét tuyển thẳng không điều kiện (unconditional admission) là điểm IELTS Academic tổng thể từ 6.5 trở lên, trong đó không có kỹ năng thành phần nào (Nghe, Đọc, Viết, Nói) dưới 6.0. Các chứng chỉ tương đương được chấp nhận bao gồm điểm TOEFL iBT tối thiểu 79 điểm (các phần không dưới 19), hoặc chứng chỉ PTE Academic đạt tối thiểu 58 điểm. Miễn nộp chứng chỉ tiếng Anh chỉ áp dụng nghiêm ngặt cho thí sinh là người bản xứ sử dụng tiếng Anh, hoặc thí sinh đã hoàn thành tối thiểu ba năm học THPT liên tục tại các trường giảng dạy hoàn toàn bằng tiếng Anh có kiểm định quốc tế hợp lệ. Thí sinh có điểm IELTS từ 5.5 đến 6.0 được cấp thư trúng tuyển có điều kiện và bắt buộc phải hoàn thành Khóa tiếng Anh dự bị Pathway Immersion trước khi bắt đầu học kỳ mùa thu. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -121,7 +105,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6367431066479162
+        "score": 0.6894166880498649
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p27_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 27,
+        "text": "Trang 27 | Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) 7.1 Điều kiện Tích lũy Tín chỉ và Cư trú Học thuật Tối thiểu (Degree Completion & Residency Requirements) Để được công nhận tốt nghiệp và cấp bằng Cử nhân, sinh viên phải hoàn thành tối thiểu 120 tín chỉ học thuật tích lũy đối với các chương trình đào tạo 4 năm (bao gồm các ngành Quản trị Kinh doanh, Khoa học Máy tính, và Khoa học Dữ liệu), hoặc 150 tín chỉ đối với chương trình Kỹ sư 5 năm. Sinh viên bắt buộc phải đáp ứng yêu cầu Cư trú Học thuật (Academic Residency): hoàn thành tối thiểu 60 tín chỉ học tập trực tiếp tại VinUniversity, bao gồm ít nhất 30 tín chỉ thuộc các môn học chuyên ngành nâng cao của năm thứ 3 và năm thứ 4. Điểm trung bình tích lũy CGPA toàn khóa khi tốt nghiệp phải đạt từ 2.00 trên thang 4.0 trở lên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.6823785276928208
       }
     ],
     "hit_at_1": true,
@@ -132,19 +132,19 @@
   {
     "question_id": "q03",
     "split": "dev",
-    "question": "Hạn chót nộp hồ sơ xét tuyển đợt Regular Decision cho năm học 2025-2026 là ngày nào?",
-    "expected_answer": "Ngày 15 tháng 3 năm 2026.",
+    "question": "Sinh viên trúng tuyển phải nộp khoản đặt cọc nhập học bao nhiêu tiền và trong thời hạn bao lâu?",
+    "expected_answer": "35.000.000 VNĐ trong vòng 15 ngày làm việc kể từ ngày nhận thông báo.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 5,
-    "evidence_quote": "the Regular Decision Round closes on March 15, 2026",
+    "gold_page": 6,
+    "evidence_quote": "phải hoàn thành thủ tục xác nhận nhập học và nộp khoản Đặt cọc Nhập học (Enrollment Deposit) không hoàn lại trị giá 35.000.000 VNĐ trong vòng 15 ngày làm việc kể từ ngày nhận thông báo.",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p5_para_000",
+        "chunk_id": "vinuni-handbook-2025_p6_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 5,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.3 Application Rounds, Deadlines, and Evaluative Interview The annual undergraduate admissions cycle comprises three sequential evaluation windows: the Early Decision Round, the Regular Decision Round, and the Rolling Admissions Round. Applicants are strongly advised to submit documentation during earlier windows to optimize merit scholarship consideration. For the 2025-2026 academic year, the deadline for the Early Decision Round is November 15, 2025; the Regular Decision Round closes on March 15, 2026; and the final Rolling Admissions Round concludes on May 31, 2026. Submissions past 23:59 Indochina Time (UTC+7) on the respective deadline dates will not be reviewed for that cycle. Shortlisted candidates must complete a 30-minute interactive evaluative interview conducted in English by a dual-member faculty panel. The interview assesses problem-solving methodology, ethical reasoning, collaborative mindset, and alignment with the university's core institutional values: EXCEL (Empathy, Exception, Creativity, Entrepreneurship, Leadership). Interview performance contributes 35% of the composite score used in final admission and scholarship allocation determinations.",
+        "page": 6,
+        "text": "Trang 6 | Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) 1.4 Xác nhận Nhập học, Đặt cọc Học phí & Bảo lưu Kết quả (Enrollment Deposit & Admission Deferral) Để giữ chỗ nhập học chính thức, sinh viên trúng tuyển phải hoàn thành thủ tục xác nhận nhập học và nộp khoản Đặt cọc Nhập học (Enrollment Deposit) không hoàn lại trị giá 35.000.000 VNĐ trong vòng 15 ngày làm việc kể từ ngày nhận thông báo. Khoản tiền đặt cọc này sẽ được khấu trừ 100% vào học phí học kỳ đầu tiên khi sinh viên chính thức nhập học. Sinh viên có thể nộp đơn xin Bảo lưu Kết quả Trúng tuyển (Admission Deferral) với thời hạn tối đa không quá 1 năm (12 tháng) vì lý do nghĩa vụ quân sự bắt buộc, vấn đề y tế nghiêm trọng có xác nhận của bệnh viện cấp tỉnh, hoặc tham gia các chương trình phục vụ cộng đồng được Nhà trường phê duyệt. Đơn xin bảo lưu phải gửi trước ngày khai giảng tối thiểu 30 ngày. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -153,14 +153,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7259019180594745
+        "score": 0.8096400755000264
       },
       {
         "chunk_id": "vinuni-handbook-2025_p31_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 31,
-        "text": "Section 8: Tuition Schedule & Scholarships 8.1 Undergraduate Tuition Schedule and Payment Deadlines Tuition fees at VinUniversity are determined annually by the University Board of Trustees and reflect the high standards of faculty recruitment, research infrastructure, and experiential learning environments provided. For the 2025-2026 academic year, the published annual tuition fee for standard undergraduate programs in the College of Business Management and the College of Engineering & Computer Science is 815,000,000 VND (equivalent to approximately 35,000 USD), billed in two equal semester installments. Tuition invoices are issued electronically 30 calendar days prior to the start of each semester. The mandatory payment deadline is 17:00 on the Friday preceding the first day of class for that semester. Late payments incur an automatic administrative late surcharge of 2% per month calculated on the unpaid balance. Students with outstanding unpaid tuition balances past the conclusion of the Add/Drop Period will have their course registrations cancelled and be placed on involuntary financial suspension.",
+        "text": "Trang 31 | Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships) 8.1 Biểu phí Học phí Đại học Chuẩn và Hạn nộp Học phí (Annual Tuition Schedule & Deadlines) Mức học phí đại học chuẩn hàng năm tại VinUniversity là 815.850.000 VNĐ cho mỗi năm học đối với các chương trình thuộc Viện Khoa học & Giáo dục Khai phóng, Viện Quản trị Kinh doanh và Viện Kỹ thuật & Khoa học Máy tính. Học phí được thanh toán thành hai đợt bằng nhau vào đầu mỗi học kỳ chính. Hạn nộp học phí chính thức là 10 ngày làm việc trước ngày bắt đầu học kỳ theo thông báo của Phòng Tài chính. Sinh viên thanh toán trễ hạn mà không có phê duyệt gia hạn bằng văn bản sẽ bị tính phí phạt chậm nộp 1.000.000 VNĐ mỗi tuần và có thể bị hủy đăng ký môn học. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "tuition_scholarships",
@@ -169,14 +169,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.680433287439793
+        "score": 0.6982198773753682
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p6_para_000",
+        "chunk_id": "vinuni-handbook-2025_p5_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 6,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.4 Enrollment Confirmation, Deposit and Document Verification Successful applicants receive an official Offer of Admission issued electronically by the Office of the University Registrar. To secure a seat in the matriculating cohort, admitted students must complete formal acceptance within 14 calendar days of offer transmission. A non-refundable enrollment deposit of 20,000,000 VND is required upon acceptance. This deposit is credited in full toward the first semester's tuition liability but is forfeited should the admitted candidate decline enrollment subsequent to confirmation. Matriculation is contingent upon physical verification of original diplomas, apostilled transcripts, medical clearance records confirming immunization compliance, and valid identification. Falsification or withholding of academic history constitutes grounds for immediate revocation of admission and permanent disqualification from future university programs. All verified new students must participate in the mandatory New Student Orientation Week commencing exactly one week prior to the start of classes in the Fall Semester.",
+        "page": 5,
+        "text": "Trang 5 | Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) 1.3 Các Đợt Tuyển sinh, Hạn nộp Hồ sơ & Phỏng vấn Đánh giá (Application Rounds & Interviews) Kỳ tuyển sinh đại học hàng năm của VinUniversity bao gồm ba đợt kế tiếp nhau: Đợt Quyết định Sớm (Early Decision Round), Đợt Tuyển sinh Tiêu chuẩn (Regular Decision Round), và Đợt Tuyển sinh Bổ sung (Rolling Admissions Round). Thí sinh nộp hồ sơ trong Đợt Quyết định Sớm được ưu tiên xét duyệt học bổng tài năng cao nhất. Mọi hồ sơ vượt qua vòng sàng lọc sơ tuyển bắt buộc phải tham gia vòng Phỏng vấn Đánh giá trực tiếp với Giảng viên và Ban Tuyển sinh. Thời gian phỏng vấn kéo dài 45 phút hoàn toàn bằng tiếng Anh, tập trung đánh giá tư duy phản biện, khả năng phản xạ ngôn ngữ và động lực học tập. Ứng viên trúng tuyển nhận Thư mời nhập học chính thức có giá trị trong vòng 30 ngày kể từ ngày công bố kết quả. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -185,7 +185,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6666059493964415
+        "score": 0.6948748149945672
       }
     ],
     "hit_at_1": true,
@@ -196,11 +196,11 @@
   {
     "question_id": "q04",
     "split": "dev",
-    "question": "Sinh viên đại học cần đăng ký tối thiểu và tối đa bao nhiêu tín chỉ trong một học kỳ chính tiêu chuẩn?",
-    "expected_answer": "Tối thiểu 12 tín chỉ để duy trì toàn thời gian và tối đa 20 tín chỉ.",
+    "question": "Một học kỳ chính sinh viên bắt buộc phải đăng ký tối thiểu và tối đa bao nhiêu tín chỉ?",
+    "expected_answer": "Tối thiểu 12 tín chỉ và tối đa 18 tín chỉ mỗi học kỳ chính.",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 7,
-    "evidence_quote": "minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units",
+    "evidence_quote": "bắt buộc phải đăng ký khối lượng học tập tối thiểu là 12 tín chỉ để duy trì tư cách sinh viên toàn thời gian (full-time student status), và không được đăng ký vượt quá mức tối đa là 18 tín chỉ mỗi học kỳ",
     "filter": null,
     "hits": [
       {
@@ -208,7 +208,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "text": "Trang 7 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.1 Khung Tín chỉ Học thuật & Định mức Tải học kỳ (Academic Credit Framework & Workload Limits) Một tín chỉ học thuật (academic credit) tại VinUniversity tương đương với 15 giờ giảng dạy lý thuyết trực tiếp trên lớp và tối thiểu 30 giờ tự học, nghiên cứu cá nhân hoặc làm việc nhóm ngoài giờ lên lớp. Trong mỗi học kỳ chính (Học kỳ Mùa Thu và Học kỳ Mùa Xuân), sinh viên bậc đại học hệ chính quy bắt buộc phải đăng ký khối lượng học tập tối thiểu là 12 tín chỉ để duy trì tư cách sinh viên toàn thời gian (full-time student status), và không được đăng ký vượt quá mức tối đa là 18 tín chỉ mỗi học kỳ nếu chưa được phê duyệt đặc biệt. Đối với Học kỳ Phụ mùa hè (Summer Term), khối lượng học tập tối đa cho phép là 6 tín chỉ. Sinh viên có trách nhiệm tự theo dõi lộ trình học tập theo cây chương trình đào tạo của từng chuyên ngành. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -217,14 +217,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.756842262023391
+        "score": 0.7908440855610467
       },
       {
         "chunk_id": "vinuni-handbook-2025_p8_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 8,
-        "text": "Section 2: Course Registration & Credit Limits 2.2 Overload Credit Approval Criteria and Procedures Enrolling in academic credit beyond the maximum ceiling of 20 units in a regular semester constitutes an academic overload. Overload enrollment demands rigorous intellectual stamina and is restricted to students demonstrating outstanding scholarly competence. To qualify for an academic overload up to a hard ceiling of 23 credit units, a student must possess a cumulative grade point average (CGPA) of at least 3.50 on a 4.0 scale and must have successfully earned at least 30 credit units in residency at VinUniversity without any unexcused course failures or academic integrity infractions. Overload petitions must be initiated through the student academic portal no later than two weeks prior to the start of the semester and require written endorsement from the Academic Advisor, followed by formal sanction by the Program Director. First-year undergraduate students during their first two semesters of matriculation are categorically prohibited from undertaking academic course overload under any circumstances.",
+        "text": "Trang 8 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.2 Thứ tự Ưu tiên Đăng ký & Quy trình Đăng ký Vượt tải (Priority Registration & Course Overload) Cổng đăng ký môn học trực tuyến mở theo thứ tự ưu tiên dựa trên số tín chỉ tích lũy: Sinh viên năm cuối (Senior) được đăng ký trước, tiếp theo là sinh viên năm ba (Junior), sinh viên năm hai (Sophomore) và cuối cùng là sinh viên năm nhất (Freshman). Sinh viên muốn đăng ký học quá tải (Course Overload) vượt mức 18 tín chỉ (tối đa không quá 21 tín chỉ trong một học kỳ) bắt buộc phải đạt điểm trung bình tích lũy CGPA từ 3.50 trở lên ở học kỳ liền kề trước đó và phải được sự chấp thuận bằng văn bản của Cố vấn Học thuật (Academic Advisor) cùng Trưởng Khoa quản lý ngành đào tạo. Sinh viên đang bị cảnh báo học thuật tuyệt đối không được phép đăng ký học vượt tải trong bất kỳ trường hợp nào. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -233,14 +233,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7202493331884864
+        "score": 0.7393330516418989
       },
       {
         "chunk_id": "vinuni-handbook-2025_p28_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 28,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.2 Degree Time Limits and Maximum Length of Study The expected normal duration of study for a standard undergraduate degree is four academic years (eight regular semesters) for standard Bachelor of Science and Bachelor of Arts curricula. The maximum allowable time limit to complete all degree requirements is six academic years (twelve regular semesters) for 4-year undergraduate programs, and seven academic years (fourteen regular semesters) for 5-year undergraduate engineering curricula. Approved leaves of absence do not count toward the maximum allowable duration of study, provided the total cumulative leave does not exceed the two-semester statutory limit set forth in Section 3.3. Any candidate who fails to fulfill all degree prerequisites within the prescribed maximum duration limit will have their degree candidacy automatically terminated without issuance of a diploma.",
+        "text": "Trang 28 | Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) 7.2 Thời hạn Đào tạo Chuẩn và Thời gian Tối đa Hoàn thành Khóa học (Time Limits for Completion) Thời gian đào tạo chuẩn đối với chương trình Cử nhân 4 năm là 8 học kỳ chính. Thời gian tối đa được phép học tập để hoàn thành chương trình không được vượt quá 6 năm học (12 học kỳ chính) kể từ ngày nhập học chính thức. Đối với chương trình đào tạo Kỹ sư 5 năm, thời gian học tập tối đa cho phép là 7.5 năm (15 học kỳ chính). Các trường hợp vượt quá thời gian tối đa cho phép mà chưa hoàn thành điều kiện tốt nghiệp sẽ bị tự động xóa tên khỏi danh sách sinh viên và cấp Giấy chứng nhận kết quả học tập cho các môn đã tích lũy. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "graduation_honors",
@@ -249,7 +249,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6784829124625247
+        "score": 0.7203998706818294
       }
     ],
     "hit_at_1": true,
@@ -260,11 +260,11 @@
   {
     "question_id": "q05",
     "split": "dev",
-    "question": "Điều kiện về điểm GPA tích lũy và số tín chỉ để sinh viên được phép đăng ký vượt tải (overload) lên đến 23 tín chỉ là gì?",
-    "expected_answer": "CGPA tối thiểu 3.50 và đã tích lũy ít nhất 30 tín chỉ tại VinUniversity.",
+    "question": "Sinh viên muốn đăng ký học quá tải môn học (Course Overload) cần đáp ứng điều kiện gì về điểm CGPA?",
+    "expected_answer": "Điểm CGPA tích lũy từ 3.50 trở lên ở học kỳ liền kề trước đó.",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 8,
-    "evidence_quote": "cumulative grade point average (CGPA) of at least 3.50 on a 4.0 scale and must have successfully earned at least 30 credit units in residency",
+    "evidence_quote": "Sinh viên muốn đăng ký học quá tải (Course Overload) vượt mức 18 tín chỉ (tối đa không quá 21 tín chỉ trong một học kỳ) bắt buộc phải đạt điểm trung bình tích lũy CGPA từ 3.50 trở lên ở học kỳ liền kề trước đó",
     "filter": {
       "section": "course_registration"
     },
@@ -274,7 +274,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 8,
-        "text": "Section 2: Course Registration & Credit Limits 2.2 Overload Credit Approval Criteria and Procedures Enrolling in academic credit beyond the maximum ceiling of 20 units in a regular semester constitutes an academic overload. Overload enrollment demands rigorous intellectual stamina and is restricted to students demonstrating outstanding scholarly competence. To qualify for an academic overload up to a hard ceiling of 23 credit units, a student must possess a cumulative grade point average (CGPA) of at least 3.50 on a 4.0 scale and must have successfully earned at least 30 credit units in residency at VinUniversity without any unexcused course failures or academic integrity infractions. Overload petitions must be initiated through the student academic portal no later than two weeks prior to the start of the semester and require written endorsement from the Academic Advisor, followed by formal sanction by the Program Director. First-year undergraduate students during their first two semesters of matriculation are categorically prohibited from undertaking academic course overload under any circumstances.",
+        "text": "Trang 8 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.2 Thứ tự Ưu tiên Đăng ký & Quy trình Đăng ký Vượt tải (Priority Registration & Course Overload) Cổng đăng ký môn học trực tuyến mở theo thứ tự ưu tiên dựa trên số tín chỉ tích lũy: Sinh viên năm cuối (Senior) được đăng ký trước, tiếp theo là sinh viên năm ba (Junior), sinh viên năm hai (Sophomore) và cuối cùng là sinh viên năm nhất (Freshman). Sinh viên muốn đăng ký học quá tải (Course Overload) vượt mức 18 tín chỉ (tối đa không quá 21 tín chỉ trong một học kỳ) bắt buộc phải đạt điểm trung bình tích lũy CGPA từ 3.50 trở lên ở học kỳ liền kề trước đó và phải được sự chấp thuận bằng văn bản của Cố vấn Học thuật (Academic Advisor) cùng Trưởng Khoa quản lý ngành đào tạo. Sinh viên đang bị cảnh báo học thuật tuyệt đối không được phép đăng ký học vượt tải trong bất kỳ trường hợp nào. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -283,14 +283,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8286103742161842
+        "score": 0.8100535440064042
       },
       {
         "chunk_id": "vinuni-handbook-2025_p7_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "text": "Trang 7 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.1 Khung Tín chỉ Học thuật & Định mức Tải học kỳ (Academic Credit Framework & Workload Limits) Một tín chỉ học thuật (academic credit) tại VinUniversity tương đương với 15 giờ giảng dạy lý thuyết trực tiếp trên lớp và tối thiểu 30 giờ tự học, nghiên cứu cá nhân hoặc làm việc nhóm ngoài giờ lên lớp. Trong mỗi học kỳ chính (Học kỳ Mùa Thu và Học kỳ Mùa Xuân), sinh viên bậc đại học hệ chính quy bắt buộc phải đăng ký khối lượng học tập tối thiểu là 12 tín chỉ để duy trì tư cách sinh viên toàn thời gian (full-time student status), và không được đăng ký vượt quá mức tối đa là 18 tín chỉ mỗi học kỳ nếu chưa được phê duyệt đặc biệt. Đối với Học kỳ Phụ mùa hè (Summer Term), khối lượng học tập tối đa cho phép là 6 tín chỉ. Sinh viên có trách nhiệm tự theo dõi lộ trình học tập theo cây chương trình đào tạo của từng chuyên ngành. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -299,14 +299,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7372232173051012
+        "score": 0.7320293912679223
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p9_para_000",
+        "chunk_id": "vinuni-handbook-2025_p10_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 9,
-        "text": "Section 2: Course Registration & Credit Limits 2.3 Add/Drop Course Period and Schedule Adjustment At the opening of each regular semester, an official Add/Drop Period is provided to enable students to modify their registered course schedules in response to curriculum requirements, instructor evaluations, and personal learning pace. The Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week. During this window, courses dropped do not appear on the student's permanent academic transcript, and no record of enrollment is retained. Adding courses is strictly subject to available seat capacity, meeting stated prerequisite requirements, and ensuring that no timetable scheduling conflicts exist with other enrolled courses. Faculty instructors do not possess authority to grant enrollment overrides beyond registered room fire-code safety capacities. Tuition charges are automatically reconciled based on the finalized credit total logged at the exact conclusion of the Add/Drop deadline.",
+        "page": 10,
+        "text": "Trang 10 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.4 Rút Môn học và Kiểm soát Điều kiện Tiên quyết (Course Withdrawal Window & Prerequisites) Từ tuần học thứ 3 cho đến hết tuần học thứ 8 của học kỳ chính, sinh viên có thể nộp đơn xin Rút môn học (Course Withdrawal). Môn học được chấp thuận rút sẽ ghi nhận điểm chữ W (Withdrawn) trên bảng điểm chính thức; điểm W không tính vào điểm trung bình học kỳ hay điểm trung bình tích lũy CGPA, nhưng học phí của môn học đã rút sẽ không được hoàn trả. Sau tuần thứ 8, sinh viên không được phép rút môn và bắt buộc phải nhận điểm đánh giá thực tế của môn học đó. Sinh viên không được phép đăng ký môn học nếu chưa hoàn thành môn học tiên quyết (prerequisite) với điểm đạt tối thiểu từ C (2.0) trở lên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -315,7 +315,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6814103100162493
+        "score": 0.7220539981869565
       }
     ],
     "hit_at_1": true,
@@ -326,35 +326,19 @@
   {
     "question_id": "q06",
     "split": "dev",
-    "question": "Thời hạn Add/Drop môn học vào đầu học kỳ kéo dài trong bao lâu?",
-    "expected_answer": "14 ngày (hai tuần học), kết thúc vào 17:00 thứ Sáu của tuần thứ hai.",
+    "question": "Thời hạn tối đa sinh viên được nộp đơn xin rút môn học (Course Withdrawal) là đến tuần thứ mấy?",
+    "expected_answer": "Từ tuần thứ 3 đến hết tuần thứ 8 của học kỳ chính.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 9,
-    "evidence_quote": "Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week",
+    "gold_page": 10,
+    "evidence_quote": "Từ tuần học thứ 3 cho đến hết tuần học thứ 8 của học kỳ chính, sinh viên có thể nộp đơn xin Rút môn học (Course Withdrawal).",
     "filter": null,
     "hits": [
-      {
-        "chunk_id": "vinuni-handbook-2025_p9_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 9,
-        "text": "Section 2: Course Registration & Credit Limits 2.3 Add/Drop Course Period and Schedule Adjustment At the opening of each regular semester, an official Add/Drop Period is provided to enable students to modify their registered course schedules in response to curriculum requirements, instructor evaluations, and personal learning pace. The Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week. During this window, courses dropped do not appear on the student's permanent academic transcript, and no record of enrollment is retained. Adding courses is strictly subject to available seat capacity, meeting stated prerequisite requirements, and ensuring that no timetable scheduling conflicts exist with other enrolled courses. Faculty instructors do not possess authority to grant enrollment overrides beyond registered room fire-code safety capacities. Tuition charges are automatically reconciled based on the finalized credit total logged at the exact conclusion of the Add/Drop deadline.",
-        "metadata": {
-          "year": 2025,
-          "section": "course_registration",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7842807091997864
-      },
       {
         "chunk_id": "vinuni-handbook-2025_p10_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 10,
-        "text": "Section 2: Course Registration & Credit Limits 2.4 Course Withdrawal Window and Prerequisites Enforcement Subsequent to the conclusion of the Add/Drop Period, a student may officially withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester. A course withdrawal results in a permanent recorded grade notation of 'W' on the student's official academic transcript. The 'W' grade carries no grade point weight and does not impact cumulative GPA calculation; however, tuition fees paid for withdrawn courses are entirely non-refundable. Students may not withdraw from a course if such withdrawal reduces their semester credit load below the mandatory 12-credit full-time minimum, unless granted medical leave by University Health Services. A student is permitted a maximum of three 'W' grades across their entire undergraduate tenure. All course prerequisites specified in the University Course Catalog are programmatically enforced by the Student Information System. Waivers for prerequisites require concurrent approval from the course instructor, Program Director, and College Curriculum Committee.",
+        "text": "Trang 10 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.4 Rút Môn học và Kiểm soát Điều kiện Tiên quyết (Course Withdrawal Window & Prerequisites) Từ tuần học thứ 3 cho đến hết tuần học thứ 8 của học kỳ chính, sinh viên có thể nộp đơn xin Rút môn học (Course Withdrawal). Môn học được chấp thuận rút sẽ ghi nhận điểm chữ W (Withdrawn) trên bảng điểm chính thức; điểm W không tính vào điểm trung bình học kỳ hay điểm trung bình tích lũy CGPA, nhưng học phí của môn học đã rút sẽ không được hoàn trả. Sau tuần thứ 8, sinh viên không được phép rút môn và bắt buộc phải nhận điểm đánh giá thực tế của môn học đó. Sinh viên không được phép đăng ký môn học nếu chưa hoàn thành môn học tiên quyết (prerequisite) với điểm đạt tối thiểu từ C (2.0) trở lên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -363,14 +347,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6765323491732836
+        "score": 0.765878842227424
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p7_para_000",
+        "chunk_id": "vinuni-handbook-2025_p9_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "page": 9,
+        "text": "Trang 9 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.3 Giai đoạn Thêm/Bớt Môn học và Hủy Đăng ký (Add/Drop Period & Enrollment Changes) Trong vòng hai tuần đầu tiên của mỗi học kỳ chính (thời hạn gọi là Giai đoạn Thêm/Bớt Môn học - Add/Drop Window), sinh viên được phép điều chỉnh kế hoạch học tập bằng cách thêm môn học mới hoặc hủy môn học đã đăng ký mà không phải chịu bất kỳ chế tài học thuật nào. Các môn học được hủy thành công trong giai đoạn này sẽ được xóa hoàn toàn khỏi hệ thống quản lý đào tạo và không xuất hiện trên bảng điểm học tập chính thức của sinh viên. Sau khi thời hạn Add/Drop kết thúc, sinh viên không được phép bổ sung thêm bất kỳ môn học nào vào thời khóa biểu học kỳ. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -379,7 +363,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.669425943911674
+        "score": 0.7253008321107252
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p35_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 35,
+        "text": "Trang 35 | Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships) 8.5 Hỗ trợ Tài chính Theo Nhu cầu và Biểu Tỷ lệ Hoàn Học phí (Need-Based Aid & Refund Schedule) Chính sách hỗ trợ tài chính dựa trên hoàn cảnh kinh tế gia đình (Need-Based Financial Aid) hỗ trợ từ 30% đến 80% phần học phí còn lại sau khi trừ học bổng. Trong trường hợp sinh viên có đơn xin chính thức Rút khỏi trường (Official University Withdrawal), học phí sẽ được hoàn trả theo biểu tỷ lệ thời gian tính từ ngày khai giảng: (1) Rút học trong Tuần 1 đến Tuần 2: Hoàn trả 100% học phí (sau khi trừ phí đặt cọc nhập học); (2) Rút học trong Tuần 3 đến Tuần 4: Hoàn trả 50% học phí; (3) Rút học trong Tuần 5 đến Tuần 6: Hoàn trả 25% học phí; (4) Rút học sau Tuần 6: Hoàn trả 0% (không được hoàn lại học phí trong bất kỳ hoàn cảnh nào). Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.6920897915203748
       }
     ],
     "hit_at_1": true,
@@ -390,60 +390,60 @@
   {
     "question_id": "q07",
     "split": "dev",
-    "question": "Sinh viên được phép rút môn (Course Withdrawal) nhận điểm W từ tuần thứ mấy và tối đa bao nhiêu lần trong suốt khóa học?",
-    "expected_answer": "Từ tuần 3 đến 17:00 thứ Sáu tuần 8; tối đa 3 lần nhận điểm W.",
+    "question": "Tỷ lệ tham dự lớp học tối thiểu bắt buộc của mỗi môn học là bao nhiêu phần trăm?",
+    "expected_answer": "Tối thiểu 80% tổng số giờ học được lên lịch; vắng quá 20% sẽ nhận điểm F.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 10,
-    "evidence_quote": "withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester",
+    "gold_page": 11,
+    "evidence_quote": "Tỷ lệ tham dự lớp học tối thiểu bắt buộc đối với mỗi môn học là 80% tổng số giờ học được lên lịch. Sinh viên vắng mặt quá 20% tổng số buổi học của một môn học (dù có lý do hay không có lý do chính đáng) sẽ tự động bị truất quyền tham gia kỳ thi kết thúc học phần và nhận điểm F (Fail)",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p10_para_000",
+        "chunk_id": "vinuni-handbook-2025_p11_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 10,
-        "text": "Section 2: Course Registration & Credit Limits 2.4 Course Withdrawal Window and Prerequisites Enforcement Subsequent to the conclusion of the Add/Drop Period, a student may officially withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester. A course withdrawal results in a permanent recorded grade notation of 'W' on the student's official academic transcript. The 'W' grade carries no grade point weight and does not impact cumulative GPA calculation; however, tuition fees paid for withdrawn courses are entirely non-refundable. Students may not withdraw from a course if such withdrawal reduces their semester credit load below the mandatory 12-credit full-time minimum, unless granted medical leave by University Health Services. A student is permitted a maximum of three 'W' grades across their entire undergraduate tenure. All course prerequisites specified in the University Course Catalog are programmatically enforced by the Student Information System. Waivers for prerequisites require concurrent approval from the course instructor, Program Director, and College Curriculum Committee.",
+        "page": 11,
+        "text": "Trang 11 | Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence) 3.1 Quy định Tỷ lệ Chuyên cần Tối thiểu trên Lớp (Minimum Attendance Policy) Sinh viên VinUniversity có nghĩa vụ tham dự đầy đủ tất cả các buổi học lý thuyết, seminar thảo luận, giờ thực hành phòng thí nghiệm và hoạt động thực địa theo thời khóa biểu chính thức. Tỷ lệ tham dự lớp học tối thiểu bắt buộc đối với mỗi môn học là 80% tổng số giờ học được lên lịch. Sinh viên vắng mặt quá 20% tổng số buổi học của một môn học (dù có lý do hay không có lý do chính đáng) sẽ tự động bị truất quyền tham gia kỳ thi kết thúc học phần và nhận điểm F (Fail) cho toàn bộ môn học đó. Giảng viên phụ trách môn học có trách nhiệm điểm danh và cập nhật dữ liệu chuyên cần hàng tuần trên Cổng thông tin Đào tạo. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "course_registration",
+          "section": "attendance_leave",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7988727320747018
+        "score": 0.7909640029969247
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p9_para_000",
+        "chunk_id": "vinuni-handbook-2025_p12_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 9,
-        "text": "Section 2: Course Registration & Credit Limits 2.3 Add/Drop Course Period and Schedule Adjustment At the opening of each regular semester, an official Add/Drop Period is provided to enable students to modify their registered course schedules in response to curriculum requirements, instructor evaluations, and personal learning pace. The Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week. During this window, courses dropped do not appear on the student's permanent academic transcript, and no record of enrollment is retained. Adding courses is strictly subject to available seat capacity, meeting stated prerequisite requirements, and ensuring that no timetable scheduling conflicts exist with other enrolled courses. Faculty instructors do not possess authority to grant enrollment overrides beyond registered room fire-code safety capacities. Tuition charges are automatically reconciled based on the finalized credit total logged at the exact conclusion of the Add/Drop deadline.",
+        "page": 12,
+        "text": "Trang 12 | Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence) 3.2 Quy trình Xin Nghỉ học Có lý do Hợp lệ (Excused Absence Verification Procedure) Trường hợp vắng mặt có lý do hợp lệ (excused absence) bao gồm: ốm đau cấp tính hoặc phẫu thuật có giấy xác nhận nội trú của bệnh viện hợp pháp, tang chế gia đình trực hệ (cha mẹ, anh chị em ruột, ông bà), hoặc đại diện chính thức cho Trường tham gia các cuộc thi học thuật quốc gia/quốc tế. Sinh viên phải nộp hồ sơ xin phép kèm minh chứng hợp lệ cho Phòng Quản lý Đào tạo và giảng viên môn học trong vòng 3 ngày làm việc kể từ ngày trở lại trường. Nghỉ học có lý do hợp lệ giúp sinh viên được sắp xếp làm bù bài kiểm tra định kỳ, nhưng không làm thay đổi quy định tổng số buổi vắng thực tế không được vượt quá 30% thời lượng môn học. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "course_registration",
+          "section": "attendance_leave",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7168024068846742
+        "score": 0.7145141789031227
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p7_para_000",
+        "chunk_id": "vinuni-handbook-2025_p14_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "page": 14,
+        "text": "Trang 14 | Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence) 3.4 Quy trình Tái nhập học Sau Thời gian Nghỉ học Tạm thời (Re-enrollment After Leave) Để tái nhập học sau thời gian nghỉ tạm thời, sinh viên phải gửi Đơn xin Tái nhập học (Application for Re-enrollment) cho Phòng Đào tạo trước ngày bắt đầu học kỳ mới tối thiểu 30 ngày. Đối với trường hợp nghỉ vì lý do y tế, sinh viên bắt buộc phải nộp Giấy chứng nhận đủ điều kiện sức khỏe học tập do hội đồng y khoa bệnh viện chuyên khoa cấp. Sinh viên quá thời hạn nghỉ học tạm thời được duyệt mà không nộp đơn tái nhập học hoặc không có lý do chính đáng sẽ bị coi là tự ý bỏ học và bị xóa tên khỏi danh sách sinh viên chính thức (Administrative Withdrawal). Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "course_registration",
+          "section": "attendance_leave",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7018501173557161
+        "score": 0.7023660863472204
       }
     ],
     "hit_at_1": true,
@@ -454,19 +454,19 @@
   {
     "question_id": "q08",
     "split": "dev",
-    "question": "Tỷ lệ chuyên cần tối thiểu sinh viên bắt buộc phải duy trì để được phép tham gia thi kết thúc môn học là bao nhiêu?",
-    "expected_answer": "Tối thiểu 80% tổng số giờ học theo thời khóa biểu.",
+    "question": "Tổng thời gian nghỉ học tạm thời tối đa tích lũy trong toàn bộ khóa học đại học là bao lâu?",
+    "expected_answer": "Tối đa không quá 4 học kỳ chính (2 năm).",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 11,
-    "evidence_quote": "minimum attendance rate of 80% of all scheduled instructional contact hours in each enrolled course",
+    "gold_page": 13,
+    "evidence_quote": "Tổng thời gian nghỉ học tạm thời tích lũy trong toàn bộ khóa học đại học không được vượt quá 4 học kỳ chính (2 năm).",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p11_para_000",
+        "chunk_id": "vinuni-handbook-2025_p13_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 11,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.1 Mandatory Attendance Standards and Classroom Engagement Active participation and regular physical classroom attendance are vital components of the participatory pedagogical philosophy at VinUniversity. Attendance is rigorously tracked across all lecture, seminar, discussion group, laboratory, and clinical sessions. Undergraduate students are required to maintain a minimum attendance rate of 80% of all scheduled instructional contact hours in each enrolled course. Failure to achieve 80% attendance without approved medical or university-sanctioned excused absence results in immediate academic disqualification from sitting the final course examination. Students disqualified for excessive absenteeism automatically receive a failing course grade of 'F' with 0.0 grade points, which is computed into both the semester and cumulative grade point averages. Instructors must issue formal written warnings to students whose cumulative unexcused absences exceed 10% of total contact hours. Tardiness exceeding 15 minutes past the scheduled class start time is recorded as a half-absence; three recorded tardies equal one full instructional absence in official attendance accounting.",
+        "page": 13,
+        "text": "Trang 13 | Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence) 3.3 Nghỉ học Tạm thời Vì Lý do Cá nhân hoặc Y tế (Personal & Medical Leave of Absence) Sinh viên đã hoàn thành tối thiểu 1 học kỳ chính tại trường có thể nộp đơn xin Nghỉ học Tạm thời (Leave of Absence - LOA) vì lý do cá nhân hoặc lý do sức khỏe. Thời hạn nghỉ học tạm thời tiêu chuẩn là 1 học kỳ chính hoặc tối đa 1 năm học (2 học kỳ liên tiếp). Tổng thời gian nghỉ học tạm thời tích lũy trong toàn bộ khóa học đại học không được vượt quá 4 học kỳ chính (2 năm). Trong thời gian nghỉ học tạm thời, tài khoản học tập của sinh viên bị tạm khóa và sinh viên không được phép tích lũy tín chỉ tại bất kỳ cơ sở đào tạo nào khác nếu không có thỏa thuận chuyển đổi tín chỉ trước bằng văn bản. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "attendance_leave",
@@ -475,14 +475,30 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7657970216657266
+        "score": 0.783135623815706
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p14_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 14,
+        "text": "Trang 14 | Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence) 3.4 Quy trình Tái nhập học Sau Thời gian Nghỉ học Tạm thời (Re-enrollment After Leave) Để tái nhập học sau thời gian nghỉ tạm thời, sinh viên phải gửi Đơn xin Tái nhập học (Application for Re-enrollment) cho Phòng Đào tạo trước ngày bắt đầu học kỳ mới tối thiểu 30 ngày. Đối với trường hợp nghỉ vì lý do y tế, sinh viên bắt buộc phải nộp Giấy chứng nhận đủ điều kiện sức khỏe học tập do hội đồng y khoa bệnh viện chuyên khoa cấp. Sinh viên quá thời hạn nghỉ học tạm thời được duyệt mà không nộp đơn tái nhập học hoặc không có lý do chính đáng sẽ bị coi là tự ý bỏ học và bị xóa tên khỏi danh sách sinh viên chính thức (Administrative Withdrawal). Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7188925622244067
       },
       {
         "chunk_id": "vinuni-handbook-2025_p12_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 12,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.2 Excused Absence Criteria and Documentation Protocol The university recognizes specific extenuating circumstances under which absences from instructional sessions may be designated as officially excused, preventing penalty against the 80% attendance threshold. Approved excused absences encompass documented acute medical illness or injury, significant bereavement involving immediate family members (parents, siblings, grandparents), mandatory legal obligations, and official participation in university-sanctioned athletic or academic competitions authorized by the Vice Provost of Academic Affairs. To obtain an excused absence, the student must submit an electronic Absence Request along with verifiable supporting documentation (such as hospital discharge certificates, medical certificates from Vinmec, or court summons) through the student portal within three business days of returning to campus. Even with verified excused absences, a student who misses more than 35% of total instructional contact hours in a course cannot receive a passing grade due to inadequate experiential exposure and must repeat the course in a subsequent term.",
+        "text": "Trang 12 | Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence) 3.2 Quy trình Xin Nghỉ học Có lý do Hợp lệ (Excused Absence Verification Procedure) Trường hợp vắng mặt có lý do hợp lệ (excused absence) bao gồm: ốm đau cấp tính hoặc phẫu thuật có giấy xác nhận nội trú của bệnh viện hợp pháp, tang chế gia đình trực hệ (cha mẹ, anh chị em ruột, ông bà), hoặc đại diện chính thức cho Trường tham gia các cuộc thi học thuật quốc gia/quốc tế. Sinh viên phải nộp hồ sơ xin phép kèm minh chứng hợp lệ cho Phòng Quản lý Đào tạo và giảng viên môn học trong vòng 3 ngày làm việc kể từ ngày trở lại trường. Nghỉ học có lý do hợp lệ giúp sinh viên được sắp xếp làm bù bài kiểm tra định kỳ, nhưng không làm thay đổi quy định tổng số buổi vắng thực tế không được vượt quá 30% thời lượng môn học. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "attendance_leave",
@@ -491,23 +507,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7169318356843136
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p17_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 17,
-        "text": "Section 4: Grading System & GPA Calculation 4.3 Incomplete Grade (I) Regulations and Conversion Timeline The notation 'I' (Incomplete) represents an interim designation granted solely when extraordinary, non-academic emergencies prevent a student from completing a minor remaining portion of course requirements (such as a final paper or exam) by term conclusion. To be eligible for an Incomplete grade, the student must have completed at least 70% of total course evaluation components with a cumulative passing average and must submit a formal Incomplete Contract co-signed by the course instructor prior to final examination week. All outstanding coursework specified in the Incomplete Contract must be finished and evaluated within four calendar weeks from the first day of instruction of the immediately subsequent regular semester. If the student fails to complete the required work within the mandatory four-week deadline, the recorded 'I' notation automatically and permanently converts to a default failing grade of 'F' on the student's academic record.",
-        "metadata": {
-          "year": 2025,
-          "section": "grading_gpa",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.6779652945074193
+        "score": 0.7096197585666698
       }
     ],
     "hit_at_1": true,
@@ -518,124 +518,124 @@
   {
     "question_id": "q09",
     "split": "dev",
-    "question": "Sinh viên vắng mặt quá bao nhiêu phần trăm tổng số giờ học thì dù có lý do chính đáng vẫn không được công nhận qua môn và phải học lại?",
-    "expected_answer": "Quá 35% tổng số giờ học.",
+    "question": "Để đạt điểm A tương đương 4.0 trong môn học thì sinh viên cần đạt kết quả tổng kết tối thiểu bao nhiêu phần trăm?",
+    "expected_answer": "Từ 90% trở lên.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 12,
-    "evidence_quote": "misses more than 35% of total instructional contact hours in a course cannot receive a passing grade",
+    "gold_page": 15,
+    "evidence_quote": "Điểm A đạt 4.0 (Xuất sắc, từ 90% trở lên); Điểm A- đạt 3.7 (từ 85% đến 89%); Điểm B+ đạt 3.3 (từ 80% đến 84%); Điểm B đạt 3.0 (Khá giỏi, từ 75% đến 79%)",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p11_para_000",
+        "chunk_id": "vinuni-handbook-2025_p15_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 11,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.1 Mandatory Attendance Standards and Classroom Engagement Active participation and regular physical classroom attendance are vital components of the participatory pedagogical philosophy at VinUniversity. Attendance is rigorously tracked across all lecture, seminar, discussion group, laboratory, and clinical sessions. Undergraduate students are required to maintain a minimum attendance rate of 80% of all scheduled instructional contact hours in each enrolled course. Failure to achieve 80% attendance without approved medical or university-sanctioned excused absence results in immediate academic disqualification from sitting the final course examination. Students disqualified for excessive absenteeism automatically receive a failing course grade of 'F' with 0.0 grade points, which is computed into both the semester and cumulative grade point averages. Instructors must issue formal written warnings to students whose cumulative unexcused absences exceed 10% of total contact hours. Tardiness exceeding 15 minutes past the scheduled class start time is recorded as a half-absence; three recorded tardies equal one full instructional absence in official attendance accounting.",
+        "page": 15,
+        "text": "Trang 15 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.1 Thang điểm Chữ, Điểm Số và Điểm Quy đổi Tương đương (Letter Grade Scale & Quality Points) Kết quả học tập môn học được đánh giá theo thang điểm chữ 4.0 chuẩn quốc tế tương ứng với điểm số chất lượng (grade points): Điểm A đạt 4.0 (Xuất sắc, từ 90% trở lên); Điểm A- đạt 3.7 (từ 85% đến 89%); Điểm B+ đạt 3.3 (từ 80% đến 84%); Điểm B đạt 3.0 (Khá giỏi, từ 75% đến 79%); Điểm B- đạt 2.7 (từ 70% đến 74%); Điểm C+ đạt 2.3 (từ 65% đến 69%); Điểm C đạt 2.0 (Trung bình đạt chuẩn, từ 60% đến 64%); Điểm C- đạt 1.7 (từ 55% đến 59%); Điểm D đạt 1.0 (Qua môn tối thiểu, từ 50% đến 54%); Điểm F đạt 0.0 (Không đạt/Trượt môn, dưới 50%). Điểm I (Chưa hoàn thành - Incomplete) chỉ được cấp khi sinh viên có lý do chính đáng chưa hoàn thành bài thi kết thúc môn. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "attendance_leave",
+          "section": "grading_gpa",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.753279759502516
+        "score": 0.7943199839115174
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p12_para_000",
+        "chunk_id": "vinuni-handbook-2025_p16_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 12,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.2 Excused Absence Criteria and Documentation Protocol The university recognizes specific extenuating circumstances under which absences from instructional sessions may be designated as officially excused, preventing penalty against the 80% attendance threshold. Approved excused absences encompass documented acute medical illness or injury, significant bereavement involving immediate family members (parents, siblings, grandparents), mandatory legal obligations, and official participation in university-sanctioned athletic or academic competitions authorized by the Vice Provost of Academic Affairs. To obtain an excused absence, the student must submit an electronic Absence Request along with verifiable supporting documentation (such as hospital discharge certificates, medical certificates from Vinmec, or court summons) through the student portal within three business days of returning to campus. Even with verified excused absences, a student who misses more than 35% of total instructional contact hours in a course cannot receive a passing grade due to inadequate experiential exposure and must repeat the course in a subsequent term.",
+        "page": 16,
+        "text": "Trang 16 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.2 Công thức Tính Điểm Trung bình Học kỳ (SGPA) và Điểm Trung bình Tích lũy (CGPA) Điểm trung bình học kỳ (Semester GPA - SGPA) và Điểm trung bình tích lũy (Cumulative GPA - CGPA) được tính theo phương pháp bình quân gia quyền số tín chỉ: nhân số tín chỉ của từng môn học với điểm chất lượng quy đổi của môn học đó, cộng tổng tất cả các môn rồi chia cho tổng số tín chỉ đăng ký tính điểm. Điểm CGPA được tính lũy kế cho tất cả các môn học sinh viên đã hoàn thành từ đầu khóa học cho đến thời điểm đánh giá, làm tròn đến hai chữ số thập phân. Các môn học được đánh giá theo thang Đạt/Không đạt (Pass/Fail) hoặc môn học được công nhận chuyển đổi tín chỉ chỉ tính vào tổng số tín chỉ tích lũy, không tính vào công thức tính điểm trung bình SGPA và CGPA. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "attendance_leave",
+          "section": "grading_gpa",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7460054755212202
+        "score": 0.7101688942163102
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p14_para_000",
+        "chunk_id": "vinuni-handbook-2025_p17_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 14,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.4 Re-enrollment After Leave and Administrative Withdrawal To resume active degree studies following an authorized Leave of Absence, the student must submit a formal Intent to Return Notice to the Registrar no later than 30 calendar days before the start of the intended semester. If the leave was granted for medical or psychological reasons, re-enrollment is strictly conditional upon submitting a comprehensive fit-for-study medical clearance evaluation signed by an accredited specialist physician and validated by the VinUniversity Health Center. Students who fail to submit the Intent to Return Notice or fail to register for courses by the end of the Add/Drop Period following the expiration of their approved leave are deemed to have abandoned their studies and will be subject to Administrative Withdrawal. An administratively withdrawn student seeking readmission must undergo the complete competitive admissions process de novo as a fresh applicant and cannot automatically reinstate previous scholarship commitments.",
+        "page": 17,
+        "text": "Trang 17 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.3 Chính sách Học lại Cải thiện Điểm và Xóa Điểm F (Course Repeat & Grade Replacement Policy) Sinh viên bị điểm F trong môn học bắt buộc phải đăng ký học lại môn học đó trong học kỳ gần nhất có mở lớp. Đối với các môn học đạt điểm C- hoặc thấp hơn, sinh viên được quyền đăng ký học lại một lần duy nhất để cải thiện điểm số (Course Repeat for Grade Replacement). Khi hoàn thành môn học lại, điểm mới cao hơn sẽ được sử dụng để tính lại điểm trung bình tích lũy CGPA và thay thế điểm cũ. Tuy nhiên, điểm cũ vẫn được giữ nguyên trên bảng điểm chính thức kèm ký hiệu R (Repeated) để đảm bảo tính minh bạch học thuật. Mỗi sinh viên không được học lại quá 4 môn học để cải thiện điểm trong toàn khóa học. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "attendance_leave",
+          "section": "grading_gpa",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6855552809438481
+        "score": 0.7087347981979322
       }
     ],
-    "hit_at_1": false,
+    "hit_at_1": true,
     "evidence_hit_at_3": true,
-    "hit_rank": 2,
+    "hit_rank": 1,
     "filter_compliant": null
   },
   {
     "question_id": "q10",
     "split": "dev",
-    "question": "Thời gian tối đa được phép nghỉ học tạm thời (Leave of Absence) trong toàn bộ khóa học đại học là bao lâu?",
-    "expected_answer": "Tối đa hai học kỳ chính.",
+    "question": "Mỗi sinh viên được phép học lại tối đa bao nhiêu môn học để cải thiện điểm số trong toàn khóa học?",
+    "expected_answer": "Tối đa 4 môn học.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 13,
-    "evidence_quote": "cumulative lifetime maximum allowance for voluntary leave of absence is two regular semesters",
+    "gold_page": 17,
+    "evidence_quote": "Mỗi sinh viên không được học lại quá 4 môn học để cải thiện điểm trong toàn khóa học.",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p13_para_000",
+        "chunk_id": "vinuni-handbook-2025_p17_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 13,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.3 Voluntary Leave of Absence Application and Limits A student in good academic standing who faces personal, financial, family, or health challenges may submit a formal application for a Voluntary Leave of Absence (LOA) to temporarily pause their university studies without terminating degree candidacy. An approved Leave of Absence is granted for a duration of one or two consecutive regular semesters. The cumulative lifetime maximum allowance for voluntary leave of absence is two regular semesters across the entire undergraduate degree program. Applications for voluntary leave must be filed with the Office of the Registrar at least four weeks prior to the start of the prospective semester. Retroactive leave requests during an active semester are strictly prohibited except in cases of catastrophic medical emergency certified by a licensed medical board. During the period of an authorized Leave of Absence, the student retains their active university email account and library digital access but is ineligible to enroll in courses, reside in university dormitories, or utilize athletic campus facilities.",
+        "page": 17,
+        "text": "Trang 17 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.3 Chính sách Học lại Cải thiện Điểm và Xóa Điểm F (Course Repeat & Grade Replacement Policy) Sinh viên bị điểm F trong môn học bắt buộc phải đăng ký học lại môn học đó trong học kỳ gần nhất có mở lớp. Đối với các môn học đạt điểm C- hoặc thấp hơn, sinh viên được quyền đăng ký học lại một lần duy nhất để cải thiện điểm số (Course Repeat for Grade Replacement). Khi hoàn thành môn học lại, điểm mới cao hơn sẽ được sử dụng để tính lại điểm trung bình tích lũy CGPA và thay thế điểm cũ. Tuy nhiên, điểm cũ vẫn được giữ nguyên trên bảng điểm chính thức kèm ký hiệu R (Repeated) để đảm bảo tính minh bạch học thuật. Mỗi sinh viên không được học lại quá 4 môn học để cải thiện điểm trong toàn khóa học. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "attendance_leave",
+          "section": "grading_gpa",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7700167626293479
+        "score": 0.8123739435517813
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p28_para_000",
+        "chunk_id": "vinuni-handbook-2025_p18_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 28,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.2 Degree Time Limits and Maximum Length of Study The expected normal duration of study for a standard undergraduate degree is four academic years (eight regular semesters) for standard Bachelor of Science and Bachelor of Arts curricula. The maximum allowable time limit to complete all degree requirements is six academic years (twelve regular semesters) for 4-year undergraduate programs, and seven academic years (fourteen regular semesters) for 5-year undergraduate engineering curricula. Approved leaves of absence do not count toward the maximum allowable duration of study, provided the total cumulative leave does not exceed the two-semester statutory limit set forth in Section 3.3. Any candidate who fails to fulfill all degree prerequisites within the prescribed maximum duration limit will have their degree candidacy automatically terminated without issuance of a diploma.",
+        "page": 18,
+        "text": "Trang 18 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.4 Quy chế Khiếu nại Điểm thi và Phúc khảo Bài đánh giá (Grade Appeal Procedure) Sinh viên có quyền gửi Đơn đề nghị Phúc khảo Điểm thi (Formal Grade Appeal) nếu có căn cứ rõ ràng cho thấy điểm số bị tính toán sai sót hoặc quy trình chấm thi không tuân thủ đề cương môn học đã ban hành. Đơn phúc khảo phải nộp cho Trưởng Khoa trong vòng 10 ngày làm việc kể từ ngày công bố điểm chính thức trên cổng đào tạo, kèm lệ phí phúc khảo 500.000 VNĐ cho mỗi môn học. Hội đồng chấm phúc khảo gồm hai giảng viên độc lập xem xét lại toàn bộ bài làm và đưa ra kết luận cuối cùng trong vòng 15 ngày làm việc. Nếu kết quả phúc khảo có điều chỉnh tăng điểm, sinh viên sẽ được hoàn lại 100% lệ phí phúc khảo đã nộp. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "graduation_honors",
+          "section": "grading_gpa",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7399736302784823
+        "score": 0.7248748756908104
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p14_para_000",
+        "chunk_id": "vinuni-handbook-2025_p22_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 14,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.4 Re-enrollment After Leave and Administrative Withdrawal To resume active degree studies following an authorized Leave of Absence, the student must submit a formal Intent to Return Notice to the Registrar no later than 30 calendar days before the start of the intended semester. If the leave was granted for medical or psychological reasons, re-enrollment is strictly conditional upon submitting a comprehensive fit-for-study medical clearance evaluation signed by an accredited specialist physician and validated by the VinUniversity Health Center. Students who fail to submit the Intent to Return Notice or fail to register for courses by the end of the Add/Drop Period following the expiration of their approved leave are deemed to have abandoned their studies and will be subject to Administrative Withdrawal. An administratively withdrawn student seeking readmission must undergo the complete competitive admissions process de novo as a fresh applicant and cannot automatically reinstate previous scholarship commitments.",
+        "page": 22,
+        "text": "Trang 22 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.4 Buộc Thôi học do Không Cải thiện Học lực (Academic Dismissal Standards) Sinh viên sẽ bị áp dụng hình thức kỷ luật cao nhất là Buộc Thôi học Chính thức (Academic Dismissal) nếu sau khi hoàn thành thời gian đình chỉ học tập mà vẫn không thể nâng điểm trung bình tích lũy CGPA lên mức tối thiểu 2.00 trong học kỳ tái nhập học, hoặc khi sinh viên có điểm CGPA dưới 1.00 sau hai học kỳ đầu tiên tại trường. Quyết định buộc thôi học do Hiệu trưởng ban hành theo đề nghị của Hội đồng Học thuật. Sinh viên bị buộc thôi học không được quyền tái nộp hồ sơ xét tuyển vào trường trong thời hạn 2 năm kể từ ngày ký quyết định. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "attendance_leave",
+          "section": "academic_standing",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7115796902313776
+        "score": 0.7115856145577474
       }
     ],
     "hit_at_1": true,
@@ -646,19 +646,19 @@
   {
     "question_id": "q11",
     "split": "dev",
-    "question": "Thang điểm chữ A+ và A- tương ứng với bao nhiêu điểm số theo thang 4.0 tại VinUniversity?",
-    "expected_answer": "A+ tương ứng 4.0 điểm, A- tương ứng 3.7 điểm.",
+    "question": "Thời hạn và mức lệ phí nộp đơn phúc khảo điểm thi kết thúc môn học là bao nhiêu?",
+    "expected_answer": "Trong vòng 10 ngày làm việc kể từ ngày công bố điểm; lệ phí 500.000 VNĐ/môn.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 15,
-    "evidence_quote": "Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good)",
+    "gold_page": 18,
+    "evidence_quote": "Đơn phúc khảo phải nộp cho Trưởng Khoa trong vòng 10 ngày làm việc kể từ ngày công bố điểm chính thức trên cổng đào tạo, kèm lệ phí phúc khảo 500.000 VNĐ cho mỗi môn học.",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p15_para_000",
+        "chunk_id": "vinuni-handbook-2025_p18_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 15,
-        "text": "Section 4: Grading System & GPA Calculation 4.1 Letter Grade Scale and Grade Point Equivalencies Academic performance in undergraduate courses at VinUniversity is evaluated using an alphabetical grading scale mapped to standard 4.0 numerical grade point equivalents. Instructors assign letter grades reflecting student mastery of stated course learning outcomes. The standard grading scale is structured as follows: Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good); Grade B+ (80-84%, 3.3 points, Good); Grade B (75-79%, 3.0 points, Satisfactory); Grade B- (70-74%, 2.7 points, Adequate). Lower passing performance is designated as: Grade C+ (65-69%, 2.3 points, Marginal Pass); Grade C (60-64%, 2.0 points, Minimum Major Pass); Grade D (50-59%, 1.0 point, Bare Pass, credit earned but cannot satisfy major core prerequisites). Grade F represents Failure (0-49%, 0.0 points, No credit earned). Special administrative notations include: P (Pass, credit earned, not calculated in GPA), NP (No Pass, zero credit), W (Withdrawn), and I (Incomplete).",
+        "page": 18,
+        "text": "Trang 18 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.4 Quy chế Khiếu nại Điểm thi và Phúc khảo Bài đánh giá (Grade Appeal Procedure) Sinh viên có quyền gửi Đơn đề nghị Phúc khảo Điểm thi (Formal Grade Appeal) nếu có căn cứ rõ ràng cho thấy điểm số bị tính toán sai sót hoặc quy trình chấm thi không tuân thủ đề cương môn học đã ban hành. Đơn phúc khảo phải nộp cho Trưởng Khoa trong vòng 10 ngày làm việc kể từ ngày công bố điểm chính thức trên cổng đào tạo, kèm lệ phí phúc khảo 500.000 VNĐ cho mỗi môn học. Hội đồng chấm phúc khảo gồm hai giảng viên độc lập xem xét lại toàn bộ bài làm và đưa ra kết luận cuối cùng trong vòng 15 ngày làm việc. Nếu kết quả phúc khảo có điều chỉnh tăng điểm, sinh viên sẽ được hoàn lại 100% lệ phí phúc khảo đã nộp. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "grading_gpa",
@@ -667,30 +667,30 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.824792791890916
+        "score": 0.7522260246007466
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p3_para_000",
+        "chunk_id": "vinuni-handbook-2025_p17_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 3,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.1 General Admissions Standards and Holistic Review VinUniversity undergraduate admissions employs a comprehensive holistic assessment framework designed to evaluate intellectual capability, personal character, and leadership aspiration. Every application is independently reviewed by members of the Admissions Committee across four core dimensions: Academic Excellence, Leadership Potential, Creative Thinking, and Inherent Passion. Applicants must have completed recognized secondary education equivalent to high school graduation in Vietnam or international curricula (including IB Diploma, Cambridge A-Levels, or Advanced Placement credentials). The minimum secondary cumulative grade point average required for consideration is 7.5 on a 10.0 scale, or 3.0 on a 4.0 scale. All application packages must include verified high school transcripts for grades 10, 11, and 12, standardized test scores (if applicable), two confidential letters of recommendation from secondary school teachers or counselors, and a personal statement between 500 and 700 words addressing the candidate's life motivations and community impact goals. Special consideration is given to national Olympiad medalists and candidates demonstrating extraordinary entrepreneurial or social service achievements, subject to ratification by the Academic Council.",
+        "page": 17,
+        "text": "Trang 17 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.3 Chính sách Học lại Cải thiện Điểm và Xóa Điểm F (Course Repeat & Grade Replacement Policy) Sinh viên bị điểm F trong môn học bắt buộc phải đăng ký học lại môn học đó trong học kỳ gần nhất có mở lớp. Đối với các môn học đạt điểm C- hoặc thấp hơn, sinh viên được quyền đăng ký học lại một lần duy nhất để cải thiện điểm số (Course Repeat for Grade Replacement). Khi hoàn thành môn học lại, điểm mới cao hơn sẽ được sử dụng để tính lại điểm trung bình tích lũy CGPA và thay thế điểm cũ. Tuy nhiên, điểm cũ vẫn được giữ nguyên trên bảng điểm chính thức kèm ký hiệu R (Repeated) để đảm bảo tính minh bạch học thuật. Mỗi sinh viên không được học lại quá 4 môn học để cải thiện điểm trong toàn khóa học. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "admissions",
+          "section": "grading_gpa",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7119444589151397
+        "score": 0.6546070521804087
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p7_para_000",
+        "chunk_id": "vinuni-handbook-2025_p10_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "page": 10,
+        "text": "Trang 10 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.4 Rút Môn học và Kiểm soát Điều kiện Tiên quyết (Course Withdrawal Window & Prerequisites) Từ tuần học thứ 3 cho đến hết tuần học thứ 8 của học kỳ chính, sinh viên có thể nộp đơn xin Rút môn học (Course Withdrawal). Môn học được chấp thuận rút sẽ ghi nhận điểm chữ W (Withdrawn) trên bảng điểm chính thức; điểm W không tính vào điểm trung bình học kỳ hay điểm trung bình tích lũy CGPA, nhưng học phí của môn học đã rút sẽ không được hoàn trả. Sau tuần thứ 8, sinh viên không được phép rút môn và bắt buộc phải nhận điểm đánh giá thực tế của môn học đó. Sinh viên không được phép đăng ký môn học nếu chưa hoàn thành môn học tiên quyết (prerequisite) với điểm đạt tối thiểu từ C (2.0) trở lên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -699,7 +699,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7110270883876617
+        "score": 0.6382403208923003
       }
     ],
     "hit_at_1": true,
@@ -710,19 +710,51 @@
   {
     "question_id": "q12",
     "split": "dev",
-    "question": "Thời hạn tối đa để sinh viên hoàn thành các nội dung còn nợ của điểm Incomplete (I) trước khi bị chuyển thành điểm F là bao lâu?",
-    "expected_answer": "Bốn tuần kể từ ngày bắt đầu học kỳ chính tiếp theo.",
+    "question": "Điều kiện điểm số GPA để sinh viên được vinh danh trong Danh sách Danh dự của Trưởng Khoa (Dean's List) là gì?",
+    "expected_answer": "SGPA từ 3.60 đến 4.00, đăng ký từ 15 tín chỉ trở lên và không có điểm dưới B.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 17,
-    "evidence_quote": "finished and evaluated within four calendar weeks from the first day of instruction of the immediately subsequent regular semester",
+    "gold_page": 19,
+    "evidence_quote": "Sinh viên đạt điểm SGPA từ 3.60 đến 4.00 trong một học kỳ chính (với khối lượng đăng ký từ 15 tín chỉ trở lên, không có điểm dưới B và không bị kỷ luật) sẽ được vinh danh trong Danh sách Danh dự của Trưởng Khoa (Dean's List of Academic Excellence)",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p17_para_000",
+        "chunk_id": "vinuni-handbook-2025_p19_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 17,
-        "text": "Section 4: Grading System & GPA Calculation 4.3 Incomplete Grade (I) Regulations and Conversion Timeline The notation 'I' (Incomplete) represents an interim designation granted solely when extraordinary, non-academic emergencies prevent a student from completing a minor remaining portion of course requirements (such as a final paper or exam) by term conclusion. To be eligible for an Incomplete grade, the student must have completed at least 70% of total course evaluation components with a cumulative passing average and must submit a formal Incomplete Contract co-signed by the course instructor prior to final examination week. All outstanding coursework specified in the Incomplete Contract must be finished and evaluated within four calendar weeks from the first day of instruction of the immediately subsequent regular semester. If the student fails to complete the required work within the mandatory four-week deadline, the recorded 'I' notation automatically and permanently converts to a default failing grade of 'F' on the student's academic record.",
+        "page": 19,
+        "text": "Trang 19 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.1 Tiêu chuẩn Phân loại Học lực và Danh hiệu Dean's List (Academic Standing Classification) Tình trạng học thuật của sinh viên được phân loại chính thức vào cuối mỗi học kỳ chính theo các tiêu chuẩn: Học lực Tốt (Good Standing) yêu cầu sinh viên phải đạt cả điểm trung bình học kỳ SGPA và điểm trung bình tích lũy CGPA từ 2.00 trở lên. Sinh viên đạt điểm SGPA từ 3.60 đến 4.00 trong một học kỳ chính (với khối lượng đăng ký từ 15 tín chỉ trở lên, không có điểm dưới B và không bị kỷ luật) sẽ được vinh danh trong Danh sách Danh dự của Trưởng Khoa (Dean's List of Academic Excellence) và được ghi nhận trên bảng điểm tốt nghiệp. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.8146010372757229
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p30_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 30,
+        "text": "Trang 30 | Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) 7.4 Tiêu chuẩn Trao Danh hiệu Danh dự Tốt nghiệp (Latin Honors & Valedictorian Standards) Danh hiệu danh dự tốt nghiệp được ghi nhận trực tiếp trên Bằng đại học và Bảng điểm chính thức theo chuẩn quốc tế: (1) Danh hiệu Xuất sắc Tối cao (Summa Cum Laude) dành cho sinh viên có điểm tốt nghiệp CGPA từ 3.90 đến 4.00; (2) Danh hiệu Xuất sắc (Magna Cum Laude) dành cho sinh viên có điểm CGPA từ 3.75 đến 3.89; (3) Danh hiệu Giỏi (Cum Laude) dành cho sinh viên có điểm CGPA từ 3.50 đến 3.74. Điều kiện tiên quyết để được xét trao danh hiệu Latin Honors là sinh viên không có bất kỳ môn học nào bị điểm F và không bị bất kỳ hình thức kỷ luật học thuật nào trong toàn khóa học. Thủ khoa Tốt nghiệp (Valedictorian) được Hội đồng xét chọn từ nhóm sinh viên đạt Summa Cum Laude. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7541389015831839
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p15_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 15,
+        "text": "Trang 15 | Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation) 4.1 Thang điểm Chữ, Điểm Số và Điểm Quy đổi Tương đương (Letter Grade Scale & Quality Points) Kết quả học tập môn học được đánh giá theo thang điểm chữ 4.0 chuẩn quốc tế tương ứng với điểm số chất lượng (grade points): Điểm A đạt 4.0 (Xuất sắc, từ 90% trở lên); Điểm A- đạt 3.7 (từ 85% đến 89%); Điểm B+ đạt 3.3 (từ 80% đến 84%); Điểm B đạt 3.0 (Khá giỏi, từ 75% đến 79%); Điểm B- đạt 2.7 (từ 70% đến 74%); Điểm C+ đạt 2.3 (từ 65% đến 69%); Điểm C đạt 2.0 (Trung bình đạt chuẩn, từ 60% đến 64%); Điểm C- đạt 1.7 (từ 55% đến 59%); Điểm D đạt 1.0 (Qua môn tối thiểu, từ 50% đến 54%); Điểm F đạt 0.0 (Không đạt/Trượt môn, dưới 50%). Điểm I (Chưa hoàn thành - Incomplete) chỉ được cấp khi sinh viên có lý do chính đáng chưa hoàn thành bài thi kết thúc môn. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "grading_gpa",
@@ -731,39 +763,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8073600552559422
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p7_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
-        "metadata": {
-          "year": 2025,
-          "section": "course_registration",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7070498225584093
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p18_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 18,
-        "text": "Section 4: Grading System & GPA Calculation 4.4 Grade Appeal Protocol and Independent Review Committee A student who has substantial reason to believe that a final recorded course grade was assigned arbitrarily, through mathematical miscalculation, or based on criteria disparate from the published course syllabus may initiate a formal Grade Appeal. The Grade Appeal process must be initiated within ten business days following official publication of final course grades on the university student portal. The student must first undertake an informal consultation with the course instructor to review grading rubrics and arithmetic accuracy. If informal consultation does not resolve the grievance, the student may file a formal written appeal accompanied by evidence to the College Grade Review Committee. A non-refundable processing fee of 500,000 VND is assessed, which is refunded in full if the appeal results in a positive grade adjustment. The decision rendered by the College Grade Review Committee following independent assessment by two external subject-matter faculty members is final and binding on all parties.",
-        "metadata": {
-          "year": 2025,
-          "section": "grading_gpa",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7038448033426842
+        "score": 0.721568367528173
       }
     ],
     "hit_at_1": true,
@@ -774,19 +774,19 @@
   {
     "question_id": "q13",
     "split": "dev",
-    "question": "Điều kiện về số tín chỉ và điểm GPA học kỳ để sinh viên được ghi danh vào bảng vinh danh Dean List là gì?",
-    "expected_answer": "Tối thiểu 15 tín chỉ tính điểm chữ và GPA học kỳ từ 3.75 trở lên, không có môn dưới B.",
+    "question": "Sinh viên rơi vào tình trạng Cảnh báo Học thuật Cấp độ 2 (Academic Probation) khi nào?",
+    "expected_answer": "Khi có điểm CGPA tích lũy dưới 2.00 trong hai học kỳ liên tiếp.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 19,
-    "evidence_quote": "minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B'",
+    "gold_page": 20,
+    "evidence_quote": "Sinh viên bị Cảnh báo Học thuật Cấp độ 2 (Academic Probation) khi có điểm CGPA tích lũy dưới 2.00 trong hai học kỳ liên tiếp.",
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p19_para_000",
+        "chunk_id": "vinuni-handbook-2025_p20_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 19,
-        "text": "Section 5: Academic Standing, Warning & Dismissal 5.1 Categories of Academic Standing and Dean's List Criteria Academic standing is officially evaluated by the Registrar at the conclusion of each regular Fall and Spring semester. All enrolled undergraduate students are categorized under one of four statuses: Good Standing, Academic Warning, Academic Probation, or Academic Dismissal. To maintain Good Academic Standing, an undergraduate student must achieve both a Semester GPA (SGPA) and Cumulative GPA (CGPA) of at least 2.00 on a 4.0 scale. Students demonstrating superior academic excellence are honored with placement on the Dean's List. To qualify for the Dean's List in a given regular semester, an undergraduate must complete a minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B', no 'I' notations, and no academic integrity penalties. Dean's List honorees receive a formal certificate of commendation from the College Dean and notation on their permanent academic transcript.",
+        "page": 20,
+        "text": "Trang 20 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.2 Cơ chế Cảnh báo Học thuật Cấp độ 1 và Cấp độ 2 (Academic Warning Level 1 & Level 2) Cảnh báo Học thuật Cấp độ 1 (Academic Warning Level 1) được áp dụng khi sinh viên có điểm SGPA học kỳ dưới 2.00 nhưng điểm tích lũy CGPA vẫn đạt từ 2.00 trở lên, hoặc khi điểm CGPA tích lũy lần đầu tiên rơi xuống mức từ 1.75 đến 1.99. Sinh viên bị Cảnh báo Học thuật Cấp độ 2 (Academic Probation) khi có điểm CGPA tích lũy dưới 2.00 trong hai học kỳ liên tiếp. Sinh viên thuộc diện thử thách học thuật (probation) bị giới hạn đăng ký tối đa không quá 14 tín chỉ trong học kỳ kế tiếp và bắt buộc phải tham gia chương trình cố vấn học thuật định kỳ hàng tuần. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_standing",
@@ -795,39 +795,39 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7491119059587458
+        "score": 0.8091311118388685
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p7_para_000",
+        "chunk_id": "vinuni-handbook-2025_p21_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "page": 21,
+        "text": "Trang 21 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.3 Đình chỉ Học tập Tạm thời do Học lực Yếu (Academic Suspension Rules) Sinh viên sẽ bị áp dụng chế tài Đình chỉ Học tập Tạm thời (Academic Suspension) trong thời hạn 1 học kỳ chính nếu rơi vào một trong các trường hợp sau: (1) Điểm trung bình tích lũy CGPA dưới 1.50 trong hai học kỳ liên tiếp; hoặc (2) Thuộc diện Cảnh báo Học thuật Cấp độ 2 mà không nâng được điểm CGPA lên mức tối thiểu 2.00 ở học kỳ tiếp theo. Trong thời gian bị đình chỉ học tập, sinh viên phải tạm dừng toàn bộ việc học và nộp kế hoạch cải thiện học tập chi tiết trước khi được xét quay trở lại trường. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "course_registration",
+          "section": "academic_standing",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7037390327064745
+        "score": 0.7479328362903954
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p8_para_000",
+        "chunk_id": "vinuni-handbook-2025_p22_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 8,
-        "text": "Section 2: Course Registration & Credit Limits 2.2 Overload Credit Approval Criteria and Procedures Enrolling in academic credit beyond the maximum ceiling of 20 units in a regular semester constitutes an academic overload. Overload enrollment demands rigorous intellectual stamina and is restricted to students demonstrating outstanding scholarly competence. To qualify for an academic overload up to a hard ceiling of 23 credit units, a student must possess a cumulative grade point average (CGPA) of at least 3.50 on a 4.0 scale and must have successfully earned at least 30 credit units in residency at VinUniversity without any unexcused course failures or academic integrity infractions. Overload petitions must be initiated through the student academic portal no later than two weeks prior to the start of the semester and require written endorsement from the Academic Advisor, followed by formal sanction by the Program Director. First-year undergraduate students during their first two semesters of matriculation are categorically prohibited from undertaking academic course overload under any circumstances.",
+        "page": 22,
+        "text": "Trang 22 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.4 Buộc Thôi học do Không Cải thiện Học lực (Academic Dismissal Standards) Sinh viên sẽ bị áp dụng hình thức kỷ luật cao nhất là Buộc Thôi học Chính thức (Academic Dismissal) nếu sau khi hoàn thành thời gian đình chỉ học tập mà vẫn không thể nâng điểm trung bình tích lũy CGPA lên mức tối thiểu 2.00 trong học kỳ tái nhập học, hoặc khi sinh viên có điểm CGPA dưới 1.00 sau hai học kỳ đầu tiên tại trường. Quyết định buộc thôi học do Hiệu trưởng ban hành theo đề nghị của Hội đồng Học thuật. Sinh viên bị buộc thôi học không được quyền tái nộp hồ sơ xét tuyển vào trường trong thời hạn 2 năm kể từ ngày ký quyết định. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "course_registration",
+          "section": "academic_standing",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6885732109198788
+        "score": 0.7253284133286545
       }
     ],
     "hit_at_1": true,
@@ -838,35 +838,19 @@
   {
     "question_id": "q14",
     "split": "dev",
-    "question": "Sinh viên bị rơi vào tình trạng Cảnh báo học vụ (Academic Warning) khi điểm GPA kỳ hoặc GPA tích lũy rơi vào ngưỡng nào?",
-    "expected_answer": "GPA học kỳ dưới 2.00 hoặc GPA tích lũy từ 1.80 đến 1.99.",
+    "question": "Trường hợp nào sinh viên sẽ bị áp dụng chế tài đình chỉ học tập tạm thời 1 học kỳ chính do học lực yếu?",
+    "expected_answer": "CGPA dưới 1.50 trong hai học kỳ liên tiếp hoặc thuộc Cảnh báo Cấp 2 mà không nâng được CGPA lên 2.00.",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 20,
-    "evidence_quote": "Semester GPA falls below 2.00 in any single semester, or whose Cumulative GPA falls between 1.80 and 1.99",
+    "gold_page": 21,
+    "evidence_quote": "Sinh viên sẽ bị áp dụng chế tài Đình chỉ Học tập Tạm thời (Academic Suspension) trong thời hạn 1 học kỳ chính nếu rơi vào một trong các trường hợp sau: (1) Điểm trung bình tích lũy CGPA dưới 1.50 trong hai học kỳ liên tiếp; hoặc (2) Thuộc diện Cảnh báo Học thuật Cấp độ 2 mà không nâng được điểm CGPA lên mức tối thiểu 2.00 ở học kỳ tiếp theo.",
     "filter": null,
     "hits": [
-      {
-        "chunk_id": "vinuni-handbook-2025_p20_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 20,
-        "text": "Section 5: Academic Standing, Warning & Dismissal 5.2 Academic Warning Triggers and Mandatory Tutoring A student whose Semester GPA falls below 2.00 in any single semester, or whose Cumulative GPA falls between 1.80 and 1.99, is immediately placed on Academic Warning status for the subsequent semester. Academic Warning serves as an early institutional notification that the student is in jeopardy of academic failure. Students on Academic Warning are restricted to a maximum enrollment of 14 credit units during their warning semester to ensure dedicated focus on recovery. Students placed on Academic Warning are legally mandated to enter an Academic Improvement Contract with their designated Academic Advisor within the first week of classes. This contract includes compulsory weekly attendance in Peer Tutoring and Writing Center sessions. Failure to execute the Academic Improvement Contract or failure to attend mandatory tutoring sessions results in an administrative hold preventing registration for subsequent terms.",
-        "metadata": {
-          "year": 2025,
-          "section": "academic_standing",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7808735676963047
-      },
       {
         "chunk_id": "vinuni-handbook-2025_p21_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 21,
-        "text": "Section 5: Academic Standing, Warning & Dismissal 5.3 Academic Probation Criteria and Extracurricular Restrictions A student is placed on severe Academic Probation under either of two conditions: (1) failing to restore their Cumulative GPA to at least 2.00 after one semester on Academic Warning, or (2) earning a single semester GPA below 1.50 regardless of prior standing. Academic Probation is a critical intermediate status prior to institutional separation. A student on Academic Probation is restricted to enrolling in a maximum of 12 credit units and is required to retake all previously failed prerequisite courses offered in that term. During Academic Probation, the student is barred from participating in intercollegiate varsity athletics, holding elected leadership offices in student government or registered campus clubs, and participating in university-sponsored overseas study trips. Institutional scholarship funding is temporarily suspended while a student is on Academic Probation and may only be reinstated upon regaining Good Academic Standing.",
+        "text": "Trang 21 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.3 Đình chỉ Học tập Tạm thời do Học lực Yếu (Academic Suspension Rules) Sinh viên sẽ bị áp dụng chế tài Đình chỉ Học tập Tạm thời (Academic Suspension) trong thời hạn 1 học kỳ chính nếu rơi vào một trong các trường hợp sau: (1) Điểm trung bình tích lũy CGPA dưới 1.50 trong hai học kỳ liên tiếp; hoặc (2) Thuộc diện Cảnh báo Học thuật Cấp độ 2 mà không nâng được điểm CGPA lên mức tối thiểu 2.00 ở học kỳ tiếp theo. Trong thời gian bị đình chỉ học tập, sinh viên phải tạm dừng toàn bộ việc học và nộp kế hoạch cải thiện học tập chi tiết trước khi được xét quay trở lại trường. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_standing",
@@ -875,14 +859,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7246090173721313
+        "score": 0.8273441174069811
       },
       {
         "chunk_id": "vinuni-handbook-2025_p22_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 22,
-        "text": "Section 5: Academic Standing, Warning & Dismissal 5.4 Academic Dismissal Grounds and Appeal for Reinstatement An undergraduate student is subject to permanent Academic Dismissal from VinUniversity under the following explicit circumstances: (1) remaining on Academic Probation for two consecutive semesters without attaining a CGPA of 2.00, or (2) earning an SGPA below 1.00 in any individual semester. Notice of Academic Dismissal is communicated in writing by the Registrar following endorsement by the University Academic Standing Committee. Dismissed students are immediately unenrolled from all classes and required to vacate student housing within 48 hours. A dismissed student possesses the right to file a one-time Appeal for Academic Reinstatement to the Provost within seven business days of dismissal notification, based strictly on documented catastrophic life events that directly impaired academic execution. If reinstatement is granted by the Provost, the student returns under Final Probationary status with a non-negotiable target CGPA requirement of 2.20 to be achieved within one semester.",
+        "text": "Trang 22 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.4 Buộc Thôi học do Không Cải thiện Học lực (Academic Dismissal Standards) Sinh viên sẽ bị áp dụng hình thức kỷ luật cao nhất là Buộc Thôi học Chính thức (Academic Dismissal) nếu sau khi hoàn thành thời gian đình chỉ học tập mà vẫn không thể nâng điểm trung bình tích lũy CGPA lên mức tối thiểu 2.00 trong học kỳ tái nhập học, hoặc khi sinh viên có điểm CGPA dưới 1.00 sau hai học kỳ đầu tiên tại trường. Quyết định buộc thôi học do Hiệu trưởng ban hành theo đề nghị của Hội đồng Học thuật. Sinh viên bị buộc thôi học không được quyền tái nộp hồ sơ xét tuyển vào trường trong thời hạn 2 năm kể từ ngày ký quyết định. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_standing",
@@ -891,7 +875,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7211442326135409
+        "score": 0.7685642929581833
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p20_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 20,
+        "text": "Trang 20 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.2 Cơ chế Cảnh báo Học thuật Cấp độ 1 và Cấp độ 2 (Academic Warning Level 1 & Level 2) Cảnh báo Học thuật Cấp độ 1 (Academic Warning Level 1) được áp dụng khi sinh viên có điểm SGPA học kỳ dưới 2.00 nhưng điểm tích lũy CGPA vẫn đạt từ 2.00 trở lên, hoặc khi điểm CGPA tích lũy lần đầu tiên rơi xuống mức từ 1.75 đến 1.99. Sinh viên bị Cảnh báo Học thuật Cấp độ 2 (Academic Probation) khi có điểm CGPA tích lũy dưới 2.00 trong hai học kỳ liên tiếp. Sinh viên thuộc diện thử thách học thuật (probation) bị giới hạn đăng ký tối đa không quá 14 tín chỉ trong học kỳ kế tiếp và bắt buộc phải tham gia chương trình cố vấn học thuật định kỳ hàng tuần. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.744119067576814
       }
     ],
     "hit_at_1": true,
@@ -902,35 +902,19 @@
   {
     "question_id": "q15",
     "split": "dev",
-    "question": "Khi được giảng viên cho phép dùng công cụ Generative AI trong bài làm, sinh viên bắt buộc phải công bố những nội dung gì?",
-    "expected_answer": "Tên công cụ và phiên bản model, toàn bộ câu lệnh prompt, và phần giải trình cách xác thực và chỉnh sửa kết quả.",
+    "question": "Quy chế nhà trường nghiêm cấm những nhóm hành vi vi phạm liêm chính học thuật nào?",
+    "expected_answer": "Đạo văn (Plagiarism), Gian lận thi cử (Cheating), Ngụy tạo dữ liệu (Fabrication), và Thi hộ/làm bài hộ (Collusion).",
     "gold_source_id": "vinuni-handbook-2025",
-    "gold_page": 24,
-    "evidence_quote": "specific tool and model version employed, the complete prompt strings used, and a concise narrative explaining how generated outputs were verified, edited, and integrated",
+    "gold_page": 23,
+    "evidence_quote": "Các hành vi bị nghiêm cấm bao gồm: (1) Đạo văn (Plagiarism), được định nghĩa là việc sao chép từ ngữ, ý tưởng, dữ liệu hoặc lập luận của người khác mà không dẫn nguồn trích dẫn đầy đủ và đúng quy cách học thuật; (2) Gian lận thi cử (Cheating), bao gồm việc sử dụng tài liệu cấm, trao đổi thông tin trong phòng thi hoặc xem bài người khác; (3) Ngụy tạo dữ liệu thí nghiệm hoặc thông số nghiên cứu (Fabrication); (4) Thi hộ hoặc nhờ người khác làm hộ bài tập đánh giá (Collusion).",
     "filter": null,
     "hits": [
-      {
-        "chunk_id": "vinuni-handbook-2025_p24_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 24,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.2 Responsible Use of Generative AI and Citation Rules VinUniversity recognizes generative artificial intelligence (GenAI) technologies as potentially transformative cognitive tools. However, their educational utilization must be strictly regulated to preserve authentic learning and student agency. The baseline institutional rule across all courses is that generative AI tools (such as ChatGPT, Claude, Copilot, or Gemini) may only be used when explicitly permitted in writing within the course syllabus or written assignment guidelines provided by the instructor. When AI utilization is permitted, students must provide explicit attribution in an 'AI Acknowledgement Section' detailing: the specific tool and model version employed, the complete prompt strings used, and a concise narrative explaining how generated outputs were verified, edited, and integrated. Submitting AI-generated prose, code, or data as one's original intellectual creation without explicit disclosure is classified as Category 2 Academic Misconduct, subject to mandatory punitive proceedings.",
-        "metadata": {
-          "year": 2025,
-          "section": "academic_integrity",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.804371191764698
-      },
       {
         "chunk_id": "vinuni-handbook-2025_p23_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 23,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.1 Core Principles of Academic Honesty and Prohibited Conduct The intellectual life of VinUniversity is founded upon absolute honesty, intellectual transparency, and ethical responsibility in all dimensions of academic, clinical, and scientific endeavors. Any compromise of academic integrity undermines institutional credibility. Prohibited violations of academic honesty include: (a) Plagiarism, defined as incorporating the words, data, arguments, or intellectual schema of another author without appropriate citation; (b) Cheating, including unauthorized collaboration, copying answers during examinations, or utilizing prohibited crib sheets; (c) Fabrication of research, empirical data, or laboratory citations. Additional severe infractions encompass: (d) Bribery or attempted inducement of academic personnel; (e) Impersonation in assessments; and (f) Facilitating academic misconduct by distributing exam materials or commercializing academic assignments. Ignorance of citation guidelines or institutional regulations does not constitute a valid defense against charges of academic misconduct.",
+        "text": "Trang 23 | Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct) 6.1 Nguyên tắc Cốt lõi về Liêm chính và Các Hành vi Bị nghiêm cấm (Core Principles & Violations) Cộng đồng học thuật VinUniversity cam kết duy trì chuẩn mực cao nhất về tính trung thực, sự minh bạch và trách nhiệm nghề nghiệp. Các hành vi bị nghiêm cấm bao gồm: (1) Đạo văn (Plagiarism), được định nghĩa là việc sao chép từ ngữ, ý tưởng, dữ liệu hoặc lập luận của người khác mà không dẫn nguồn trích dẫn đầy đủ và đúng quy cách học thuật; (2) Gian lận thi cử (Cheating), bao gồm việc sử dụng tài liệu cấm, trao đổi thông tin trong phòng thi hoặc xem bài người khác; (3) Ngụy tạo dữ liệu thí nghiệm hoặc thông số nghiên cứu (Fabrication); (4) Thi hộ hoặc nhờ người khác làm hộ bài tập đánh giá (Collusion). Việc thiếu hiểu biết về quy chế không được coi là lý do miễn trừ trách nhiệm kỷ luật. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_integrity",
@@ -939,14 +923,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6500109299979401
+        "score": 0.8025544430106673
       },
       {
         "chunk_id": "vinuni-handbook-2025_p25_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 25,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.3 Classification of Violations and Sanction Framework Academic misconduct infractions are classified into three hierarchical severity tiers depending on intent, magnitude of impact, and prior disciplinary record. Category 1 (Minor Infractions): Unintentional minor citation errors, inadequate paraphrasing, or unauthorized peer collaboration on minor homework (worth under 10% of course grade). Sanctions: Written formal warning, mandatory completion of the Academic Integrity Tutorial, and maximum grade of zero on the specific assignment. Category 2 (Moderate Infractions): Substantial plagiarism in research papers, using unauthorized materials during quizzes, or unauthorized use of generative AI in midterms. Sanctions: Grade of 'F' for the course, formal disciplinary probation recorded in student file for two semesters. Category 3 (Severe/Repeat Infractions): Premeditated cheating on final exams, contract cheating, thesis fabrication, or repeat Category 2 offenses. Sanctions: Immediate suspension for 1-2 semesters or permanent expulsion with transcript notation.",
+        "text": "Trang 25 | Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct) 6.3 Phân loại Mức độ Vi phạm và Khung Xử phạt Kỷ luật (Sanction Framework for Violations) Các vi phạm liêm chính học thuật được phân loại theo ba mức độ nghiêm trọng: Vi phạm Mức độ I (Mức độ nhẹ/Lỗi lần đầu): Cảnh cáo bằng văn bản, bắt buộc học lại Khóa hướng dẫn Liêm chính Học thuật, và bị trừ tối đa 50% số điểm bài tập; Vi phạm Mức độ II (Mức độ nghiêm trọng, bao gồm nộp bài AI không khai báo hoặc tái phạm): Nhận điểm 0 (F) cho toàn bộ môn học, ghi biên bản kỷ luật vào hồ sơ sinh viên, và bị đình chỉ học tập 1 học kỳ; Vi phạm Mức độ III (Mức độ đặc biệt nghiêm trọng, gồm thi hộ hoặc ngụy tạo công trình nghiên cứu tốt nghiệp): Buộc thôi học vĩnh viễn và hủy bỏ tư cách sinh viên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_integrity",
@@ -955,7 +939,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6461093315472777
+        "score": 0.7934791322643543
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p24_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 24,
+        "text": "Trang 24 | Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct) 6.2 Quy định Sử dụng AI Tạo sinh và Quy tắc Trích dẫn (Responsible Use of Generative AI) VinUniversity công nhận tiềm năng đổi mới của các công cụ Trí tuệ Nhân tạo Tạo sinh (Generative AI như ChatGPT, Claude, Copilot hoặc Gemini) trong nghiên cứu và học tập. Tuy nhiên, các công cụ AI chỉ được phép sử dụng khi đề cương môn học hoặc giảng viên phụ trách cho phép rõ ràng bằng văn bản trong yêu cầu bài tập. Sinh viên có trách nhiệm công khai minh bạch tất cả các phần nội dung có sự trợ giúp của AI, bao gồm việc ghi rõ mô hình sử dụng, câu lệnh prompt và mức độ can thiệp. Hành vi nộp văn bản, mã nguồn hoặc dữ liệu do AI tạo ra mạo nhận là sản phẩm sáng tạo trí tuệ của chính mình mà không khai báo minh bạch sẽ bị xếp vào Vi phạm Liêm chính Học thuật Mức độ II (Category II Violation). Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7832496533244927
       }
     ],
     "hit_at_1": true,
@@ -966,11 +966,11 @@
   {
     "question_id": "q16",
     "split": "test",
-    "question": "Hành vi sử dụng công cụ AI tạo sinh nộp bài mà không khai báo bị xếp vào mức vi phạm liêm chính học thuật nào?",
-    "expected_answer": "Vi phạm Mức 2 (Category 2 Academic Misconduct), bị điểm F môn học và thử thách kỷ luật 2 kỳ.",
+    "question": "Hành vi sử dụng công cụ AI tạo sinh nộp bài mà không khai báo minh bạch bị xếp vào mức độ vi phạm nào?",
+    "expected_answer": "Vi phạm Liêm chính Học thuật Mức độ II (Category II Violation).",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 24,
-    "evidence_quote": "classified as Category 2 Academic Misconduct, subject to mandatory punitive proceedings",
+    "evidence_quote": "Hành vi nộp văn bản, mã nguồn hoặc dữ liệu do AI tạo ra mạo nhận là sản phẩm sáng tạo trí tuệ của chính mình mà không khai báo minh bạch sẽ bị xếp vào Vi phạm Liêm chính Học thuật Mức độ II (Category II Violation).",
     "filter": {
       "section": "academic_integrity"
     },
@@ -980,7 +980,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 24,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.2 Responsible Use of Generative AI and Citation Rules VinUniversity recognizes generative artificial intelligence (GenAI) technologies as potentially transformative cognitive tools. However, their educational utilization must be strictly regulated to preserve authentic learning and student agency. The baseline institutional rule across all courses is that generative AI tools (such as ChatGPT, Claude, Copilot, or Gemini) may only be used when explicitly permitted in writing within the course syllabus or written assignment guidelines provided by the instructor. When AI utilization is permitted, students must provide explicit attribution in an 'AI Acknowledgement Section' detailing: the specific tool and model version employed, the complete prompt strings used, and a concise narrative explaining how generated outputs were verified, edited, and integrated. Submitting AI-generated prose, code, or data as one's original intellectual creation without explicit disclosure is classified as Category 2 Academic Misconduct, subject to mandatory punitive proceedings.",
+        "text": "Trang 24 | Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct) 6.2 Quy định Sử dụng AI Tạo sinh và Quy tắc Trích dẫn (Responsible Use of Generative AI) VinUniversity công nhận tiềm năng đổi mới của các công cụ Trí tuệ Nhân tạo Tạo sinh (Generative AI như ChatGPT, Claude, Copilot hoặc Gemini) trong nghiên cứu và học tập. Tuy nhiên, các công cụ AI chỉ được phép sử dụng khi đề cương môn học hoặc giảng viên phụ trách cho phép rõ ràng bằng văn bản trong yêu cầu bài tập. Sinh viên có trách nhiệm công khai minh bạch tất cả các phần nội dung có sự trợ giúp của AI, bao gồm việc ghi rõ mô hình sử dụng, câu lệnh prompt và mức độ can thiệp. Hành vi nộp văn bản, mã nguồn hoặc dữ liệu do AI tạo ra mạo nhận là sản phẩm sáng tạo trí tuệ của chính mình mà không khai báo minh bạch sẽ bị xếp vào Vi phạm Liêm chính Học thuật Mức độ II (Category II Violation). Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_integrity",
@@ -989,30 +989,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8109263036427005
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p23_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 23,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.1 Core Principles of Academic Honesty and Prohibited Conduct The intellectual life of VinUniversity is founded upon absolute honesty, intellectual transparency, and ethical responsibility in all dimensions of academic, clinical, and scientific endeavors. Any compromise of academic integrity undermines institutional credibility. Prohibited violations of academic honesty include: (a) Plagiarism, defined as incorporating the words, data, arguments, or intellectual schema of another author without appropriate citation; (b) Cheating, including unauthorized collaboration, copying answers during examinations, or utilizing prohibited crib sheets; (c) Fabrication of research, empirical data, or laboratory citations. Additional severe infractions encompass: (d) Bribery or attempted inducement of academic personnel; (e) Impersonation in assessments; and (f) Facilitating academic misconduct by distributing exam materials or commercializing academic assignments. Ignorance of citation guidelines or institutional regulations does not constitute a valid defense against charges of academic misconduct.",
-        "metadata": {
-          "year": 2025,
-          "section": "academic_integrity",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7477531008839065
+        "score": 0.8118655716972973
       },
       {
         "chunk_id": "vinuni-handbook-2025_p25_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 25,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.3 Classification of Violations and Sanction Framework Academic misconduct infractions are classified into three hierarchical severity tiers depending on intent, magnitude of impact, and prior disciplinary record. Category 1 (Minor Infractions): Unintentional minor citation errors, inadequate paraphrasing, or unauthorized peer collaboration on minor homework (worth under 10% of course grade). Sanctions: Written formal warning, mandatory completion of the Academic Integrity Tutorial, and maximum grade of zero on the specific assignment. Category 2 (Moderate Infractions): Substantial plagiarism in research papers, using unauthorized materials during quizzes, or unauthorized use of generative AI in midterms. Sanctions: Grade of 'F' for the course, formal disciplinary probation recorded in student file for two semesters. Category 3 (Severe/Repeat Infractions): Premeditated cheating on final exams, contract cheating, thesis fabrication, or repeat Category 2 offenses. Sanctions: Immediate suspension for 1-2 semesters or permanent expulsion with transcript notation.",
+        "text": "Trang 25 | Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct) 6.3 Phân loại Mức độ Vi phạm và Khung Xử phạt Kỷ luật (Sanction Framework for Violations) Các vi phạm liêm chính học thuật được phân loại theo ba mức độ nghiêm trọng: Vi phạm Mức độ I (Mức độ nhẹ/Lỗi lần đầu): Cảnh cáo bằng văn bản, bắt buộc học lại Khóa hướng dẫn Liêm chính Học thuật, và bị trừ tối đa 50% số điểm bài tập; Vi phạm Mức độ II (Mức độ nghiêm trọng, bao gồm nộp bài AI không khai báo hoặc tái phạm): Nhận điểm 0 (F) cho toàn bộ môn học, ghi biên bản kỷ luật vào hồ sơ sinh viên, và bị đình chỉ học tập 1 học kỳ; Vi phạm Mức độ III (Mức độ đặc biệt nghiêm trọng, gồm thi hộ hoặc ngụy tạo công trình nghiên cứu tốt nghiệp): Buộc thôi học vĩnh viễn và hủy bỏ tư cách sinh viên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_integrity",
@@ -1021,7 +1005,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7416121296633923
+        "score": 0.7965716729848681
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p23_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 23,
+        "text": "Trang 23 | Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct) 6.1 Nguyên tắc Cốt lõi về Liêm chính và Các Hành vi Bị nghiêm cấm (Core Principles & Violations) Cộng đồng học thuật VinUniversity cam kết duy trì chuẩn mực cao nhất về tính trung thực, sự minh bạch và trách nhiệm nghề nghiệp. Các hành vi bị nghiêm cấm bao gồm: (1) Đạo văn (Plagiarism), được định nghĩa là việc sao chép từ ngữ, ý tưởng, dữ liệu hoặc lập luận của người khác mà không dẫn nguồn trích dẫn đầy đủ và đúng quy cách học thuật; (2) Gian lận thi cử (Cheating), bao gồm việc sử dụng tài liệu cấm, trao đổi thông tin trong phòng thi hoặc xem bài người khác; (3) Ngụy tạo dữ liệu thí nghiệm hoặc thông số nghiên cứu (Fabrication); (4) Thi hộ hoặc nhờ người khác làm hộ bài tập đánh giá (Collusion). Việc thiếu hiểu biết về quy chế không được coi là lý do miễn trừ trách nhiệm kỷ luật. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7173958142194806
       }
     ],
     "hit_at_1": true,
@@ -1033,10 +1033,10 @@
     "question_id": "q17",
     "split": "test",
     "question": "Số tín chỉ tích lũy tối thiểu và điều kiện cư trú học thuật tại trường (Academic Residency) để tốt nghiệp chương trình cử nhân 4 năm là bao nhiêu?",
-    "expected_answer": "Tối thiểu 128 tín chỉ và ít nhất 50% số tín chỉ (tối thiểu 64 tín chỉ) phải hoàn thành trực tiếp tại VinUniversity.",
+    "expected_answer": "Tối thiểu 120 tín chỉ tích lũy, trong đó ít nhất 60 tín chỉ học trực tiếp tại trường.",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 27,
-    "evidence_quote": "minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs",
+    "evidence_quote": "hoàn thành tối thiểu 120 tín chỉ học thuật tích lũy đối với các chương trình đào tạo 4 năm (bao gồm các ngành Quản trị Kinh doanh, Khoa học Máy tính, và Khoa học Dữ liệu), hoặc 150 tín chỉ đối với chương trình Kỹ sư 5 năm. Sinh viên bắt buộc phải đáp ứng yêu cầu Cư trú Học thuật (Academic Residency): hoàn thành tối thiểu 60 tín chỉ học tập trực tiếp tại VinUniversity",
     "filter": null,
     "hits": [
       {
@@ -1044,7 +1044,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 27,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.1 Minimum Degree Completion Requirements and Residency To be awarded an undergraduate Bachelor's degree from VinUniversity, a candidate must successfully complete all prescribed curricular elements detailed in their program catalog within the allowable degree time horizon. The minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs (such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satisfy non-credit mandatory graduation prerequisites: certification in National Defense and Security Education, completion of physical education modules, and documented completion of 100 hours of community service.",
+        "text": "Trang 27 | Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) 7.1 Điều kiện Tích lũy Tín chỉ và Cư trú Học thuật Tối thiểu (Degree Completion & Residency Requirements) Để được công nhận tốt nghiệp và cấp bằng Cử nhân, sinh viên phải hoàn thành tối thiểu 120 tín chỉ học thuật tích lũy đối với các chương trình đào tạo 4 năm (bao gồm các ngành Quản trị Kinh doanh, Khoa học Máy tính, và Khoa học Dữ liệu), hoặc 150 tín chỉ đối với chương trình Kỹ sư 5 năm. Sinh viên bắt buộc phải đáp ứng yêu cầu Cư trú Học thuật (Academic Residency): hoàn thành tối thiểu 60 tín chỉ học tập trực tiếp tại VinUniversity, bao gồm ít nhất 30 tín chỉ thuộc các môn học chuyên ngành nâng cao của năm thứ 3 và năm thứ 4. Điểm trung bình tích lũy CGPA toàn khóa khi tốt nghiệp phải đạt từ 2.00 trên thang 4.0 trở lên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "graduation_honors",
@@ -1053,14 +1053,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7966797225701403
+        "score": 0.8043253428228999
       },
       {
         "chunk_id": "vinuni-handbook-2025_p28_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 28,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.2 Degree Time Limits and Maximum Length of Study The expected normal duration of study for a standard undergraduate degree is four academic years (eight regular semesters) for standard Bachelor of Science and Bachelor of Arts curricula. The maximum allowable time limit to complete all degree requirements is six academic years (twelve regular semesters) for 4-year undergraduate programs, and seven academic years (fourteen regular semesters) for 5-year undergraduate engineering curricula. Approved leaves of absence do not count toward the maximum allowable duration of study, provided the total cumulative leave does not exceed the two-semester statutory limit set forth in Section 3.3. Any candidate who fails to fulfill all degree prerequisites within the prescribed maximum duration limit will have their degree candidacy automatically terminated without issuance of a diploma.",
+        "text": "Trang 28 | Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) 7.2 Thời hạn Đào tạo Chuẩn và Thời gian Tối đa Hoàn thành Khóa học (Time Limits for Completion) Thời gian đào tạo chuẩn đối với chương trình Cử nhân 4 năm là 8 học kỳ chính. Thời gian tối đa được phép học tập để hoàn thành chương trình không được vượt quá 6 năm học (12 học kỳ chính) kể từ ngày nhập học chính thức. Đối với chương trình đào tạo Kỹ sư 5 năm, thời gian học tập tối đa cho phép là 7.5 năm (15 học kỳ chính). Các trường hợp vượt quá thời gian tối đa cho phép mà chưa hoàn thành điều kiện tốt nghiệp sẽ bị tự động xóa tên khỏi danh sách sinh viên và cấp Giấy chứng nhận kết quả học tập cho các môn đã tích lũy. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "graduation_honors",
@@ -1069,14 +1069,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7280268078026314
+        "score": 0.7183659886827408
       },
       {
         "chunk_id": "vinuni-handbook-2025_p7_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "text": "Trang 7 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.1 Khung Tín chỉ Học thuật & Định mức Tải học kỳ (Academic Credit Framework & Workload Limits) Một tín chỉ học thuật (academic credit) tại VinUniversity tương đương với 15 giờ giảng dạy lý thuyết trực tiếp trên lớp và tối thiểu 30 giờ tự học, nghiên cứu cá nhân hoặc làm việc nhóm ngoài giờ lên lớp. Trong mỗi học kỳ chính (Học kỳ Mùa Thu và Học kỳ Mùa Xuân), sinh viên bậc đại học hệ chính quy bắt buộc phải đăng ký khối lượng học tập tối thiểu là 12 tín chỉ để duy trì tư cách sinh viên toàn thời gian (full-time student status), và không được đăng ký vượt quá mức tối đa là 18 tín chỉ mỗi học kỳ nếu chưa được phê duyệt đặc biệt. Đối với Học kỳ Phụ mùa hè (Summer Term), khối lượng học tập tối đa cho phép là 6 tín chỉ. Sinh viên có trách nhiệm tự theo dõi lộ trình học tập theo cây chương trình đào tạo của từng chuyên ngành. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -1085,7 +1085,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7191653010741824
+        "score": 0.7143095433761872
       }
     ],
     "hit_at_1": true,
@@ -1097,10 +1097,10 @@
     "question_id": "q18",
     "split": "test",
     "question": "Mức điểm GPA tích lũy tối thiểu để sinh viên tốt nghiệp được trao danh hiệu danh dự Summa Cum Laude là bao nhiêu?",
-    "expected_answer": "CGPA từ 3.90 đến 4.00.",
+    "expected_answer": "CGPA từ 3.90 đến 4.00, không có điểm F và không bị kỷ luật.",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 30,
-    "evidence_quote": "Summa Cum Laude (With Highest Distinction) for graduates achieving a final CGPA of 3.90 to 4.00",
+    "evidence_quote": "(1) Danh hiệu Xuất sắc Tối cao (Summa Cum Laude) dành cho sinh viên có điểm tốt nghiệp CGPA từ 3.90 đến 4.00; (2) Danh hiệu Xuất sắc (Magna Cum Laude) dành cho sinh viên có điểm CGPA từ 3.75 đến 3.89; (3) Danh hiệu Giỏi (Cum Laude) dành cho sinh viên có điểm CGPA từ 3.50 đến 3.74.",
     "filter": null,
     "hits": [
       {
@@ -1108,7 +1108,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 30,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.4 Latin Honors and Valedictorian Selection Standards Undergraduate degree candidates graduating with exemplary academic distinction are recognized at Commencement with prestigious Latin Honors based strictly on final Cumulative GPA upon degree conferral. The criteria for Latin Honors are: Summa Cum Laude (With Highest Distinction) for graduates achieving a final CGPA of 3.90 to 4.00; Magna Cum Laude (With Great Distinction) for graduates achieving a final CGPA of 3.75 to 3.89; Cum Laude (With Distinction) for graduates achieving a final CGPA of 3.50 to 3.74. In addition to GPA benchmarks, eligibility for Latin Honors requires that the graduate has never been found responsible for any Category 2 or 3 violation of academic integrity and has completed at least 80% of degree credits in letter-graded coursework. The University Valedictorian is selected from among Summa Cum Laude graduates by a special faculty committee, factoring in scholarly research publications, leadership impact, and contribution to campus community life.",
+        "text": "Trang 30 | Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) 7.4 Tiêu chuẩn Trao Danh hiệu Danh dự Tốt nghiệp (Latin Honors & Valedictorian Standards) Danh hiệu danh dự tốt nghiệp được ghi nhận trực tiếp trên Bằng đại học và Bảng điểm chính thức theo chuẩn quốc tế: (1) Danh hiệu Xuất sắc Tối cao (Summa Cum Laude) dành cho sinh viên có điểm tốt nghiệp CGPA từ 3.90 đến 4.00; (2) Danh hiệu Xuất sắc (Magna Cum Laude) dành cho sinh viên có điểm CGPA từ 3.75 đến 3.89; (3) Danh hiệu Giỏi (Cum Laude) dành cho sinh viên có điểm CGPA từ 3.50 đến 3.74. Điều kiện tiên quyết để được xét trao danh hiệu Latin Honors là sinh viên không có bất kỳ môn học nào bị điểm F và không bị bất kỳ hình thức kỷ luật học thuật nào trong toàn khóa học. Thủ khoa Tốt nghiệp (Valedictorian) được Hội đồng xét chọn từ nhóm sinh viên đạt Summa Cum Laude. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "graduation_honors",
@@ -1117,14 +1117,30 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7687195174505926
+        "score": 0.7854506798210414
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p27_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 27,
+        "text": "Trang 27 | Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) 7.1 Điều kiện Tích lũy Tín chỉ và Cư trú Học thuật Tối thiểu (Degree Completion & Residency Requirements) Để được công nhận tốt nghiệp và cấp bằng Cử nhân, sinh viên phải hoàn thành tối thiểu 120 tín chỉ học thuật tích lũy đối với các chương trình đào tạo 4 năm (bao gồm các ngành Quản trị Kinh doanh, Khoa học Máy tính, và Khoa học Dữ liệu), hoặc 150 tín chỉ đối với chương trình Kỹ sư 5 năm. Sinh viên bắt buộc phải đáp ứng yêu cầu Cư trú Học thuật (Academic Residency): hoàn thành tối thiểu 60 tín chỉ học tập trực tiếp tại VinUniversity, bao gồm ít nhất 30 tín chỉ thuộc các môn học chuyên ngành nâng cao của năm thứ 3 và năm thứ 4. Điểm trung bình tích lũy CGPA toàn khóa khi tốt nghiệp phải đạt từ 2.00 trên thang 4.0 trở lên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7006911635398915
       },
       {
         "chunk_id": "vinuni-handbook-2025_p19_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 19,
-        "text": "Section 5: Academic Standing, Warning & Dismissal 5.1 Categories of Academic Standing and Dean's List Criteria Academic standing is officially evaluated by the Registrar at the conclusion of each regular Fall and Spring semester. All enrolled undergraduate students are categorized under one of four statuses: Good Standing, Academic Warning, Academic Probation, or Academic Dismissal. To maintain Good Academic Standing, an undergraduate student must achieve both a Semester GPA (SGPA) and Cumulative GPA (CGPA) of at least 2.00 on a 4.0 scale. Students demonstrating superior academic excellence are honored with placement on the Dean's List. To qualify for the Dean's List in a given regular semester, an undergraduate must complete a minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B', no 'I' notations, and no academic integrity penalties. Dean's List honorees receive a formal certificate of commendation from the College Dean and notation on their permanent academic transcript.",
+        "text": "Trang 19 | Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) 5.1 Tiêu chuẩn Phân loại Học lực và Danh hiệu Dean's List (Academic Standing Classification) Tình trạng học thuật của sinh viên được phân loại chính thức vào cuối mỗi học kỳ chính theo các tiêu chuẩn: Học lực Tốt (Good Standing) yêu cầu sinh viên phải đạt cả điểm trung bình học kỳ SGPA và điểm trung bình tích lũy CGPA từ 2.00 trở lên. Sinh viên đạt điểm SGPA từ 3.60 đến 4.00 trong một học kỳ chính (với khối lượng đăng ký từ 15 tín chỉ trở lên, không có điểm dưới B và không bị kỷ luật) sẽ được vinh danh trong Danh sách Danh dự của Trưởng Khoa (Dean's List of Academic Excellence) và được ghi nhận trên bảng điểm tốt nghiệp. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "academic_standing",
@@ -1133,23 +1149,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.684273158230496
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p27_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 27,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.1 Minimum Degree Completion Requirements and Residency To be awarded an undergraduate Bachelor's degree from VinUniversity, a candidate must successfully complete all prescribed curricular elements detailed in their program catalog within the allowable degree time horizon. The minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs (such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satisfy non-credit mandatory graduation prerequisites: certification in National Defense and Security Education, completion of physical education modules, and documented completion of 100 hours of community service.",
-        "metadata": {
-          "year": 2025,
-          "section": "graduation_honors",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.6842730453177134
+        "score": 0.6861058917298107
       }
     ],
     "hit_at_1": true,
@@ -1160,11 +1160,11 @@
   {
     "question_id": "q19",
     "split": "test",
-    "question": "Sinh viên nhận học bổng tài năng 70% và 50% phải duy trì điểm GPA tích lũy tối thiểu là bao nhiêu sau mỗi năm học để không bị mất học bổng?",
-    "expected_answer": "Duy trì CGPA tối thiểu 3.20 trên thang 4.0 và hoàn thành ít nhất 30 tín chỉ mỗi năm.",
+    "question": "Sinh viên nhận học bổng tài năng 70% và 50% phải duy trì điểm GPA tích lũy tối thiểu là bao nhiêu sau mỗi năm học?",
+    "expected_answer": "CGPA tối thiểu từ 3.20 trở lên.",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 33,
-    "evidence_quote": "Recipients of 70% and 50% scholarships must maintain a CGPA of at least 3.20",
+    "evidence_quote": "Sinh viên nhận Học bổng 70% và Học bổng 50% phải duy trì điểm tích lũy CGPA tối thiểu từ 3.20 trở lên.",
     "filter": null,
     "hits": [
       {
@@ -1172,7 +1172,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 33,
-        "text": "Section 8: Tuition Schedule & Scholarships 8.3 Annual Scholarship Maintenance and CGPA Retention Thresholds Merit scholarship recipients must maintain rigorous academic and behavioral standards to sustain their financial scholarship awards across subsequent academic years. Scholarship status is formally reviewed annually at the conclusion of the Spring semester. To maintain scholarship eligibility, students must meet minimum cumulative GPA thresholds: Recipients of the 100% President's Scholarship and 90% Dean's Scholarship must maintain a Cumulative GPA (CGPA) of at least 3.50 on a 4.00 scale. Recipients of 70% and 50% scholarships must maintain a CGPA of at least 3.20. Furthermore, scholarship recipients must successfully earn at least 30 academic credit units across the combined Fall and Spring semesters of each academic year and must maintain Good Disciplinary Standing with zero recorded violations of the Student Code of Conduct. Failure to meet either the CGPA threshold or the credit completion requirement triggers automatic placement on Scholarship Probation for the following academic semester.",
+        "text": "Trang 33 | Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships) 8.3 Tiêu chuẩn Duy trì Điểm CGPA Hàng năm để Giữ Học bổng (Annual Scholarship Retention CGPA) Để duy trì học bổng tài năng qua từng năm học, sinh viên phải đạt các ngưỡng điểm trung bình tích lũy CGPA tối thiểu sau mỗi năm học: Sinh viên nhận Học bổng 100% và Học bổng 90% bắt buộc phải duy trì điểm tích lũy CGPA tối thiểu từ 3.50 trên thang 4.0 trở lên; Sinh viên nhận Học bổng 70% và Học bổng 50% phải duy trì điểm tích lũy CGPA tối thiểu từ 3.20 trở lên. Ngoài yêu cầu về điểm số, sinh viên nhận học bổng phải hoàn thành tối thiểu 30 tín chỉ học tập mỗi năm học, tích cực tham gia các dự án nghiên cứu khoa học hoặc hoạt động đại sứ hình ảnh của trường, và tuyệt đối không vi phạm kỷ luật. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "tuition_scholarships",
@@ -1181,14 +1181,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7567011503832081
+        "score": 0.7991882557799468
       },
       {
         "chunk_id": "vinuni-handbook-2025_p32_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 32,
-        "text": "Section 8: Tuition Schedule & Scholarships 8.2 Merit Scholarship Tiers and Award Amounts VinUniversity operates a merit scholarship program designed to attract and nurture outstanding academic talent regardless of socio-economic background. Merit scholarships are awarded upon admission and apply throughout standard degree duration. The institutional scholarship tiers comprise: (1) President's Scholarship: 100% full tuition waiver plus a living stipend of 35,000,000 VND per semester; (2) Dean's Scholarship: 90% tuition waiver; (3) Academic Merit Scholarship: 70% tuition waiver; and (4) University Talent Scholarship: 50% tuition waiver. All admitted undergraduate students receive an automatic baseline institutional subsidy of 35% tuition support funded by Vingroup, which is factored into tuition invoicing unless superseded by a higher merit scholarship tier. Scholarship awards apply directly against tuition fee invoices and cannot be disbursed as unallocated cash payments to recipient bank accounts.",
+        "text": "Trang 32 | Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships) 8.2 Các Mức Học bổng Tài năng Dành cho Sinh viên (Merit Scholarship Tiers & Award Amounts) VinUniversity áp dụng chính sách học bổng tài năng phi lợi nhuận nhằm hỗ trợ các sinh viên ưu tú nhất: (1) Học bổng Chủ tịch (President's Scholarship) tài trợ 100% học phí toàn khóa học cộng với sinh hoạt phí hàng tháng trị giá 35.000.000 VNĐ; (2) Học bổng Hiệu trưởng (Dean's Scholarship) tài trợ 90% hoặc 100% học phí toàn khóa; (3) Học bổng Tài năng Xuất sắc tài trợ 70% học phí; (4) Học bổng Tài năng Khuyến khích tài trợ 50% học phí. Học bổng được cấp cho toàn bộ thời gian học chuẩn (4 năm hoặc 5 năm) nhưng phải trải qua kỳ thẩm định duy trì hàng năm. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "tuition_scholarships",
@@ -1197,23 +1197,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7384698308490497
+        "score": 0.7535765032699844
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p27_para_000",
+        "chunk_id": "vinuni-handbook-2025_p34_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 27,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.1 Minimum Degree Completion Requirements and Residency To be awarded an undergraduate Bachelor's degree from VinUniversity, a candidate must successfully complete all prescribed curricular elements detailed in their program catalog within the allowable degree time horizon. The minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs (such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satisfy non-credit mandatory graduation prerequisites: certification in National Defense and Security Education, completion of physical education modules, and documented completion of 100 hours of community service.",
+        "page": 34,
+        "text": "Trang 34 | Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships) 8.4 Thử thách Học bổng và Quy định Giảm mức/Hủy học bổng (Scholarship Probation & Revocation) Nếu điểm tích lũy CGPA của sinh viên rơi xuống dưới ngưỡng quy định từ 0.01 đến 0.29 điểm vào cuối năm học, sinh viên sẽ bị đưa vào diện Thử thách Học bổng (Scholarship Probation) trong thời hạn 1 học kỳ chính tiếp theo mà vẫn được giữ nguyên mức hỗ trợ học bổng. Nếu sau học kỳ thử thách mà điểm CGPA không phục hồi về mức chuẩn quy định, học bổng sẽ tự động bị hạ xuống một bậc (ví dụ từ 100% giảm xuống 70%, hoặc từ 70% giảm xuống 50%). Nếu điểm CGPA rơi xuống dưới mức chuẩn quá 0.30 điểm, quyền thụ hưởng học bổng sẽ bị hủy bỏ vĩnh viễn (Scholarship Revocation) và chuyển sang diện sinh viên tự túc học phí. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "graduation_honors",
+          "section": "tuition_scholarships",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6989876743511436
+        "score": 0.7314258418739172
       }
     ],
     "hit_at_1": true,
@@ -1225,10 +1225,10 @@
     "question_id": "q20",
     "split": "test",
     "question": "Chính sách hoàn học phí khi sinh viên chính thức rút học trong tuần thứ 3 đến tuần thứ 4 của học kỳ là bao nhiêu phần trăm?",
-    "expected_answer": "Hoàn lại 50% học phí.",
+    "expected_answer": "Hoàn trả 50% học phí.",
     "gold_source_id": "vinuni-handbook-2025",
     "gold_page": 35,
-    "evidence_quote": "Withdrawal during Week 3-4: 50% tuition refund",
+    "evidence_quote": "(2) Rút học trong Tuần 3 đến Tuần 4: Hoàn trả 50% học phí; (3) Rút học trong Tuần 5 đến Tuần 6: Hoàn trả 25% học phí; (4) Rút học sau Tuần 6: Hoàn trả 0% (không được hoàn lại học phí trong bất kỳ hoàn cảnh nào).",
     "filter": null,
     "hits": [
       {
@@ -1236,7 +1236,7 @@
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 35,
-        "text": "Section 8: Tuition Schedule & Scholarships 8.5 Need-Based Financial Aid and Tuition Refund Schedule Students with demonstrable financial hardship may apply for Need-Based Financial Aid to supplement merit scholarships. Financial aid applications require certified tax returns, household income documentation, and bank statements submitted annually to the Financial Aid Office. Need-based aid awards range from 20% to 80% of remaining tuition liability and may include on-campus student work-study stipends providing up to 20 hours per week of paid administrative or research assistantship employment. For students who officially withdraw from the university during an active semester, tuition fee refunds are strictly prorated according to the following schedule: (1) Withdrawal during Week 1-2 (Add/Drop Period): 100% tuition refund less non-refundable deposit; (2) Withdrawal during Week 3-4: 50% tuition refund; (3) Withdrawal during Week 5-6: 25% tuition refund; (4) Withdrawal after Week 6: 0% refund (no refund). Residential dormitory fees and university dining plan charges are non-refundable after the conclusion of the second week of the semester.",
+        "text": "Trang 35 | Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships) 8.5 Hỗ trợ Tài chính Theo Nhu cầu và Biểu Tỷ lệ Hoàn Học phí (Need-Based Aid & Refund Schedule) Chính sách hỗ trợ tài chính dựa trên hoàn cảnh kinh tế gia đình (Need-Based Financial Aid) hỗ trợ từ 30% đến 80% phần học phí còn lại sau khi trừ học bổng. Trong trường hợp sinh viên có đơn xin chính thức Rút khỏi trường (Official University Withdrawal), học phí sẽ được hoàn trả theo biểu tỷ lệ thời gian tính từ ngày khai giảng: (1) Rút học trong Tuần 1 đến Tuần 2: Hoàn trả 100% học phí (sau khi trừ phí đặt cọc nhập học); (2) Rút học trong Tuần 3 đến Tuần 4: Hoàn trả 50% học phí; (3) Rút học trong Tuần 5 đến Tuần 6: Hoàn trả 25% học phí; (4) Rút học sau Tuần 6: Hoàn trả 0% (không được hoàn lại học phí trong bất kỳ hoàn cảnh nào). Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "tuition_scholarships",
@@ -1245,14 +1245,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7407081546510793
+        "score": 0.7949406290337651
       },
       {
         "chunk_id": "vinuni-handbook-2025_p10_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
         "page": 10,
-        "text": "Section 2: Course Registration & Credit Limits 2.4 Course Withdrawal Window and Prerequisites Enforcement Subsequent to the conclusion of the Add/Drop Period, a student may officially withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester. A course withdrawal results in a permanent recorded grade notation of 'W' on the student's official academic transcript. The 'W' grade carries no grade point weight and does not impact cumulative GPA calculation; however, tuition fees paid for withdrawn courses are entirely non-refundable. Students may not withdraw from a course if such withdrawal reduces their semester credit load below the mandatory 12-credit full-time minimum, unless granted medical leave by University Health Services. A student is permitted a maximum of three 'W' grades across their entire undergraduate tenure. All course prerequisites specified in the University Course Catalog are programmatically enforced by the Student Information System. Waivers for prerequisites require concurrent approval from the course instructor, Program Director, and College Curriculum Committee.",
+        "text": "Trang 10 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.4 Rút Môn học và Kiểm soát Điều kiện Tiên quyết (Course Withdrawal Window & Prerequisites) Từ tuần học thứ 3 cho đến hết tuần học thứ 8 của học kỳ chính, sinh viên có thể nộp đơn xin Rút môn học (Course Withdrawal). Môn học được chấp thuận rút sẽ ghi nhận điểm chữ W (Withdrawn) trên bảng điểm chính thức; điểm W không tính vào điểm trung bình học kỳ hay điểm trung bình tích lũy CGPA, nhưng học phí của môn học đã rút sẽ không được hoàn trả. Sau tuần thứ 8, sinh viên không được phép rút môn và bắt buộc phải nhận điểm đánh giá thực tế của môn học đó. Sinh viên không được phép đăng ký môn học nếu chưa hoàn thành môn học tiên quyết (prerequisite) với điểm đạt tối thiểu từ C (2.0) trở lên. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
           "section": "course_registration",
@@ -1261,23 +1261,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7141610128168338
+        "score": 0.7363508972285039
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p14_para_000",
+        "chunk_id": "vinuni-handbook-2025_p9_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 14,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.4 Re-enrollment After Leave and Administrative Withdrawal To resume active degree studies following an authorized Leave of Absence, the student must submit a formal Intent to Return Notice to the Registrar no later than 30 calendar days before the start of the intended semester. If the leave was granted for medical or psychological reasons, re-enrollment is strictly conditional upon submitting a comprehensive fit-for-study medical clearance evaluation signed by an accredited specialist physician and validated by the VinUniversity Health Center. Students who fail to submit the Intent to Return Notice or fail to register for courses by the end of the Add/Drop Period following the expiration of their approved leave are deemed to have abandoned their studies and will be subject to Administrative Withdrawal. An administratively withdrawn student seeking readmission must undergo the complete competitive admissions process de novo as a fresh applicant and cannot automatically reinstate previous scholarship commitments.",
+        "page": 9,
+        "text": "Trang 9 | Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) 2.3 Giai đoạn Thêm/Bớt Môn học và Hủy Đăng ký (Add/Drop Period & Enrollment Changes) Trong vòng hai tuần đầu tiên của mỗi học kỳ chính (thời hạn gọi là Giai đoạn Thêm/Bớt Môn học - Add/Drop Window), sinh viên được phép điều chỉnh kế hoạch học tập bằng cách thêm môn học mới hoặc hủy môn học đã đăng ký mà không phải chịu bất kỳ chế tài học thuật nào. Các môn học được hủy thành công trong giai đoạn này sẽ được xóa hoàn toàn khỏi hệ thống quản lý đào tạo và không xuất hiện trên bảng điểm học tập chính thức của sinh viên. Sau khi thời hạn Add/Drop kết thúc, sinh viên không được phép bổ sung thêm bất kỳ môn học nào vào thời khóa biểu học kỳ. Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên.",
         "metadata": {
           "year": 2025,
-          "section": "attendance_leave",
+          "section": "course_registration",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6824033898601963
+        "score": 0.6965922840613642
       }
     ],
     "hit_at_1": true,

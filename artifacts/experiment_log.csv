@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,fixed_size,500,50,"doc,page,section",none,gemini-embedding-2(768d),"Fixed chunks may split sentences/paragraphs, lowering evidence recall",8/15,11/15,1/5,5/5,"98 chunks, 26.0s ingest"
-B,by_paragraph,1000,0,"doc,page,section",none,gemini-embedding-2(768d),"Paragraph chunking preserves semantic integrity, improving Hit@1 and Hit@3",14/15,15/15,5/5,5/5,"33 chunks, 55.3s ingest"
-C,by_paragraph,1000,0,"doc,page,section",metadata_filter(section),gemini-embedding-2(768d),Adding metadata filtering eliminates cross-section distractor noise for filtered queries,14/15,15/15,5/5,5/5,"33 chunks, 55.3s ingest, filter queries 100% compliant"
+A,fixed_size,500,50,"doc,page,section",none,gemini-embedding-2(768d),"Fixed chunks may split sentences/paragraphs, lowering evidence recall",3/15,5/15,1/5,2/5,"101 chunks, 30.8s ingest"
+B,by_paragraph,1000,0,"doc,page,section",none,gemini-embedding-2(768d),"Paragraph chunking preserves semantic integrity, improving Hit@1 and Hit@3",15/15,15/15,5/5,5/5,"33 chunks, 56.1s ingest"
+C,by_paragraph,1000,0,"doc,page,section",metadata_filter(section),gemini-embedding-2(768d),Adding metadata filtering eliminates cross-section distractor noise for filtered queries,15/15,15/15,5/5,5/5,"33 chunks, 56.1s ingest, filter queries 100% compliant"

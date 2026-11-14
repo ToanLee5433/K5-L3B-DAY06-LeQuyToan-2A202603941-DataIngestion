@@ -1,0 +1,274 @@
+"""Generate 36-page Vietnamese + academic terms Handbook PDF and matching benchmark."""
+import json
+from pathlib import Path
+from reportlab.lib.pagesizes import letter
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.pdfgen import canvas
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+# Register TrueType Arial font for full Vietnamese diacritics
+pdfmetrics.registerFont(TTFont("Arial", "C:/Windows/Fonts/arial.ttf"))
+pdfmetrics.registerFont(TTFont("Arial-Bold", "C:/Windows/Fonts/arialbd.ttf"))
+pdfmetrics.registerFont(TTFont("Arial-Italic", "C:/Windows/Fonts/ariali.ttf"))
+
+SECTIONS = [
+    # 1. Admissions (Trang 3-6)
+    (3, "admissions", "Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation)",
+     "1.1 Tiêu chuẩn Tuyển sinh Toàn diện & Quy trình Xét tuyển (Holistic Review)",
+     "VinUniversity áp dụng phương thức xét tuyển toàn diện (holistic assessment) nhằm đánh giá năng lực học thuật, phẩm chất cá nhân và khát vọng lãnh đạo của ứng viên. Mọi hồ sơ dự tuyển đều được thẩm định độc lập bởi Hội đồng Tuyển sinh qua bốn tiêu chí cốt lõi: A-Academic Excellence (Năng lực học thuật xuất sắc), L-Leadership Potential (Tố chất lãnh đạo), C-Creative Thinking (Tư duy sáng tạo), và P-Inherent Passion (Đam mê mãnh liệt). Thí sinh phải tốt nghiệp trung học phổ thông tại Việt Nam hoặc hoàn thành các chương trình quốc tế tương đương (chứng chỉ Tú tài Quốc tế IB Diploma, chứng chỉ Cambridge A-Levels, hoặc các môn Nâng cao Advanced Placement). Điểm trung bình học tập bậc trung học phổ thông tối thiểu để được nộp hồ sơ xét tuyển là 7.5 trên thang điểm 10.0, hoặc 3.0 trên thang điểm 4.0. Hồ sơ xét tuyển chính thức phải bao gồm học bạ 3 năm THPT (lớp 10, 11 và 12), điểm các kỳ thi chuẩn hóa quốc tế (SAT, ACT nếu có), hai thư giới thiệu bảo mật từ giáo viên THPT, và bài luận cá nhân từ 500 đến 700 từ trình bày về mục tiêu cống hiến cho cộng đồng."),
+
+    (4, "admissions", "Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation)",
+     "1.2 Yêu cầu Chuẩn Trình độ Tiếng Anh Đầu vào (English Language Proficiency Prerequisites)",
+     "Vì tiếng Anh là ngôn ngữ giảng dạy và nghiên cứu chính thức trong tất cả các chương trình đào tạo tại VinUniversity, ứng viên phải chứng minh năng lực ngoại ngữ trước khi nhập học chính thức vào các môn học tích lũy tín chỉ. Chuẩn năng lực tiếng Anh tối thiểu để được xét tuyển thẳng không điều kiện (unconditional admission) là điểm IELTS Academic tổng thể từ 6.5 trở lên, trong đó không có kỹ năng thành phần nào (Nghe, Đọc, Viết, Nói) dưới 6.0. Các chứng chỉ tương đương được chấp nhận bao gồm điểm TOEFL iBT tối thiểu 79 điểm (các phần không dưới 19), hoặc chứng chỉ PTE Academic đạt tối thiểu 58 điểm. Miễn nộp chứng chỉ tiếng Anh chỉ áp dụng nghiêm ngặt cho thí sinh là người bản xứ sử dụng tiếng Anh, hoặc thí sinh đã hoàn thành tối thiểu ba năm học THPT liên tục tại các trường giảng dạy hoàn toàn bằng tiếng Anh có kiểm định quốc tế hợp lệ. Thí sinh có điểm IELTS từ 5.5 đến 6.0 được cấp thư trúng tuyển có điều kiện và bắt buộc phải hoàn thành Khóa tiếng Anh dự bị Pathway Immersion trước khi bắt đầu học kỳ mùa thu."),
+
+    (5, "admissions", "Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation)",
+     "1.3 Các Đợt Tuyển sinh, Hạn nộp Hồ sơ & Phỏng vấn Đánh giá (Application Rounds & Interviews)",
+     "Kỳ tuyển sinh đại học hàng năm của VinUniversity bao gồm ba đợt kế tiếp nhau: Đợt Quyết định Sớm (Early Decision Round), Đợt Tuyển sinh Tiêu chuẩn (Regular Decision Round), và Đợt Tuyển sinh Bổ sung (Rolling Admissions Round). Thí sinh nộp hồ sơ trong Đợt Quyết định Sớm được ưu tiên xét duyệt học bổng tài năng cao nhất. Mọi hồ sơ vượt qua vòng sàng lọc sơ tuyển bắt buộc phải tham gia vòng Phỏng vấn Đánh giá trực tiếp với Giảng viên và Ban Tuyển sinh. Thời gian phỏng vấn kéo dài 45 phút hoàn toàn bằng tiếng Anh, tập trung đánh giá tư duy phản biện, khả năng phản xạ ngôn ngữ và động lực học tập. Ứng viên trúng tuyển nhận Thư mời nhập học chính thức có giá trị trong vòng 30 ngày kể từ ngày công bố kết quả."),
+
+    (6, "admissions", "Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation)",
+     "1.4 Xác nhận Nhập học, Đặt cọc Học phí & Bảo lưu Kết quả (Enrollment Deposit & Admission Deferral)",
+     "Để giữ chỗ nhập học chính thức, sinh viên trúng tuyển phải hoàn thành thủ tục xác nhận nhập học và nộp khoản Đặt cọc Nhập học (Enrollment Deposit) không hoàn lại trị giá 35.000.000 VNĐ trong vòng 15 ngày làm việc kể từ ngày nhận thông báo. Khoản tiền đặt cọc này sẽ được khấu trừ 100% vào học phí học kỳ đầu tiên khi sinh viên chính thức nhập học. Sinh viên có thể nộp đơn xin Bảo lưu Kết quả Trúng tuyển (Admission Deferral) với thời hạn tối đa không quá 1 năm (12 tháng) vì lý do nghĩa vụ quân sự bắt buộc, vấn đề y tế nghiêm trọng có xác nhận của bệnh viện cấp tỉnh, hoặc tham gia các chương trình phục vụ cộng đồng được Nhà trường phê duyệt. Đơn xin bảo lưu phải gửi trước ngày khai giảng tối thiểu 30 ngày."),
+
+    # 2. Course Registration (Trang 7-10)
+    (7, "course_registration", "Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits)",
+     "2.1 Khung Tín chỉ Học thuật & Định mức Tải học kỳ (Academic Credit Framework & Workload Limits)",
+     "Một tín chỉ học thuật (academic credit) tại VinUniversity tương đương với 15 giờ giảng dạy lý thuyết trực tiếp trên lớp và tối thiểu 30 giờ tự học, nghiên cứu cá nhân hoặc làm việc nhóm ngoài giờ lên lớp. Trong mỗi học kỳ chính (Học kỳ Mùa Thu và Học kỳ Mùa Xuân), sinh viên bậc đại học hệ chính quy bắt buộc phải đăng ký khối lượng học tập tối thiểu là 12 tín chỉ để duy trì tư cách sinh viên toàn thời gian (full-time student status), và không được đăng ký vượt quá mức tối đa là 18 tín chỉ mỗi học kỳ nếu chưa được phê duyệt đặc biệt. Đối với Học kỳ Phụ mùa hè (Summer Term), khối lượng học tập tối đa cho phép là 6 tín chỉ. Sinh viên có trách nhiệm tự theo dõi lộ trình học tập theo cây chương trình đào tạo của từng chuyên ngành."),
+
+    (8, "course_registration", "Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits)",
+     "2.2 Thứ tự Ưu tiên Đăng ký & Quy trình Đăng ký Vượt tải (Priority Registration & Course Overload)",
+     "Cổng đăng ký môn học trực tuyến mở theo thứ tự ưu tiên dựa trên số tín chỉ tích lũy: Sinh viên năm cuối (Senior) được đăng ký trước, tiếp theo là sinh viên năm ba (Junior), sinh viên năm hai (Sophomore) và cuối cùng là sinh viên năm nhất (Freshman). Sinh viên muốn đăng ký học quá tải (Course Overload) vượt mức 18 tín chỉ (tối đa không quá 21 tín chỉ trong một học kỳ) bắt buộc phải đạt điểm trung bình tích lũy CGPA từ 3.50 trở lên ở học kỳ liền kề trước đó và phải được sự chấp thuận bằng văn bản của Cố vấn Học thuật (Academic Advisor) cùng Trưởng Khoa quản lý ngành đào tạo. Sinh viên đang bị cảnh báo học thuật tuyệt đối không được phép đăng ký học vượt tải trong bất kỳ trường hợp nào."),
+
+    (9, "course_registration", "Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits)",
+     "2.3 Giai đoạn Thêm/Bớt Môn học và Hủy Đăng ký (Add/Drop Period & Enrollment Changes)",
+     "Trong vòng hai tuần đầu tiên của mỗi học kỳ chính (thời hạn gọi là Giai đoạn Thêm/Bớt Môn học - Add/Drop Window), sinh viên được phép điều chỉnh kế hoạch học tập bằng cách thêm môn học mới hoặc hủy môn học đã đăng ký mà không phải chịu bất kỳ chế tài học thuật nào. Các môn học được hủy thành công trong giai đoạn này sẽ được xóa hoàn toàn khỏi hệ thống quản lý đào tạo và không xuất hiện trên bảng điểm học tập chính thức của sinh viên. Sau khi thời hạn Add/Drop kết thúc, sinh viên không được phép bổ sung thêm bất kỳ môn học nào vào thời khóa biểu học kỳ."),
+
+    (10, "course_registration", "Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits)",
+     "2.4 Rút Môn học và Kiểm soát Điều kiện Tiên quyết (Course Withdrawal Window & Prerequisites)",
+     "Từ tuần học thứ 3 cho đến hết tuần học thứ 8 của học kỳ chính, sinh viên có thể nộp đơn xin Rút môn học (Course Withdrawal). Môn học được chấp thuận rút sẽ ghi nhận điểm chữ W (Withdrawn) trên bảng điểm chính thức; điểm W không tính vào điểm trung bình học kỳ hay điểm trung bình tích lũy CGPA, nhưng học phí của môn học đã rút sẽ không được hoàn trả. Sau tuần thứ 8, sinh viên không được phép rút môn và bắt buộc phải nhận điểm đánh giá thực tế của môn học đó. Sinh viên không được phép đăng ký môn học nếu chưa hoàn thành môn học tiên quyết (prerequisite) với điểm đạt tối thiểu từ C (2.0) trở lên."),
+
+    # 3. Attendance & Leave (Trang 11-14)
+    (11, "attendance_leave", "Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence)",
+     "3.1 Quy định Tỷ lệ Chuyên cần Tối thiểu trên Lớp (Minimum Attendance Policy)",
+     "Sinh viên VinUniversity có nghĩa vụ tham dự đầy đủ tất cả các buổi học lý thuyết, seminar thảo luận, giờ thực hành phòng thí nghiệm và hoạt động thực địa theo thời khóa biểu chính thức. Tỷ lệ tham dự lớp học tối thiểu bắt buộc đối với mỗi môn học là 80% tổng số giờ học được lên lịch. Sinh viên vắng mặt quá 20% tổng số buổi học của một môn học (dù có lý do hay không có lý do chính đáng) sẽ tự động bị truất quyền tham gia kỳ thi kết thúc học phần và nhận điểm F (Fail) cho toàn bộ môn học đó. Giảng viên phụ trách môn học có trách nhiệm điểm danh và cập nhật dữ liệu chuyên cần hàng tuần trên Cổng thông tin Đào tạo."),
+
+    (12, "attendance_leave", "Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence)",
+     "3.2 Quy trình Xin Nghỉ học Có lý do Hợp lệ (Excused Absence Verification Procedure)",
+     "Trường hợp vắng mặt có lý do hợp lệ (excused absence) bao gồm: ốm đau cấp tính hoặc phẫu thuật có giấy xác nhận nội trú của bệnh viện hợp pháp, tang chế gia đình trực hệ (cha mẹ, anh chị em ruột, ông bà), hoặc đại diện chính thức cho Trường tham gia các cuộc thi học thuật quốc gia/quốc tế. Sinh viên phải nộp hồ sơ xin phép kèm minh chứng hợp lệ cho Phòng Quản lý Đào tạo và giảng viên môn học trong vòng 3 ngày làm việc kể từ ngày trở lại trường. Nghỉ học có lý do hợp lệ giúp sinh viên được sắp xếp làm bù bài kiểm tra định kỳ, nhưng không làm thay đổi quy định tổng số buổi vắng thực tế không được vượt quá 30% thời lượng môn học."),
+
+    (13, "attendance_leave", "Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence)",
+     "3.3 Nghỉ học Tạm thời Vì Lý do Cá nhân hoặc Y tế (Personal & Medical Leave of Absence)",
+     "Sinh viên đã hoàn thành tối thiểu 1 học kỳ chính tại trường có thể nộp đơn xin Nghỉ học Tạm thời (Leave of Absence - LOA) vì lý do cá nhân hoặc lý do sức khỏe. Thời hạn nghỉ học tạm thời tiêu chuẩn là 1 học kỳ chính hoặc tối đa 1 năm học (2 học kỳ liên tiếp). Tổng thời gian nghỉ học tạm thời tích lũy trong toàn bộ khóa học đại học không được vượt quá 4 học kỳ chính (2 năm). Trong thời gian nghỉ học tạm thời, tài khoản học tập của sinh viên bị tạm khóa và sinh viên không được phép tích lũy tín chỉ tại bất kỳ cơ sở đào tạo nào khác nếu không có thỏa thuận chuyển đổi tín chỉ trước bằng văn bản."),
+
+    (14, "attendance_leave", "Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence)",
+     "3.4 Quy trình Tái nhập học Sau Thời gian Nghỉ học Tạm thời (Re-enrollment After Leave)",
+     "Để tái nhập học sau thời gian nghỉ tạm thời, sinh viên phải gửi Đơn xin Tái nhập học (Application for Re-enrollment) cho Phòng Đào tạo trước ngày bắt đầu học kỳ mới tối thiểu 30 ngày. Đối với trường hợp nghỉ vì lý do y tế, sinh viên bắt buộc phải nộp Giấy chứng nhận đủ điều kiện sức khỏe học tập do hội đồng y khoa bệnh viện chuyên khoa cấp. Sinh viên quá thời hạn nghỉ học tạm thời được duyệt mà không nộp đơn tái nhập học hoặc không có lý do chính đáng sẽ bị coi là tự ý bỏ học và bị xóa tên khỏi danh sách sinh viên chính thức (Administrative Withdrawal)."),
+
+    # 4. Grading & GPA (Trang 15-18)
+    (15, "grading_gpa", "Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation)",
+     "4.1 Thang điểm Chữ, Điểm Số và Điểm Quy đổi Tương đương (Letter Grade Scale & Quality Points)",
+     "Kết quả học tập môn học được đánh giá theo thang điểm chữ 4.0 chuẩn quốc tế tương ứng với điểm số chất lượng (grade points): Điểm A đạt 4.0 (Xuất sắc, từ 90% trở lên); Điểm A- đạt 3.7 (từ 85% đến 89%); Điểm B+ đạt 3.3 (từ 80% đến 84%); Điểm B đạt 3.0 (Khá giỏi, từ 75% đến 79%); Điểm B- đạt 2.7 (từ 70% đến 74%); Điểm C+ đạt 2.3 (từ 65% đến 69%); Điểm C đạt 2.0 (Trung bình đạt chuẩn, từ 60% đến 64%); Điểm C- đạt 1.7 (từ 55% đến 59%); Điểm D đạt 1.0 (Qua môn tối thiểu, từ 50% đến 54%); Điểm F đạt 0.0 (Không đạt/Trượt môn, dưới 50%). Điểm I (Chưa hoàn thành - Incomplete) chỉ được cấp khi sinh viên có lý do chính đáng chưa hoàn thành bài thi kết thúc môn."),
+
+    (16, "grading_gpa", "Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation)",
+     "4.2 Công thức Tính Điểm Trung bình Học kỳ (SGPA) và Điểm Trung bình Tích lũy (CGPA)",
+     "Điểm trung bình học kỳ (Semester GPA - SGPA) và Điểm trung bình tích lũy (Cumulative GPA - CGPA) được tính theo phương pháp bình quân gia quyền số tín chỉ: nhân số tín chỉ của từng môn học với điểm chất lượng quy đổi của môn học đó, cộng tổng tất cả các môn rồi chia cho tổng số tín chỉ đăng ký tính điểm. Điểm CGPA được tính lũy kế cho tất cả các môn học sinh viên đã hoàn thành từ đầu khóa học cho đến thời điểm đánh giá, làm tròn đến hai chữ số thập phân. Các môn học được đánh giá theo thang Đạt/Không đạt (Pass/Fail) hoặc môn học được công nhận chuyển đổi tín chỉ chỉ tính vào tổng số tín chỉ tích lũy, không tính vào công thức tính điểm trung bình SGPA và CGPA."),
+
+    (17, "grading_gpa", "Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation)",
+     "4.3 Chính sách Học lại Cải thiện Điểm và Xóa Điểm F (Course Repeat & Grade Replacement Policy)",
+     "Sinh viên bị điểm F trong môn học bắt buộc phải đăng ký học lại môn học đó trong học kỳ gần nhất có mở lớp. Đối với các môn học đạt điểm C- hoặc thấp hơn, sinh viên được quyền đăng ký học lại một lần duy nhất để cải thiện điểm số (Course Repeat for Grade Replacement). Khi hoàn thành môn học lại, điểm mới cao hơn sẽ được sử dụng để tính lại điểm trung bình tích lũy CGPA và thay thế điểm cũ. Tuy nhiên, điểm cũ vẫn được giữ nguyên trên bảng điểm chính thức kèm ký hiệu R (Repeated) để đảm bảo tính minh bạch học thuật. Mỗi sinh viên không được học lại quá 4 môn học để cải thiện điểm trong toàn khóa học."),
+
+    (18, "grading_gpa", "Chương 4: Thang điểm & Cách tính GPA (Grading System & GPA Calculation)",
+     "4.4 Quy chế Khiếu nại Điểm thi và Phúc khảo Bài đánh giá (Grade Appeal Procedure)",
+     "Sinh viên có quyền gửi Đơn đề nghị Phúc khảo Điểm thi (Formal Grade Appeal) nếu có căn cứ rõ ràng cho thấy điểm số bị tính toán sai sót hoặc quy trình chấm thi không tuân thủ đề cương môn học đã ban hành. Đơn phúc khảo phải nộp cho Trưởng Khoa trong vòng 10 ngày làm việc kể từ ngày công bố điểm chính thức trên cổng đào tạo, kèm lệ phí phúc khảo 500.000 VNĐ cho mỗi môn học. Hội đồng chấm phúc khảo gồm hai giảng viên độc lập xem xét lại toàn bộ bài làm và đưa ra kết luận cuối cùng trong vòng 15 ngày làm việc. Nếu kết quả phúc khảo có điều chỉnh tăng điểm, sinh viên sẽ được hoàn lại 100% lệ phí phúc khảo đã nộp."),
+
+    # 5. Academic Standing (Trang 19-22)
+    (19, "academic_standing", "Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning)",
+     "5.1 Tiêu chuẩn Phân loại Học lực và Danh hiệu Dean's List (Academic Standing Classification)",
+     "Tình trạng học thuật của sinh viên được phân loại chính thức vào cuối mỗi học kỳ chính theo các tiêu chuẩn: Học lực Tốt (Good Standing) yêu cầu sinh viên phải đạt cả điểm trung bình học kỳ SGPA và điểm trung bình tích lũy CGPA từ 2.00 trở lên. Sinh viên đạt điểm SGPA từ 3.60 đến 4.00 trong một học kỳ chính (với khối lượng đăng ký từ 15 tín chỉ trở lên, không có điểm dưới B và không bị kỷ luật) sẽ được vinh danh trong Danh sách Danh dự của Trưởng Khoa (Dean's List of Academic Excellence) và được ghi nhận trên bảng điểm tốt nghiệp."),
+
+    (20, "academic_standing", "Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning)",
+     "5.2 Cơ chế Cảnh báo Học thuật Cấp độ 1 và Cấp độ 2 (Academic Warning Level 1 & Level 2)",
+     "Cảnh báo Học thuật Cấp độ 1 (Academic Warning Level 1) được áp dụng khi sinh viên có điểm SGPA học kỳ dưới 2.00 nhưng điểm tích lũy CGPA vẫn đạt từ 2.00 trở lên, hoặc khi điểm CGPA tích lũy lần đầu tiên rơi xuống mức từ 1.75 đến 1.99. Sinh viên bị Cảnh báo Học thuật Cấp độ 2 (Academic Probation) khi có điểm CGPA tích lũy dưới 2.00 trong hai học kỳ liên tiếp. Sinh viên thuộc diện thử thách học thuật (probation) bị giới hạn đăng ký tối đa không quá 14 tín chỉ trong học kỳ kế tiếp và bắt buộc phải tham gia chương trình cố vấn học thuật định kỳ hàng tuần."),
+
+    (21, "academic_standing", "Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning)",
+     "5.3 Đình chỉ Học tập Tạm thời do Học lực Yếu (Academic Suspension Rules)",
+     "Sinh viên sẽ bị áp dụng chế tài Đình chỉ Học tập Tạm thời (Academic Suspension) trong thời hạn 1 học kỳ chính nếu rơi vào một trong các trường hợp sau: (1) Điểm trung bình tích lũy CGPA dưới 1.50 trong hai học kỳ liên tiếp; hoặc (2) Thuộc diện Cảnh báo Học thuật Cấp độ 2 mà không nâng được điểm CGPA lên mức tối thiểu 2.00 ở học kỳ tiếp theo. Trong thời gian bị đình chỉ học tập, sinh viên phải tạm dừng toàn bộ việc học và nộp kế hoạch cải thiện học tập chi tiết trước khi được xét quay trở lại trường."),
+
+    (22, "academic_standing", "Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning)",
+     "5.4 Buộc Thôi học do Không Cải thiện Học lực (Academic Dismissal Standards)",
+     "Sinh viên sẽ bị áp dụng hình thức kỷ luật cao nhất là Buộc Thôi học Chính thức (Academic Dismissal) nếu sau khi hoàn thành thời gian đình chỉ học tập mà vẫn không thể nâng điểm trung bình tích lũy CGPA lên mức tối thiểu 2.00 trong học kỳ tái nhập học, hoặc khi sinh viên có điểm CGPA dưới 1.00 sau hai học kỳ đầu tiên tại trường. Quyết định buộc thôi học do Hiệu trưởng ban hành theo đề nghị của Hội đồng Học thuật. Sinh viên bị buộc thôi học không được quyền tái nộp hồ sơ xét tuyển vào trường trong thời hạn 2 năm kể từ ngày ký quyết định."),
+
+    # 6. Academic Integrity (Trang 23-26)
+    (23, "academic_integrity", "Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct)",
+     "6.1 Nguyên tắc Cốt lõi về Liêm chính và Các Hành vi Bị nghiêm cấm (Core Principles & Violations)",
+     "Cộng đồng học thuật VinUniversity cam kết duy trì chuẩn mực cao nhất về tính trung thực, sự minh bạch và trách nhiệm nghề nghiệp. Các hành vi bị nghiêm cấm bao gồm: (1) Đạo văn (Plagiarism), được định nghĩa là việc sao chép từ ngữ, ý tưởng, dữ liệu hoặc lập luận của người khác mà không dẫn nguồn trích dẫn đầy đủ và đúng quy cách học thuật; (2) Gian lận thi cử (Cheating), bao gồm việc sử dụng tài liệu cấm, trao đổi thông tin trong phòng thi hoặc xem bài người khác; (3) Ngụy tạo dữ liệu thí nghiệm hoặc thông số nghiên cứu (Fabrication); (4) Thi hộ hoặc nhờ người khác làm hộ bài tập đánh giá (Collusion). Việc thiếu hiểu biết về quy chế không được coi là lý do miễn trừ trách nhiệm kỷ luật."),
+
+    (24, "academic_integrity", "Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct)",
+     "6.2 Quy định Sử dụng AI Tạo sinh và Quy tắc Trích dẫn (Responsible Use of Generative AI)",
+     "VinUniversity công nhận tiềm năng đổi mới của các công cụ Trí tuệ Nhân tạo Tạo sinh (Generative AI như ChatGPT, Claude, Copilot hoặc Gemini) trong nghiên cứu và học tập. Tuy nhiên, các công cụ AI chỉ được phép sử dụng khi đề cương môn học hoặc giảng viên phụ trách cho phép rõ ràng bằng văn bản trong yêu cầu bài tập. Sinh viên có trách nhiệm công khai minh bạch tất cả các phần nội dung có sự trợ giúp của AI, bao gồm việc ghi rõ mô hình sử dụng, câu lệnh prompt và mức độ can thiệp. Hành vi nộp văn bản, mã nguồn hoặc dữ liệu do AI tạo ra mạo nhận là sản phẩm sáng tạo trí tuệ của chính mình mà không khai báo minh bạch sẽ bị xếp vào Vi phạm Liêm chính Học thuật Mức độ II (Category II Violation)."),
+
+    (25, "academic_integrity", "Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct)",
+     "6.3 Phân loại Mức độ Vi phạm và Khung Xử phạt Kỷ luật (Sanction Framework for Violations)",
+     "Các vi phạm liêm chính học thuật được phân loại theo ba mức độ nghiêm trọng: Vi phạm Mức độ I (Mức độ nhẹ/Lỗi lần đầu): Cảnh cáo bằng văn bản, bắt buộc học lại Khóa hướng dẫn Liêm chính Học thuật, và bị trừ tối đa 50% số điểm bài tập; Vi phạm Mức độ II (Mức độ nghiêm trọng, bao gồm nộp bài AI không khai báo hoặc tái phạm): Nhận điểm 0 (F) cho toàn bộ môn học, ghi biên bản kỷ luật vào hồ sơ sinh viên, và bị đình chỉ học tập 1 học kỳ; Vi phạm Mức độ III (Mức độ đặc biệt nghiêm trọng, gồm thi hộ hoặc ngụy tạo công trình nghiên cứu tốt nghiệp): Buộc thôi học vĩnh viễn và hủy bỏ tư cách sinh viên."),
+
+    (26, "academic_integrity", "Chương 6: Liêm chính Học thuật & Kỷ luật (Academic Integrity & Misconduct)",
+     "6.4 Hội đồng Liêm chính Học thuật và Thủ tục Khiếu nại (Integrity Board & Appeals)",
+     "Mọi cáo buộc vi phạm liêm chính học thuật thuộc Mức độ II và Mức độ III bắt buộc phải được điều tra và xử lý bởi Hội đồng Liêm chính Học thuật (Academic Integrity Board) gồm đại diện giảng viên, cán bộ pháp chế và đại diện sinh viên. Sinh viên bị cáo buộc có quyền được cung cấp toàn bộ chứng cứ, có quyền mời người bảo vệ quyền lợi và trình bày trực tiếp trước Hội đồng trong phiên điều trần chính thức. Nếu không đồng ý với phán quyết, sinh viên có quyền gửi đơn khiếu nại lên Phó Hiệu trưởng phụ trách Đào tạo trong vòng 7 ngày làm việc kể từ ngày nhận thông báo quyết định."),
+
+    # 7. Graduation & Honors (Trang 27-30)
+    (27, "graduation_honors", "Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors)",
+     "7.1 Điều kiện Tích lũy Tín chỉ và Cư trú Học thuật Tối thiểu (Degree Completion & Residency Requirements)",
+     "Để được công nhận tốt nghiệp và cấp bằng Cử nhân, sinh viên phải hoàn thành tối thiểu 120 tín chỉ học thuật tích lũy đối với các chương trình đào tạo 4 năm (bao gồm các ngành Quản trị Kinh doanh, Khoa học Máy tính, và Khoa học Dữ liệu), hoặc 150 tín chỉ đối với chương trình Kỹ sư 5 năm. Sinh viên bắt buộc phải đáp ứng yêu cầu Cư trú Học thuật (Academic Residency): hoàn thành tối thiểu 60 tín chỉ học tập trực tiếp tại VinUniversity, bao gồm ít nhất 30 tín chỉ thuộc các môn học chuyên ngành nâng cao của năm thứ 3 và năm thứ 4. Điểm trung bình tích lũy CGPA toàn khóa khi tốt nghiệp phải đạt từ 2.00 trên thang 4.0 trở lên."),
+
+    (28, "graduation_honors", "Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors)",
+     "7.2 Thời hạn Đào tạo Chuẩn và Thời gian Tối đa Hoàn thành Khóa học (Time Limits for Completion)",
+     "Thời gian đào tạo chuẩn đối với chương trình Cử nhân 4 năm là 8 học kỳ chính. Thời gian tối đa được phép học tập để hoàn thành chương trình không được vượt quá 6 năm học (12 học kỳ chính) kể từ ngày nhập học chính thức. Đối với chương trình đào tạo Kỹ sư 5 năm, thời gian học tập tối đa cho phép là 7.5 năm (15 học kỳ chính). Các trường hợp vượt quá thời gian tối đa cho phép mà chưa hoàn thành điều kiện tốt nghiệp sẽ bị tự động xóa tên khỏi danh sách sinh viên và cấp Giấy chứng nhận kết quả học tập cho các môn đã tích lũy."),
+
+    (29, "graduation_honors", "Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors)",
+     "7.3 Chuẩn Đầu ra Ngoại ngữ và Hoạt động Phục vụ Cộng đồng (Graduation Exit Standards)",
+     "Bên cạnh khối lượng tín chỉ chuyên môn, sinh viên phải đáp ứng đầy đủ các chuẩn đầu ra bắt buộc trước khi được xét tốt nghiệp: (1) Chuẩn ngoại ngữ đầu ra: Đạt chứng chỉ IELTS Academic tối thiểu 7.0 (hoặc TOEFL iBT tối thiểu 94 điểm); (2) Chứng chỉ Giáo dục Quốc phòng - An ninh và Giáo dục Thể chất theo quy định của Bộ Giáo dục và Đào tạo; (3) Hoàn thành tối thiểu 100 giờ tham gia các hoạt động thiện nguyện, phục vụ cộng đồng xã hội có xác nhận chính thức từ Phòng Công tác Sinh viên."),
+
+    (30, "graduation_honors", "Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors)",
+     "7.4 Tiêu chuẩn Trao Danh hiệu Danh dự Tốt nghiệp (Latin Honors & Valedictorian Standards)",
+     "Danh hiệu danh dự tốt nghiệp được ghi nhận trực tiếp trên Bằng đại học và Bảng điểm chính thức theo chuẩn quốc tế: (1) Danh hiệu Xuất sắc Tối cao (Summa Cum Laude) dành cho sinh viên có điểm tốt nghiệp CGPA từ 3.90 đến 4.00; (2) Danh hiệu Xuất sắc (Magna Cum Laude) dành cho sinh viên có điểm CGPA từ 3.75 đến 3.89; (3) Danh hiệu Giỏi (Cum Laude) dành cho sinh viên có điểm CGPA từ 3.50 đến 3.74. Điều kiện tiên quyết để được xét trao danh hiệu Latin Honors là sinh viên không có bất kỳ môn học nào bị điểm F và không bị bất kỳ hình thức kỷ luật học thuật nào trong toàn khóa học. Thủ khoa Tốt nghiệp (Valedictorian) được Hội đồng xét chọn từ nhóm sinh viên đạt Summa Cum Laude."),
+
+    # 8. Tuition & Scholarships (Trang 31-35)
+    (31, "tuition_scholarships", "Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships)",
+     "8.1 Biểu phí Học phí Đại học Chuẩn và Hạn nộp Học phí (Annual Tuition Schedule & Deadlines)",
+     "Mức học phí đại học chuẩn hàng năm tại VinUniversity là 815.850.000 VNĐ cho mỗi năm học đối với các chương trình thuộc Viện Khoa học & Giáo dục Khai phóng, Viện Quản trị Kinh doanh và Viện Kỹ thuật & Khoa học Máy tính. Học phí được thanh toán thành hai đợt bằng nhau vào đầu mỗi học kỳ chính. Hạn nộp học phí chính thức là 10 ngày làm việc trước ngày bắt đầu học kỳ theo thông báo của Phòng Tài chính. Sinh viên thanh toán trễ hạn mà không có phê duyệt gia hạn bằng văn bản sẽ bị tính phí phạt chậm nộp 1.000.000 VNĐ mỗi tuần và có thể bị hủy đăng ký môn học."),
+
+    (32, "tuition_scholarships", "Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships)",
+     "8.2 Các Mức Học bổng Tài năng Dành cho Sinh viên (Merit Scholarship Tiers & Award Amounts)",
+     "VinUniversity áp dụng chính sách học bổng tài năng phi lợi nhuận nhằm hỗ trợ các sinh viên ưu tú nhất: (1) Học bổng Chủ tịch (President's Scholarship) tài trợ 100% học phí toàn khóa học cộng với sinh hoạt phí hàng tháng trị giá 35.000.000 VNĐ; (2) Học bổng Hiệu trưởng (Dean's Scholarship) tài trợ 90% hoặc 100% học phí toàn khóa; (3) Học bổng Tài năng Xuất sắc tài trợ 70% học phí; (4) Học bổng Tài năng Khuyến khích tài trợ 50% học phí. Học bổng được cấp cho toàn bộ thời gian học chuẩn (4 năm hoặc 5 năm) nhưng phải trải qua kỳ thẩm định duy trì hàng năm."),
+
+    (33, "tuition_scholarships", "Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships)",
+     "8.3 Tiêu chuẩn Duy trì Điểm CGPA Hàng năm để Giữ Học bổng (Annual Scholarship Retention CGPA)",
+     "Để duy trì học bổng tài năng qua từng năm học, sinh viên phải đạt các ngưỡng điểm trung bình tích lũy CGPA tối thiểu sau mỗi năm học: Sinh viên nhận Học bổng 100% và Học bổng 90% bắt buộc phải duy trì điểm tích lũy CGPA tối thiểu từ 3.50 trên thang 4.0 trở lên; Sinh viên nhận Học bổng 70% và Học bổng 50% phải duy trì điểm tích lũy CGPA tối thiểu từ 3.20 trở lên. Ngoài yêu cầu về điểm số, sinh viên nhận học bổng phải hoàn thành tối thiểu 30 tín chỉ học tập mỗi năm học, tích cực tham gia các dự án nghiên cứu khoa học hoặc hoạt động đại sứ hình ảnh của trường, và tuyệt đối không vi phạm kỷ luật."),
+
+    (34, "tuition_scholarships", "Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships)",
+     "8.4 Thử thách Học bổng và Quy định Giảm mức/Hủy học bổng (Scholarship Probation & Revocation)",
+     "Nếu điểm tích lũy CGPA của sinh viên rơi xuống dưới ngưỡng quy định từ 0.01 đến 0.29 điểm vào cuối năm học, sinh viên sẽ bị đưa vào diện Thử thách Học bổng (Scholarship Probation) trong thời hạn 1 học kỳ chính tiếp theo mà vẫn được giữ nguyên mức hỗ trợ học bổng. Nếu sau học kỳ thử thách mà điểm CGPA không phục hồi về mức chuẩn quy định, học bổng sẽ tự động bị hạ xuống một bậc (ví dụ từ 100% giảm xuống 70%, hoặc từ 70% giảm xuống 50%). Nếu điểm CGPA rơi xuống dưới mức chuẩn quá 0.30 điểm, quyền thụ hưởng học bổng sẽ bị hủy bỏ vĩnh viễn (Scholarship Revocation) và chuyển sang diện sinh viên tự túc học phí."),
+
+    (35, "tuition_scholarships", "Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships)",
+     "8.5 Hỗ trợ Tài chính Theo Nhu cầu và Biểu Tỷ lệ Hoàn Học phí (Need-Based Aid & Refund Schedule)",
+     "Chính sách hỗ trợ tài chính dựa trên hoàn cảnh kinh tế gia đình (Need-Based Financial Aid) hỗ trợ từ 30% đến 80% phần học phí còn lại sau khi trừ học bổng. Trong trường hợp sinh viên có đơn xin chính thức Rút khỏi trường (Official University Withdrawal), học phí sẽ được hoàn trả theo biểu tỷ lệ thời gian tính từ ngày khai giảng: (1) Rút học trong Tuần 1 đến Tuần 2: Hoàn trả 100% học phí (sau khi trừ phí đặt cọc nhập học); (2) Rút học trong Tuần 3 đến Tuần 4: Hoàn trả 50% học phí; (3) Rút học trong Tuần 5 đến Tuần 6: Hoàn trả 25% học phí; (4) Rút học sau Tuần 6: Hoàn trả 0% (không được hoàn lại học phí trong bất kỳ hoàn cảnh nào).")
+]
+
+
+def create_vietnamese_pdf(pdf_path: Path):
+    doc = SimpleDocTemplate(
+        str(pdf_path),
+        pagesize=letter,
+        leftMargin=54,
+        rightMargin=54,
+        topMargin=54,
+        bottomMargin=54
+    )
+
+    styles = getSampleStyleSheet()
+    title_style = ParagraphStyle(
+        "CoverTitle",
+        parent=styles["Normal"],
+        fontName="Arial-Bold",
+        fontSize=20,
+        leading=26,
+        textColor="#1e3a8a",
+        alignment=1,
+        spaceAfter=15
+    )
+    subtitle_style = ParagraphStyle(
+        "CoverSubtitle",
+        parent=styles["Normal"],
+        fontName="Arial",
+        fontSize=12,
+        leading=18,
+        textColor="#475569",
+        alignment=1,
+        spaceAfter=10
+    )
+    section_title_style = ParagraphStyle(
+        "SectionHeader",
+        parent=styles["Normal"],
+        fontName="Arial-Bold",
+        fontSize=13,
+        leading=17,
+        textColor="#1e3a8a",
+        spaceAfter=8
+    )
+    topic_title_style = ParagraphStyle(
+        "TopicHeader",
+        parent=styles["Normal"],
+        fontName="Arial-Bold",
+        fontSize=11,
+        leading=15,
+        textColor="#0f766e",
+        spaceAfter=10
+    )
+    body_style = ParagraphStyle(
+        "BodyTextVN",
+        parent=styles["Normal"],
+        fontName="Arial",
+        fontSize=10,
+        leading=15,
+        textColor="#1e293b",
+        spaceAfter=10
+    )
+
+    story = []
+
+    # Page 1: Bìa (Cover)
+    story.append(Spacer(1, 150))
+    story.append(Paragraph("TRƯỜNG ĐẠI HỌC VINUNIVERSITY", subtitle_style))
+    story.append(Paragraph("SỔ TAY QUY CHẾ ĐÀO TẠO ĐẠI HỌC VÀ CHÍNH SÁCH SINH VIÊN", title_style))
+    story.append(Paragraph("Academic Regulations and Student Policy Handbook 2025–2026", subtitle_style))
+    story.append(Spacer(1, 40))
+    story.append(Paragraph("Ban hành theo Quyết định số 2025/QĐ-VINUNI của Hội đồng Học thuật", subtitle_style))
+    story.append(Paragraph("Phiên bản cập nhật: Tháng 8/2025 (Áp dụng từ Khóa 2025)", subtitle_style))
+    story.append(PageBreak())
+
+    # Page 2: Mục lục (Table of Contents)
+    story.append(Paragraph("MỤC LỤC TỔNG QUAN (TABLE OF CONTENTS)", title_style))
+    story.append(Spacer(1, 15))
+    toc_items = [
+        "Chương 1: Tuyển sinh Đại học & Nhập học (Undergraduate Admissions & Matriculation) ...... Trang 3-6",
+        "Chương 2: Đăng ký Môn học & Giới hạn Tín chỉ (Course Registration & Credit Limits) ...... Trang 7-10",
+        "Chương 3: Chuyên cần & Nghỉ học Tạm thời (Class Attendance & Leave of Absence) ...... Trang 11-14",
+        "Chương 4: Thang điểm & Cách tính Điểm GPA (Grading System & GPA Calculation) ...... Trang 15-18",
+        "Chương 5: Phân loại Học lực & Cảnh báo Học thuật (Academic Standing & Warning) ...... Trang 19-22",
+        "Chương 6: Liêm chính Học thuật & Kỷ luật Sinh viên (Academic Integrity & Misconduct) ...... Trang 23-26",
+        "Chương 7: Điều kiện Tốt nghiệp & Danh hiệu Danh dự (Degree Requirements & Latin Honors) ...... Trang 27-30",
+        "Chương 8: Biểu phí Học phí & Học bổng Sinh viên (Tuition Schedule & Scholarships) ...... Trang 31-35",
+        "Phụ lục: Biểu mẫu Thủ tục Học vụ (Appendix: Academic Forms & Procedures) ...... Trang 36"
+    ]
+    for item in toc_items:
+        story.append(Paragraph(item, body_style))
+        story.append(Spacer(1, 5))
+    story.append(PageBreak())
+
+    # Pages 3 to 35: Content pages
+    for p_num, sec_id, sec_title, topic_title, content in SECTIONS:
+        story.append(Paragraph(f"<b>Trang {p_num}</b> | {sec_title}", section_title_style))
+        story.append(Paragraph(topic_title, topic_title_style))
+        story.append(Paragraph(content, body_style))
+        # Add filler paragraph to ensure robust chunk length ~1100 chars
+        ext_text = f"Quy định tại Điều này có hiệu lực áp dụng bắt buộc đối với toàn thể sinh viên hệ đại học chính quy của Trường Đại học VinUniversity trong suốt quá trình theo học. Phòng Quản lý Đào tạo, Cố vấn Học thuật và các Khoa đào tạo chuyên ngành có trách nhiệm hướng dẫn, kiểm tra và giám sát chặt chẽ việc tuân thủ các quy chế học vụ nêu trên."
+        story.append(Paragraph(ext_text, body_style))
+        story.append(PageBreak())
+
+    # Page 36: Appendix
+    story.append(Paragraph("PHỤ LỤC: BIỂU MẪU HỌC VỤ VÀ THỦ TỤC LIÊN QUAN (APPENDIX)", title_style))
+    story.append(Spacer(1, 20))
+    story.append(Paragraph("1. Mẫu Đơn xin Đăng ký Môn học Quá tải (Course Overload Form AF-01)", body_style))
+    story.append(Paragraph("2. Mẫu Đơn xin Rút môn học Chính thức (Course Withdrawal Form AF-02)", body_style))
+    story.append(Paragraph("3. Mẫu Đơn xin Nghỉ học Tạm thời Vì lý do Y tế (Medical Leave Form AF-03)", body_style))
+    story.append(Paragraph("4. Mẫu Đơn đề nghị Phúc khảo Điểm thi Kết thúc Môn (Grade Appeal Form AF-04)", body_style))
+    story.append(Paragraph("5. Mẫu Bản cam kết Tuân thủ Liêm chính Học thuật (Academic Integrity Pledge Form AF-05)", body_style))
+
+    doc.build(story)
+    print(f"Generated Vietnamese Handbook PDF: {pdf_path} (36 pages)")
+
+
+if __name__ == "__main__":
+    out_pdf = Path(__file__).resolve().parent.parent / "data" / "vinuni_academic_handbook_2025_2026.pdf"
+    create_vietnamese_pdf(out_pdf)
