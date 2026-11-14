@@ -25,7 +25,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8017282442287795
+        "score": 0.8071066539000863
       },
       {
         "chunk_id": "vinuni-handbook-2025_p3_para_000",
@@ -41,7 +41,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7369919121774167
+        "score": 0.7554998834281211
       },
       {
         "chunk_id": "vinuni-handbook-2025_p32_para_000",
@@ -57,7 +57,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6886263072979276
+        "score": 0.7316087207056435
       }
     ],
     "hit_at_1": true,
@@ -89,23 +89,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7484191630513082
+        "score": 0.7354656204062534
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p9_para_000",
+        "chunk_id": "vinuni-handbook-2025_p31_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 9,
-        "text": "Section 2: Course Registration & Credit Limits 2.3 Add/Drop Course Period and Schedule Adjustment At the opening of each regular semester, an official Add/Drop Period is provided to enable students to modify their registered course schedules in response to curriculum requirements, instructor evaluations, and personal learning pace. The Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week. During this window, courses dropped do not appear on the student's permanent academic transcript, and no record of enrollment is retained. Adding courses is strictly subject to available seat capacity, meeting stated prerequisite requirements, and ensuring that no timetable scheduling conflicts exist with other enrolled courses. Faculty instructors do not possess authority to grant enrollment overrides beyond registered room fire-code safety capacities. Tuition charges are automatically reconciled based on the finalized credit total logged at the exact conclusion of the Add/Drop deadline.",
+        "page": 31,
+        "text": "Section 8: Tuition Schedule & Scholarships 8.1 Undergraduate Tuition Schedule and Payment Deadlines Tuition fees at VinUniversity are determined annually by the University Board of Trustees and reflect the high standards of faculty recruitment, research infrastructure, and experiential learning environments provided. For the 2025-2026 academic year, the published annual tuition fee for standard undergraduate programs in the College of Business Management and the College of Engineering & Computer Science is 815,000,000 VND (equivalent to approximately 35,000 USD), billed in two equal semester installments. Tuition invoices are issued electronically 30 calendar days prior to the start of each semester. The mandatory payment deadline is 17:00 on the Friday preceding the first day of class for that semester. Late payments incur an automatic administrative late surcharge of 2% per month calculated on the unpaid balance. Students with outstanding unpaid tuition balances past the conclusion of the Add/Drop Period will have their course registrations cancelled and be placed on involuntary financial suspension.",
         "metadata": {
           "year": 2025,
-          "section": "course_registration",
+          "section": "tuition_scholarships",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.610323884556058
+        "score": 0.6792415144320381
       },
       {
         "chunk_id": "vinuni-handbook-2025_p5_para_000",
@@ -121,7 +121,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6056715980695327
+        "score": 0.6367431066479162
       }
     ],
     "hit_at_1": true,
@@ -153,7 +153,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7242536575174048
+        "score": 0.7259019180594745
       },
       {
         "chunk_id": "vinuni-handbook-2025_p31_para_000",
@@ -169,14 +169,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6227275263489334
+        "score": 0.680433287439793
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p3_para_000",
+        "chunk_id": "vinuni-handbook-2025_p6_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 3,
-        "text": "Section 1: Undergraduate Admissions & Matriculation 1.1 General Admissions Standards and Holistic Review VinUniversity undergraduate admissions employs a comprehensive holistic assessment framework designed to evaluate intellectual capability, personal character, and leadership aspiration. Every application is independently reviewed by members of the Admissions Committee across four core dimensions: Academic Excellence, Leadership Potential, Creative Thinking, and Inherent Passion. Applicants must have completed recognized secondary education equivalent to high school graduation in Vietnam or international curricula (including IB Diploma, Cambridge A-Levels, or Advanced Placement credentials). The minimum secondary cumulative grade point average required for consideration is 7.5 on a 10.0 scale, or 3.0 on a 4.0 scale. All application packages must include verified high school transcripts for grades 10, 11, and 12, standardized test scores (if applicable), two confidential letters of recommendation from secondary school teachers or counselors, and a personal statement between 500 and 700 words addressing the candidate's life motivations and community impact goals. Special consideration is given to national Olympiad medalists and candidates demonstrating extraordinary entrepreneurial or social service achievements, subject to ratification by the Academic Council.",
+        "page": 6,
+        "text": "Section 1: Undergraduate Admissions & Matriculation 1.4 Enrollment Confirmation, Deposit and Document Verification Successful applicants receive an official Offer of Admission issued electronically by the Office of the University Registrar. To secure a seat in the matriculating cohort, admitted students must complete formal acceptance within 14 calendar days of offer transmission. A non-refundable enrollment deposit of 20,000,000 VND is required upon acceptance. This deposit is credited in full toward the first semester's tuition liability but is forfeited should the admitted candidate decline enrollment subsequent to confirmation. Matriculation is contingent upon physical verification of original diplomas, apostilled transcripts, medical clearance records confirming immunization compliance, and valid identification. Falsification or withholding of academic history constitutes grounds for immediate revocation of admission and permanent disqualification from future university programs. All verified new students must participate in the mandatory New Student Orientation Week commencing exactly one week prior to the start of classes in the Fall Semester.",
         "metadata": {
           "year": 2025,
           "section": "admissions",
@@ -185,7 +185,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6167230929258961
+        "score": 0.6666059493964415
       }
     ],
     "hit_at_1": true,
@@ -217,7 +217,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7552591493391806
+        "score": 0.756842262023391
       },
       {
         "chunk_id": "vinuni-handbook-2025_p8_para_000",
@@ -233,23 +233,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6990076470918145
+        "score": 0.7202493331884864
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p9_para_000",
+        "chunk_id": "vinuni-handbook-2025_p28_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 9,
-        "text": "Section 2: Course Registration & Credit Limits 2.3 Add/Drop Course Period and Schedule Adjustment At the opening of each regular semester, an official Add/Drop Period is provided to enable students to modify their registered course schedules in response to curriculum requirements, instructor evaluations, and personal learning pace. The Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week. During this window, courses dropped do not appear on the student's permanent academic transcript, and no record of enrollment is retained. Adding courses is strictly subject to available seat capacity, meeting stated prerequisite requirements, and ensuring that no timetable scheduling conflicts exist with other enrolled courses. Faculty instructors do not possess authority to grant enrollment overrides beyond registered room fire-code safety capacities. Tuition charges are automatically reconciled based on the finalized credit total logged at the exact conclusion of the Add/Drop deadline.",
+        "page": 28,
+        "text": "Section 7: Degree Requirements, Graduation & Honors 7.2 Degree Time Limits and Maximum Length of Study The expected normal duration of study for a standard undergraduate degree is four academic years (eight regular semesters) for standard Bachelor of Science and Bachelor of Arts curricula. The maximum allowable time limit to complete all degree requirements is six academic years (twelve regular semesters) for 4-year undergraduate programs, and seven academic years (fourteen regular semesters) for 5-year undergraduate engineering curricula. Approved leaves of absence do not count toward the maximum allowable duration of study, provided the total cumulative leave does not exceed the two-semester statutory limit set forth in Section 3.3. Any candidate who fails to fulfill all degree prerequisites within the prescribed maximum duration limit will have their degree candidacy automatically terminated without issuance of a diploma.",
         "metadata": {
           "year": 2025,
-          "section": "course_registration",
+          "section": "graduation_honors",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6553846441854301
+        "score": 0.6784829124625247
       }
     ],
     "hit_at_1": true,
@@ -283,7 +283,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8233851463283668
+        "score": 0.8286103742161842
       },
       {
         "chunk_id": "vinuni-handbook-2025_p7_para_000",
@@ -299,7 +299,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7039728621989484
+        "score": 0.7372232173051012
       },
       {
         "chunk_id": "vinuni-handbook-2025_p9_para_000",
@@ -315,7 +315,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6602766228773386
+        "score": 0.6814103100162493
       }
     ],
     "hit_at_1": true,
@@ -347,7 +347,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7982122262317811
+        "score": 0.7842807091997864
       },
       {
         "chunk_id": "vinuni-handbook-2025_p10_para_000",
@@ -363,7 +363,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6466723687592083
+        "score": 0.6765323491732836
       },
       {
         "chunk_id": "vinuni-handbook-2025_p7_para_000",
@@ -379,7 +379,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6329864979387126
+        "score": 0.669425943911674
       }
     ],
     "hit_at_1": true,
@@ -411,7 +411,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7785113545240114
+        "score": 0.7988727320747018
       },
       {
         "chunk_id": "vinuni-handbook-2025_p9_para_000",
@@ -427,23 +427,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6854763493461721
+        "score": 0.7168024068846742
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p15_para_000",
+        "chunk_id": "vinuni-handbook-2025_p7_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 15,
-        "text": "Section 4: Grading System & GPA Calculation 4.1 Letter Grade Scale and Grade Point Equivalencies Academic performance in undergraduate courses at VinUniversity is evaluated using an alphabetical grading scale mapped to standard 4.0 numerical grade point equivalents. Instructors assign letter grades reflecting student mastery of stated course learning outcomes. The standard grading scale is structured as follows: Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good); Grade B+ (80-84%, 3.3 points, Good); Grade B (75-79%, 3.0 points, Satisfactory); Grade B- (70-74%, 2.7 points, Adequate). Lower passing performance is designated as: Grade C+ (65-69%, 2.3 points, Marginal Pass); Grade C (60-64%, 2.0 points, Minimum Major Pass); Grade D (50-59%, 1.0 point, Bare Pass, credit earned but cannot satisfy major core prerequisites). Grade F represents Failure (0-49%, 0.0 points, No credit earned). Special administrative notations include: P (Pass, credit earned, not calculated in GPA), NP (No Pass, zero credit), W (Withdrawn), and I (Incomplete).",
+        "page": 7,
+        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
         "metadata": {
           "year": 2025,
-          "section": "grading_gpa",
+          "section": "course_registration",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6600584173555146
+        "score": 0.7018501173557161
       }
     ],
     "hit_at_1": true,
@@ -475,7 +475,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7330926194023666
+        "score": 0.7657970216657266
       },
       {
         "chunk_id": "vinuni-handbook-2025_p12_para_000",
@@ -491,23 +491,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6850612967540405
+        "score": 0.7169318356843136
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p27_para_000",
+        "chunk_id": "vinuni-handbook-2025_p17_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 27,
-        "text": "Section 7: Degree Requirements, Graduation & Honors 7.1 Minimum Degree Completion Requirements and Residency To be awarded an undergraduate Bachelor's degree from VinUniversity, a candidate must successfully complete all prescribed curricular elements detailed in their program catalog within the allowable degree time horizon. The minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs (such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satisfy non-credit mandatory graduation prerequisites: certification in National Defense and Security Education, completion of physical education modules, and documented completion of 100 hours of community service.",
+        "page": 17,
+        "text": "Section 4: Grading System & GPA Calculation 4.3 Incomplete Grade (I) Regulations and Conversion Timeline The notation 'I' (Incomplete) represents an interim designation granted solely when extraordinary, non-academic emergencies prevent a student from completing a minor remaining portion of course requirements (such as a final paper or exam) by term conclusion. To be eligible for an Incomplete grade, the student must have completed at least 70% of total course evaluation components with a cumulative passing average and must submit a formal Incomplete Contract co-signed by the course instructor prior to final examination week. All outstanding coursework specified in the Incomplete Contract must be finished and evaluated within four calendar weeks from the first day of instruction of the immediately subsequent regular semester. If the student fails to complete the required work within the mandatory four-week deadline, the recorded 'I' notation automatically and permanently converts to a default failing grade of 'F' on the student's academic record.",
         "metadata": {
           "year": 2025,
-          "section": "graduation_honors",
+          "section": "grading_gpa",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6279638033895472
+        "score": 0.6779652945074193
       }
     ],
     "hit_at_1": true,
@@ -539,7 +539,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7509736661670255
+        "score": 0.753279759502516
       },
       {
         "chunk_id": "vinuni-handbook-2025_p12_para_000",
@@ -555,14 +555,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7109850741016227
+        "score": 0.7460054755212202
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p13_para_000",
+        "chunk_id": "vinuni-handbook-2025_p14_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 13,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.3 Voluntary Leave of Absence Application and Limits A student in good academic standing who faces personal, financial, family, or health challenges may submit a formal application for a Voluntary Leave of Absence (LOA) to temporarily pause their university studies without terminating degree candidacy. An approved Leave of Absence is granted for a duration of one or two consecutive regular semesters. The cumulative lifetime maximum allowance for voluntary leave of absence is two regular semesters across the entire undergraduate degree program. Applications for voluntary leave must be filed with the Office of the Registrar at least four weeks prior to the start of the prospective semester. Retroactive leave requests during an active semester are strictly prohibited except in cases of catastrophic medical emergency certified by a licensed medical board. During the period of an authorized Leave of Absence, the student retains their active university email account and library digital access but is ineligible to enroll in courses, reside in university dormitories, or utilize athletic campus facilities.",
+        "page": 14,
+        "text": "Section 3: Class Attendance & Leave of Absence 3.4 Re-enrollment After Leave and Administrative Withdrawal To resume active degree studies following an authorized Leave of Absence, the student must submit a formal Intent to Return Notice to the Registrar no later than 30 calendar days before the start of the intended semester. If the leave was granted for medical or psychological reasons, re-enrollment is strictly conditional upon submitting a comprehensive fit-for-study medical clearance evaluation signed by an accredited specialist physician and validated by the VinUniversity Health Center. Students who fail to submit the Intent to Return Notice or fail to register for courses by the end of the Add/Drop Period following the expiration of their approved leave are deemed to have abandoned their studies and will be subject to Administrative Withdrawal. An administratively withdrawn student seeking readmission must undergo the complete competitive admissions process de novo as a fresh applicant and cannot automatically reinstate previous scholarship commitments.",
         "metadata": {
           "year": 2025,
           "section": "attendance_leave",
@@ -571,7 +571,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6332067649396238
+        "score": 0.6855552809438481
       }
     ],
     "hit_at_1": false,
@@ -603,7 +603,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7826594589847603
+        "score": 0.7700167626293479
       },
       {
         "chunk_id": "vinuni-handbook-2025_p28_para_000",
@@ -619,14 +619,14 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7313017311597323
+        "score": 0.7399736302784823
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p12_para_000",
+        "chunk_id": "vinuni-handbook-2025_p14_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 12,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.2 Excused Absence Criteria and Documentation Protocol The university recognizes specific extenuating circumstances under which absences from instructional sessions may be designated as officially excused, preventing penalty against the 80% attendance threshold. Approved excused absences encompass documented acute medical illness or injury, significant bereavement involving immediate family members (parents, siblings, grandparents), mandatory legal obligations, and official participation in university-sanctioned athletic or academic competitions authorized by the Vice Provost of Academic Affairs. To obtain an excused absence, the student must submit an electronic Absence Request along with verifiable supporting documentation (such as hospital discharge certificates, medical certificates from Vinmec, or court summons) through the student portal within three business days of returning to campus. Even with verified excused absences, a student who misses more than 35% of total instructional contact hours in a course cannot receive a passing grade due to inadequate experiential exposure and must repeat the course in a subsequent term.",
+        "page": 14,
+        "text": "Section 3: Class Attendance & Leave of Absence 3.4 Re-enrollment After Leave and Administrative Withdrawal To resume active degree studies following an authorized Leave of Absence, the student must submit a formal Intent to Return Notice to the Registrar no later than 30 calendar days before the start of the intended semester. If the leave was granted for medical or psychological reasons, re-enrollment is strictly conditional upon submitting a comprehensive fit-for-study medical clearance evaluation signed by an accredited specialist physician and validated by the VinUniversity Health Center. Students who fail to submit the Intent to Return Notice or fail to register for courses by the end of the Add/Drop Period following the expiration of their approved leave are deemed to have abandoned their studies and will be subject to Administrative Withdrawal. An administratively withdrawn student seeking readmission must undergo the complete competitive admissions process de novo as a fresh applicant and cannot automatically reinstate previous scholarship commitments.",
         "metadata": {
           "year": 2025,
           "section": "attendance_leave",
@@ -635,7 +635,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7069347285510946
+        "score": 0.7115796902313776
       }
     ],
     "hit_at_1": true,
@@ -667,7 +667,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8277142254817785
+        "score": 0.824792791890916
       },
       {
         "chunk_id": "vinuni-handbook-2025_p3_para_000",
@@ -683,23 +683,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6697770972840451
+        "score": 0.7119444589151397
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p11_para_000",
+        "chunk_id": "vinuni-handbook-2025_p7_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 11,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.1 Mandatory Attendance Standards and Classroom Engagement Active participation and regular physical classroom attendance are vital components of the participatory pedagogical philosophy at VinUniversity. Attendance is rigorously tracked across all lecture, seminar, discussion group, laboratory, and clinical sessions. Undergraduate students are required to maintain a minimum attendance rate of 80% of all scheduled instructional contact hours in each enrolled course. Failure to achieve 80% attendance without approved medical or university-sanctioned excused absence results in immediate academic disqualification from sitting the final course examination. Students disqualified for excessive absenteeism automatically receive a failing course grade of 'F' with 0.0 grade points, which is computed into both the semester and cumulative grade point averages. Instructors must issue formal written warnings to students whose cumulative unexcused absences exceed 10% of total contact hours. Tardiness exceeding 15 minutes past the scheduled class start time is recorded as a half-absence; three recorded tardies equal one full instructional absence in official attendance accounting.",
+        "page": 7,
+        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
         "metadata": {
           "year": 2025,
-          "section": "attendance_leave",
+          "section": "course_registration",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6554305175798526
+        "score": 0.7110270883876617
       }
     ],
     "hit_at_1": true,
@@ -731,14 +731,30 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.8345215197508709
+        "score": 0.8073600552559422
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p15_para_000",
+        "chunk_id": "vinuni-handbook-2025_p7_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 15,
-        "text": "Section 4: Grading System & GPA Calculation 4.1 Letter Grade Scale and Grade Point Equivalencies Academic performance in undergraduate courses at VinUniversity is evaluated using an alphabetical grading scale mapped to standard 4.0 numerical grade point equivalents. Instructors assign letter grades reflecting student mastery of stated course learning outcomes. The standard grading scale is structured as follows: Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good); Grade B+ (80-84%, 3.3 points, Good); Grade B (75-79%, 3.0 points, Satisfactory); Grade B- (70-74%, 2.7 points, Adequate). Lower passing performance is designated as: Grade C+ (65-69%, 2.3 points, Marginal Pass); Grade C (60-64%, 2.0 points, Minimum Major Pass); Grade D (50-59%, 1.0 point, Bare Pass, credit earned but cannot satisfy major core prerequisites). Grade F represents Failure (0-49%, 0.0 points, No credit earned). Special administrative notations include: P (Pass, credit earned, not calculated in GPA), NP (No Pass, zero credit), W (Withdrawn), and I (Incomplete).",
+        "page": 7,
+        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7070498225584093
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p18_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 18,
+        "text": "Section 4: Grading System & GPA Calculation 4.4 Grade Appeal Protocol and Independent Review Committee A student who has substantial reason to believe that a final recorded course grade was assigned arbitrarily, through mathematical miscalculation, or based on criteria disparate from the published course syllabus may initiate a formal Grade Appeal. The Grade Appeal process must be initiated within ten business days following official publication of final course grades on the university student portal. The student must first undertake an informal consultation with the course instructor to review grading rubrics and arithmetic accuracy. If informal consultation does not resolve the grievance, the student may file a formal written appeal accompanied by evidence to the College Grade Review Committee. A non-refundable processing fee of 500,000 VND is assessed, which is refunded in full if the appeal results in a positive grade adjustment. The decision rendered by the College Grade Review Committee following independent assessment by two external subject-matter faculty members is final and binding on all parties.",
         "metadata": {
           "year": 2025,
           "section": "grading_gpa",
@@ -747,23 +763,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6832504258285419
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p11_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 11,
-        "text": "Section 3: Class Attendance & Leave of Absence 3.1 Mandatory Attendance Standards and Classroom Engagement Active participation and regular physical classroom attendance are vital components of the participatory pedagogical philosophy at VinUniversity. Attendance is rigorously tracked across all lecture, seminar, discussion group, laboratory, and clinical sessions. Undergraduate students are required to maintain a minimum attendance rate of 80% of all scheduled instructional contact hours in each enrolled course. Failure to achieve 80% attendance without approved medical or university-sanctioned excused absence results in immediate academic disqualification from sitting the final course examination. Students disqualified for excessive absenteeism automatically receive a failing course grade of 'F' with 0.0 grade points, which is computed into both the semester and cumulative grade point averages. Instructors must issue formal written warnings to students whose cumulative unexcused absences exceed 10% of total contact hours. Tardiness exceeding 15 minutes past the scheduled class start time is recorded as a half-absence; three recorded tardies equal one full instructional absence in official attendance accounting.",
-        "metadata": {
-          "year": 2025,
-          "section": "attendance_leave",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.6334246948605284
+        "score": 0.7038448033426842
       }
     ],
     "hit_at_1": true,
@@ -795,7 +795,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7446070245132071
+        "score": 0.7491119059587458
       },
       {
         "chunk_id": "vinuni-handbook-2025_p7_para_000",
@@ -811,7 +811,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6841986345239924
+        "score": 0.7037390327064745
       },
       {
         "chunk_id": "vinuni-handbook-2025_p8_para_000",
@@ -827,7 +827,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6837027265609448
+        "score": 0.6885732109198788
       }
     ],
     "hit_at_1": true,
@@ -859,23 +859,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7609430912041565
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p19_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 19,
-        "text": "Section 5: Academic Standing, Warning & Dismissal 5.1 Categories of Academic Standing and Dean's List Criteria Academic standing is officially evaluated by the Registrar at the conclusion of each regular Fall and Spring semester. All enrolled undergraduate students are categorized under one of four statuses: Good Standing, Academic Warning, Academic Probation, or Academic Dismissal. To maintain Good Academic Standing, an undergraduate student must achieve both a Semester GPA (SGPA) and Cumulative GPA (CGPA) of at least 2.00 on a 4.0 scale. Students demonstrating superior academic excellence are honored with placement on the Dean's List. To qualify for the Dean's List in a given regular semester, an undergraduate must complete a minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B', no 'I' notations, and no academic integrity penalties. Dean's List honorees receive a formal certificate of commendation from the College Dean and notation on their permanent academic transcript.",
-        "metadata": {
-          "year": 2025,
-          "section": "academic_standing",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.726188157802551
+        "score": 0.7808735676963047
       },
       {
         "chunk_id": "vinuni-handbook-2025_p21_para_000",
@@ -891,7 +875,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7003087623261656
+        "score": 0.7246090173721313
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p22_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 22,
+        "text": "Section 5: Academic Standing, Warning & Dismissal 5.4 Academic Dismissal Grounds and Appeal for Reinstatement An undergraduate student is subject to permanent Academic Dismissal from VinUniversity under the following explicit circumstances: (1) remaining on Academic Probation for two consecutive semesters without attaining a CGPA of 2.00, or (2) earning an SGPA below 1.00 in any individual semester. Notice of Academic Dismissal is communicated in writing by the Registrar following endorsement by the University Academic Standing Committee. Dismissed students are immediately unenrolled from all classes and required to vacate student housing within 48 hours. A dismissed student possesses the right to file a one-time Appeal for Academic Reinstatement to the Provost within seven business days of dismissal notification, based strictly on documented catastrophic life events that directly impaired academic execution. If reinstatement is granted by the Provost, the student returns under Final Probationary status with a non-negotiable target CGPA requirement of 2.20 to be achieved within one semester.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7211442326135409
       }
     ],
     "hit_at_1": true,
@@ -923,23 +923,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7699824856819987
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p25_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 25,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.3 Classification of Violations and Sanction Framework Academic misconduct infractions are classified into three hierarchical severity tiers depending on intent, magnitude of impact, and prior disciplinary record. Category 1 (Minor Infractions): Unintentional minor citation errors, inadequate paraphrasing, or unauthorized peer collaboration on minor homework (worth under 10% of course grade). Sanctions: Written formal warning, mandatory completion of the Academic Integrity Tutorial, and maximum grade of zero on the specific assignment. Category 2 (Moderate Infractions): Substantial plagiarism in research papers, using unauthorized materials during quizzes, or unauthorized use of generative AI in midterms. Sanctions: Grade of 'F' for the course, formal disciplinary probation recorded in student file for two semesters. Category 3 (Severe/Repeat Infractions): Premeditated cheating on final exams, contract cheating, thesis fabrication, or repeat Category 2 offenses. Sanctions: Immediate suspension for 1-2 semesters or permanent expulsion with transcript notation.",
-        "metadata": {
-          "year": 2025,
-          "section": "academic_integrity",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.6465962817212546
+        "score": 0.804371191764698
       },
       {
         "chunk_id": "vinuni-handbook-2025_p23_para_000",
@@ -955,7 +939,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6031207202681149
+        "score": 0.6500109299979401
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p25_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 25,
+        "text": "Section 6: Academic Integrity & Student Conduct 6.3 Classification of Violations and Sanction Framework Academic misconduct infractions are classified into three hierarchical severity tiers depending on intent, magnitude of impact, and prior disciplinary record. Category 1 (Minor Infractions): Unintentional minor citation errors, inadequate paraphrasing, or unauthorized peer collaboration on minor homework (worth under 10% of course grade). Sanctions: Written formal warning, mandatory completion of the Academic Integrity Tutorial, and maximum grade of zero on the specific assignment. Category 2 (Moderate Infractions): Substantial plagiarism in research papers, using unauthorized materials during quizzes, or unauthorized use of generative AI in midterms. Sanctions: Grade of 'F' for the course, formal disciplinary probation recorded in student file for two semesters. Category 3 (Severe/Repeat Infractions): Premeditated cheating on final exams, contract cheating, thesis fabrication, or repeat Category 2 offenses. Sanctions: Immediate suspension for 1-2 semesters or permanent expulsion with transcript notation.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.6461093315472777
       }
     ],
     "hit_at_1": true,
@@ -976,22 +976,6 @@
     },
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p25_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 25,
-        "text": "Section 6: Academic Integrity & Student Conduct 6.3 Classification of Violations and Sanction Framework Academic misconduct infractions are classified into three hierarchical severity tiers depending on intent, magnitude of impact, and prior disciplinary record. Category 1 (Minor Infractions): Unintentional minor citation errors, inadequate paraphrasing, or unauthorized peer collaboration on minor homework (worth under 10% of course grade). Sanctions: Written formal warning, mandatory completion of the Academic Integrity Tutorial, and maximum grade of zero on the specific assignment. Category 2 (Moderate Infractions): Substantial plagiarism in research papers, using unauthorized materials during quizzes, or unauthorized use of generative AI in midterms. Sanctions: Grade of 'F' for the course, formal disciplinary probation recorded in student file for two semesters. Category 3 (Severe/Repeat Infractions): Premeditated cheating on final exams, contract cheating, thesis fabrication, or repeat Category 2 offenses. Sanctions: Immediate suspension for 1-2 semesters or permanent expulsion with transcript notation.",
-        "metadata": {
-          "year": 2025,
-          "section": "academic_integrity",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7533406965899443
-      },
-      {
         "chunk_id": "vinuni-handbook-2025_p24_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
@@ -1005,7 +989,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.744590429742666
+        "score": 0.8109263036427005
       },
       {
         "chunk_id": "vinuni-handbook-2025_p23_para_000",
@@ -1021,12 +1005,28 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6727290292284344
+        "score": 0.7477531008839065
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p25_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 25,
+        "text": "Section 6: Academic Integrity & Student Conduct 6.3 Classification of Violations and Sanction Framework Academic misconduct infractions are classified into three hierarchical severity tiers depending on intent, magnitude of impact, and prior disciplinary record. Category 1 (Minor Infractions): Unintentional minor citation errors, inadequate paraphrasing, or unauthorized peer collaboration on minor homework (worth under 10% of course grade). Sanctions: Written formal warning, mandatory completion of the Academic Integrity Tutorial, and maximum grade of zero on the specific assignment. Category 2 (Moderate Infractions): Substantial plagiarism in research papers, using unauthorized materials during quizzes, or unauthorized use of generative AI in midterms. Sanctions: Grade of 'F' for the course, formal disciplinary probation recorded in student file for two semesters. Category 3 (Severe/Repeat Infractions): Premeditated cheating on final exams, contract cheating, thesis fabrication, or repeat Category 2 offenses. Sanctions: Immediate suspension for 1-2 semesters or permanent expulsion with transcript notation.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7416121296633923
       }
     ],
-    "hit_at_1": false,
+    "hit_at_1": true,
     "evidence_hit_at_3": true,
-    "hit_rank": 2,
+    "hit_rank": 1,
     "filter_compliant": true
   },
   {
@@ -1053,23 +1053,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7035488205413312
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p7_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 7,
-        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
-        "metadata": {
-          "year": 2025,
-          "section": "course_registration",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.658070819245794
+        "score": 0.7966797225701403
       },
       {
         "chunk_id": "vinuni-handbook-2025_p28_para_000",
@@ -1085,7 +1069,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6552254966293969
+        "score": 0.7280268078026314
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p7_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 7,
+        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7191653010741824
       }
     ],
     "hit_at_1": true,
@@ -1117,39 +1117,39 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.7436284613568865
+        "score": 0.7687195174505926
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p16_para_000",
+        "chunk_id": "vinuni-handbook-2025_p19_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 16,
-        "text": "Section 4: Grading System & GPA Calculation 4.2 Semester and Cumulative GPA Computation Formula The Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA) serve as primary academic performance metrics determining academic standing, honor roll eligibility, and graduation readiness. SGPA is calculated by multiplying the grade point equivalent of the letter grade earned in each course by the credit units assigned to that course, summing these quality points across all courses taken during that term, and dividing by the total credit units attempted in that term. Quality point calculations are rounded to two decimal places. Courses evaluated on a Pass/No Pass (P/NP) basis, audit courses (AU), and withdrawn courses (W) are excluded entirely from both the numerator (quality points) and the denominator (attempted credit units). When an undergraduate student repeats a previously failed course (Grade F), both attempts remain visible on the official transcript, but only the higher grade earned is incorporated into the CGPA calculation, replacing the earlier failing grade point.",
+        "page": 19,
+        "text": "Section 5: Academic Standing, Warning & Dismissal 5.1 Categories of Academic Standing and Dean's List Criteria Academic standing is officially evaluated by the Registrar at the conclusion of each regular Fall and Spring semester. All enrolled undergraduate students are categorized under one of four statuses: Good Standing, Academic Warning, Academic Probation, or Academic Dismissal. To maintain Good Academic Standing, an undergraduate student must achieve both a Semester GPA (SGPA) and Cumulative GPA (CGPA) of at least 2.00 on a 4.0 scale. Students demonstrating superior academic excellence are honored with placement on the Dean's List. To qualify for the Dean's List in a given regular semester, an undergraduate must complete a minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B', no 'I' notations, and no academic integrity penalties. Dean's List honorees receive a formal certificate of commendation from the College Dean and notation on their permanent academic transcript.",
         "metadata": {
           "year": 2025,
-          "section": "grading_gpa",
+          "section": "academic_standing",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6547198553997805
+        "score": 0.684273158230496
       },
       {
-        "chunk_id": "vinuni-handbook-2025_p15_para_000",
+        "chunk_id": "vinuni-handbook-2025_p27_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 15,
-        "text": "Section 4: Grading System & GPA Calculation 4.1 Letter Grade Scale and Grade Point Equivalencies Academic performance in undergraduate courses at VinUniversity is evaluated using an alphabetical grading scale mapped to standard 4.0 numerical grade point equivalents. Instructors assign letter grades reflecting student mastery of stated course learning outcomes. The standard grading scale is structured as follows: Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good); Grade B+ (80-84%, 3.3 points, Good); Grade B (75-79%, 3.0 points, Satisfactory); Grade B- (70-74%, 2.7 points, Adequate). Lower passing performance is designated as: Grade C+ (65-69%, 2.3 points, Marginal Pass); Grade C (60-64%, 2.0 points, Minimum Major Pass); Grade D (50-59%, 1.0 point, Bare Pass, credit earned but cannot satisfy major core prerequisites). Grade F represents Failure (0-49%, 0.0 points, No credit earned). Special administrative notations include: P (Pass, credit earned, not calculated in GPA), NP (No Pass, zero credit), W (Withdrawn), and I (Incomplete).",
+        "page": 27,
+        "text": "Section 7: Degree Requirements, Graduation & Honors 7.1 Minimum Degree Completion Requirements and Residency To be awarded an undergraduate Bachelor's degree from VinUniversity, a candidate must successfully complete all prescribed curricular elements detailed in their program catalog within the allowable degree time horizon. The minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs (such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satisfy non-credit mandatory graduation prerequisites: certification in National Defense and Security Education, completion of physical education modules, and documented completion of 100 hours of community service.",
         "metadata": {
           "year": 2025,
-          "section": "grading_gpa",
+          "section": "graduation_honors",
           "audience": "undergraduate",
           "chunking": "by_paragraph",
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6435935294584416
+        "score": 0.6842730453177134
       }
     ],
     "hit_at_1": true,
@@ -1181,23 +1181,7 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.771249995820913
-      },
-      {
-        "chunk_id": "vinuni-handbook-2025_p34_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 34,
-        "text": "Section 8: Tuition Schedule & Scholarships 8.4 Scholarship Probation and Downgrade/Revocation Rules Scholarship Probation serves as an intervention grace period of one regular semester during which the student retains their current scholarship funding level while attempting to restore their CGPA to the prescribed benchmark. If, at the conclusion of the probationary semester, the student fails to restore their CGPA to the required threshold, the scholarship is subjected to a tiered downgrade: A 100% or 90% scholarship is downgraded to a 50% award; a 70% or 50% scholarship is completely revoked, reverting the student to standard tuition liability. A student who is found responsible for any Category 2 or Category 3 violation of academic integrity or serious student conduct infraction suffers immediate, permanent, and irrevocable revocation of all university scholarship awards without probation. Scholarship revocations take effect immediately for the next billing cycle and cannot be appealed except in proven cases of grade recording miscalculation.",
-        "metadata": {
-          "year": 2025,
-          "section": "tuition_scholarships",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7211215925085049
+        "score": 0.7567011503832081
       },
       {
         "chunk_id": "vinuni-handbook-2025_p32_para_000",
@@ -1213,7 +1197,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.663706806591618
+        "score": 0.7384698308490497
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p27_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 27,
+        "text": "Section 7: Degree Requirements, Graduation & Honors 7.1 Minimum Degree Completion Requirements and Residency To be awarded an undergraduate Bachelor's degree from VinUniversity, a candidate must successfully complete all prescribed curricular elements detailed in their program catalog within the allowable degree time horizon. The minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs (such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satisfy non-credit mandatory graduation prerequisites: certification in National Defense and Security Education, completion of physical education modules, and documented completion of 100 hours of community service.",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.6989876743511436
       }
     ],
     "hit_at_1": true,
@@ -1232,22 +1232,6 @@
     "filter": null,
     "hits": [
       {
-        "chunk_id": "vinuni-handbook-2025_p10_para_000",
-        "document_id": "vinuni-handbook-2025",
-        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
-        "page": 10,
-        "text": "Section 2: Course Registration & Credit Limits 2.4 Course Withdrawal Window and Prerequisites Enforcement Subsequent to the conclusion of the Add/Drop Period, a student may officially withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester. A course withdrawal results in a permanent recorded grade notation of 'W' on the student's official academic transcript. The 'W' grade carries no grade point weight and does not impact cumulative GPA calculation; however, tuition fees paid for withdrawn courses are entirely non-refundable. Students may not withdraw from a course if such withdrawal reduces their semester credit load below the mandatory 12-credit full-time minimum, unless granted medical leave by University Health Services. A student is permitted a maximum of three 'W' grades across their entire undergraduate tenure. All course prerequisites specified in the University Course Catalog are programmatically enforced by the Student Information System. Waivers for prerequisites require concurrent approval from the course instructor, Program Director, and College Curriculum Committee.",
-        "metadata": {
-          "year": 2025,
-          "section": "course_registration",
-          "audience": "undergraduate",
-          "chunking": "by_paragraph",
-          "language": "en",
-          "document_type": "handbook"
-        },
-        "score": 0.7142785694249524
-      },
-      {
         "chunk_id": "vinuni-handbook-2025_p35_para_000",
         "document_id": "vinuni-handbook-2025",
         "source": "data/vinuni_academic_handbook_2025_2026.pdf",
@@ -1261,7 +1245,23 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.706157608706586
+        "score": 0.7407081546510793
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p10_para_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 10,
+        "text": "Section 2: Course Registration & Credit Limits 2.4 Course Withdrawal Window and Prerequisites Enforcement Subsequent to the conclusion of the Add/Drop Period, a student may officially withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester. A course withdrawal results in a permanent recorded grade notation of 'W' on the student's official academic transcript. The 'W' grade carries no grade point weight and does not impact cumulative GPA calculation; however, tuition fees paid for withdrawn courses are entirely non-refundable. Students may not withdraw from a course if such withdrawal reduces their semester credit load below the mandatory 12-credit full-time minimum, unless granted medical leave by University Health Services. A student is permitted a maximum of three 'W' grades across their entire undergraduate tenure. All course prerequisites specified in the University Course Catalog are programmatically enforced by the Student Information System. Waivers for prerequisites require concurrent approval from the course instructor, Program Director, and College Curriculum Committee.",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "by_paragraph",
+          "language": "en",
+          "document_type": "handbook"
+        },
+        "score": 0.7141610128168338
       },
       {
         "chunk_id": "vinuni-handbook-2025_p14_para_000",
@@ -1277,12 +1277,12 @@
           "language": "en",
           "document_type": "handbook"
         },
-        "score": 0.6770934459589286
+        "score": 0.6824033898601963
       }
     ],
-    "hit_at_1": false,
+    "hit_at_1": true,
     "evidence_hit_at_3": true,
-    "hit_rank": 2,
+    "hit_rank": 1,
     "filter_compliant": null
   }
 ]

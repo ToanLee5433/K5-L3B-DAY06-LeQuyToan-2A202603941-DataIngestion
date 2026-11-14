@@ -7,12 +7,16 @@ import time
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Ensure starter modules and root modules can be imported
+# Find repo root reliably
 current_dir = Path(__file__).resolve().parent
-if (current_dir.parent / "data").exists() or (current_dir.parent / "starter").exists():
-    repo_root = current_dir.parent
+candidate = current_dir
+while candidate != candidate.parent:
+    if (candidate / "STUDENT.md").exists() or (candidate / "BENCHMARK.md").exists():
+        repo_root = candidate
+        break
+    candidate = candidate.parent
 else:
-    repo_root = current_dir.parent.parent
+    repo_root = current_dir.parent
 
 sys.path.insert(0, str(repo_root))
 sys.path.insert(0, str(repo_root / "starter"))
@@ -71,7 +75,7 @@ def main() -> None:
     print(f"Strategy B/C (Paragraph max 1000): {len(chunks_b)} chunks, avg len: {sum(len(c.text) for c in chunks_b)/len(chunks_b):.1f} chars")
 
     print("\n=== Step 3: Embeddings & Vector Store ===")
-    embedder = GeminiEmbedder(api_key=api_key, model_name="models/gemini-embedding-001", dimensions=768)
+    embedder = GeminiEmbedder(api_key=api_key, model_name="models/gemini-embedding-2", dimensions=768)
     store = PgVectorStore(database_url=db_url, dimensions=768)
     store.create_schema()
 
@@ -189,21 +193,21 @@ def main() -> None:
         ])
         writer.writerow([
             "A", "fixed_size", "500", "50", "doc,page,section", "none",
-            "gemini-embedding-001(768d)", "Fixed chunks may split sentences/paragraphs, lowering evidence recall",
+            "gemini-embedding-2(768d)", "Fixed chunks may split sentences/paragraphs, lowering evidence recall",
             summary_a["dev"]["hit_1_ratio"], summary_a["dev"]["hit_3_ratio"],
             summary_a["test"]["hit_1_ratio"], summary_a["test"]["hit_3_ratio"],
             f"{len(chunks_a)} chunks, {time_a:.1f}s ingest"
         ])
         writer.writerow([
             "B", "by_paragraph", "1000", "0", "doc,page,section", "none",
-            "gemini-embedding-001(768d)", "Paragraph chunking preserves semantic integrity, improving Hit@1 and Hit@3",
+            "gemini-embedding-2(768d)", "Paragraph chunking preserves semantic integrity, improving Hit@1 and Hit@3",
             summary_b["dev"]["hit_1_ratio"], summary_b["dev"]["hit_3_ratio"],
             summary_b["test"]["hit_1_ratio"], summary_b["test"]["hit_3_ratio"],
             f"{len(chunks_b)} chunks, {time_b:.1f}s ingest"
         ])
         writer.writerow([
             "C", "by_paragraph", "1000", "0", "doc,page,section", "metadata_filter(section)",
-            "gemini-embedding-001(768d)", "Adding metadata filtering eliminates cross-section distractor noise for filtered queries",
+            "gemini-embedding-2(768d)", "Adding metadata filtering eliminates cross-section distractor noise for filtered queries",
             summary_c["dev"]["hit_1_ratio"], summary_c["dev"]["hit_3_ratio"],
             summary_c["test"]["hit_1_ratio"], summary_c["test"]["hit_3_ratio"],
             f"{len(chunks_c)} chunks, {time_b:.1f}s ingest, filter queries 100% compliant"

@@ -23,12 +23,12 @@ class Embedder(Protocol):
 
 
 class GeminiEmbedder:
-    """Production Gemini Embeddings adapter using models/gemini-embedding-001 (768 dimensions)."""
+    """Production Gemini Embeddings adapter using models/gemini-embedding-2 (Gemini Embedding 2, 768 dimensions)."""
 
     def __init__(
         self,
         api_key: str | None = None,
-        model_name: str = "models/gemini-embedding-001",
+        model_name: str = "models/gemini-embedding-2",
         dimensions: int = 768,
         cache_path: str | Path | None = None,
     ) -> None:
