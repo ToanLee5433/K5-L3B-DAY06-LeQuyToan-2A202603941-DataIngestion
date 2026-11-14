@@ -1,0 +1,274 @@
+{
+  "source_id": "vinuni-handbook-2025",
+  "title": "VinUniversity Academic Regulations and Student Policy Handbook 2025-2026",
+  "source_path_or_url": "data/vinuni_academic_handbook_2025_2026.pdf",
+  "license_or_permission": "Public Educational Institutional Policy / Fair Use for Academic Research & Ingestion Lab",
+  "accessed_at": "2026-11-14T09:30:00+07:00",
+  "effective_date": "2025-08-15",
+  "version": "2025.2",
+  "physical_pages": 36,
+  "content_pages_count": 33,
+  "content_pages_range": "Pages 3 to 35 (Pages 1, 2 and 36 excluded as Cover, TOC and Appendix)",
+  "page_counting_rule": "Physical pages 1 (Cover), 2 (TOC), and 36 (Appendix) are excluded; pages 3 through 35 containing substantive academic regulations are included (33 pages >= 30 required).",
+  "total_content_characters": 37184,
+  "sections": [
+    {
+      "id": "admissions",
+      "pages": "3-6",
+      "topic": "Undergraduate Admissions & Matriculation"
+    },
+    {
+      "id": "course_registration",
+      "pages": "7-10",
+      "topic": "Course Registration, Credit Limits & Add/Drop/Withdrawal"
+    },
+    {
+      "id": "attendance_leave",
+      "pages": "11-14",
+      "topic": "Class Attendance, Absence Protocols & Leave of Absence"
+    },
+    {
+      "id": "grading_gpa",
+      "pages": "15-18",
+      "topic": "Grading Scale, GPA Calculation, Incomplete & Grade Appeals"
+    },
+    {
+      "id": "academic_standing",
+      "pages": "19-22",
+      "topic": "Good Standing, Dean List, Academic Warning, Probation & Dismissal"
+    },
+    {
+      "id": "academic_integrity",
+      "pages": "23-26",
+      "topic": "Academic Honesty, Generative AI Use, Violations & Board"
+    },
+    {
+      "id": "graduation_honors",
+      "pages": "27-30",
+      "topic": "Degree Requirements, Residency, Maximum Duration & Latin Honors"
+    },
+    {
+      "id": "tuition_scholarships",
+      "pages": "31-35",
+      "topic": "Tuition Schedule, Merit Scholarships, Retention Criteria & Financial Aid"
+    }
+  ],
+  "pages_detail": [
+    {
+      "page_number": 1,
+      "is_content_page": false,
+      "char_count": 338,
+      "section": "other"
+    },
+    {
+      "page_number": 2,
+      "is_content_page": false,
+      "char_count": 1109,
+      "section": "other"
+    },
+    {
+      "page_number": 3,
+      "is_content_page": true,
+      "char_count": 1383,
+      "section": "admissions"
+    },
+    {
+      "page_number": 4,
+      "is_content_page": true,
+      "char_count": 1352,
+      "section": "admissions"
+    },
+    {
+      "page_number": 5,
+      "is_content_page": true,
+      "char_count": 1234,
+      "section": "admissions"
+    },
+    {
+      "page_number": 6,
+      "is_content_page": true,
+      "char_count": 1168,
+      "section": "admissions"
+    },
+    {
+      "page_number": 7,
+      "is_content_page": true,
+      "char_count": 1209,
+      "section": "course_registration"
+    },
+    {
+      "page_number": 8,
+      "is_content_page": true,
+      "char_count": 1117,
+      "section": "course_registration"
+    },
+    {
+      "page_number": 9,
+      "is_content_page": true,
+      "char_count": 1114,
+      "section": "course_registration"
+    },
+    {
+      "page_number": 10,
+      "is_content_page": true,
+      "char_count": 1171,
+      "section": "course_registration"
+    },
+    {
+      "page_number": 11,
+      "is_content_page": true,
+      "char_count": 1232,
+      "section": "attendance_leave"
+    },
+    {
+      "page_number": 12,
+      "is_content_page": true,
+      "char_count": 1195,
+      "section": "attendance_leave"
+    },
+    {
+      "page_number": 13,
+      "is_content_page": true,
+      "char_count": 1162,
+      "section": "attendance_leave"
+    },
+    {
+      "page_number": 14,
+      "is_content_page": true,
+      "char_count": 1076,
+      "section": "attendance_leave"
+    },
+    {
+      "page_number": 15,
+      "is_content_page": true,
+      "char_count": 1122,
+      "section": "grading_gpa"
+    },
+    {
+      "page_number": 16,
+      "is_content_page": true,
+      "char_count": 1106,
+      "section": "grading_gpa"
+    },
+    {
+      "page_number": 17,
+      "is_content_page": true,
+      "char_count": 1062,
+      "section": "grading_gpa"
+    },
+    {
+      "page_number": 18,
+      "is_content_page": true,
+      "char_count": 1124,
+      "section": "grading_gpa"
+    },
+    {
+      "page_number": 19,
+      "is_content_page": true,
+      "char_count": 1047,
+      "section": "academic_standing"
+    },
+    {
+      "page_number": 20,
+      "is_content_page": true,
+      "char_count": 1027,
+      "section": "academic_standing"
+    },
+    {
+      "page_number": 21,
+      "is_content_page": true,
+      "char_count": 1065,
+      "section": "academic_standing"
+    },
+    {
+      "page_number": 22,
+      "is_content_page": true,
+      "char_count": 1108,
+      "section": "academic_standing"
+    },
+    {
+      "page_number": 23,
+      "is_content_page": true,
+      "char_count": 1151,
+      "section": "academic_integrity"
+    },
+    {
+      "page_number": 24,
+      "is_content_page": true,
+      "char_count": 1119,
+      "section": "academic_integrity"
+    },
+    {
+      "page_number": 25,
+      "is_content_page": true,
+      "char_count": 1124,
+      "section": "academic_integrity"
+    },
+    {
+      "page_number": 26,
+      "is_content_page": true,
+      "char_count": 1014,
+      "section": "academic_integrity"
+    },
+    {
+      "page_number": 27,
+      "is_content_page": true,
+      "char_count": 1160,
+      "section": "graduation_honors"
+    },
+    {
+      "page_number": 28,
+      "is_content_page": true,
+      "char_count": 938,
+      "section": "graduation_honors"
+    },
+    {
+      "page_number": 29,
+      "is_content_page": true,
+      "char_count": 1050,
+      "section": "graduation_honors"
+    },
+    {
+      "page_number": 30,
+      "is_content_page": true,
+      "char_count": 1090,
+      "section": "graduation_honors"
+    },
+    {
+      "page_number": 31,
+      "is_content_page": true,
+      "char_count": 1119,
+      "section": "tuition_scholarships"
+    },
+    {
+      "page_number": 32,
+      "is_content_page": true,
+      "char_count": 1012,
+      "section": "tuition_scholarships"
+    },
+    {
+      "page_number": 33,
+      "is_content_page": true,
+      "char_count": 1117,
+      "section": "tuition_scholarships"
+    },
+    {
+      "page_number": 34,
+      "is_content_page": true,
+      "char_count": 1060,
+      "section": "tuition_scholarships"
+    },
+    {
+      "page_number": 35,
+      "is_content_page": true,
+      "char_count": 1156,
+      "section": "tuition_scholarships"
+    },
+    {
+      "page_number": 36,
+      "is_content_page": false,
+      "char_count": 870,
+      "section": "other"
+    }
+  ]
+}

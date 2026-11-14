@@ -1,0 +1,1408 @@
+[
+  {
+    "question_id": "q01",
+    "split": "dev",
+    "question": "Điểm IELTS tối thiểu để được xét tuyển thẳng không điều kiện vào VinUniversity là bao nhiêu?",
+    "expected_answer": "IELTS Academic tối thiểu 6.5, không kỹ năng nào dưới 6.0.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 4,
+    "evidence_quote": "overall band score of at least 6.5 on the International English Language Testing System (IELTS Academic), with no individual sub-band score falling below 6.0",
+    "filter": {
+      "section": "admissions"
+    },
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p4_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 4,
+        "text": "Section 1: Undergraduate Admissions & Matriculation 1.2 English Language Proficiency Prerequisites Because the official medium of instruction and academic research across all colleges at VinUniversity is English, candidates must substantiate adequate linguistic competence prior to formal matriculation into credit-bearing coursework. The standard baseline English qualification for unconditional admission is an overall band score of at least 6.5 on the International English Language Testing System",
+        "metadata": {
+          "year": 2025,
+          "section": "admissions",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.8035210757464892
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p3_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 3,
+        "text": "Section 1: Undergraduate Admissions & Matriculation 1.1 General Admissions Standards and Holistic Review VinUniversity undergraduate admissions employs a comprehensive holistic assessment framework designed to evaluate intellectual capability, personal character, and leadership aspiration. Every application is independently reviewed by members of the Admissions Committee across four core dimensions: Academic Excellence, Leadership Potential, Creative Thinking, and Inherent Passion. Applicants mu",
+        "metadata": {
+          "year": 2025,
+          "section": "admissions",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7239522448026
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p27_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 27,
+        "text": "such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satis",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.6964599340698067
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hit_rank": null,
+    "filter_compliant": false
+  },
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "question": "Tiền đặt cọc xác nhận nhập học sau khi nhận Offer of Admission là bao nhiêu và thời hạn chấp nhận là bao lâu?",
+    "expected_answer": "20.000.000 VNĐ, hoàn thành trong vòng 14 ngày kể từ khi nhận thư mời.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 6,
+    "evidence_quote": "non-refundable enrollment deposit of 20,000,000 VND is required upon acceptance",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p6_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 6,
+        "text": "Section 1: Undergraduate Admissions & Matriculation 1.4 Enrollment Confirmation, Deposit and Document Verification Successful applicants receive an official Offer of Admission issued electronically by the Office of the University Registrar. To secure a seat in the matriculating cohort, admitted students must complete formal acceptance within 14 calendar days of offer transmission. A non-refundable enrollment deposit of 20,000,000 VND is required upon acceptance. This deposit is credited in full",
+        "metadata": {
+          "year": 2025,
+          "section": "admissions",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7895285381182384
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p6_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 6,
+        "text": "upon acceptance. This deposit is credited in full toward the first semester's tuition liability but is forfeited should the admitted candidate decline enrollment subsequent to confirmation. Matriculation is contingent upon physical verification of original diplomas, apostilled transcripts, medical clearance records confirming immunization compliance, and valid identification. Falsification or withholding of academic history constitutes grounds for immediate revocation of admission and permanent",
+        "metadata": {
+          "year": 2025,
+          "section": "admissions",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.6983227900091363
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p31_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 31,
+        "text": "nagement and the College of Engineering & Computer Science is 815,000,000 VND (equivalent to approximately 35,000 USD), billed in two equal semester installments. Tuition invoices are issued electronically 30 calendar days prior to the start of each semester. The mandatory payment deadline is 17:00 on the Friday preceding the first day of class for that semester. Late payments incur an automatic administrative late surcharge of 2% per month calculated on the unpaid balance. Students with outstan",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.6281581899153293
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q03",
+    "split": "dev",
+    "question": "Hạn chót nộp hồ sơ xét tuyển đợt Regular Decision cho năm học 2025-2026 là ngày nào?",
+    "expected_answer": "Ngày 15 tháng 3 năm 2026.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 5,
+    "evidence_quote": "the Regular Decision Round closes on March 15, 2026",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p5_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 5,
+        "text": "deadline for the Early Decision Round is November 15, 2025; the Regular Decision Round closes on March 15, 2026; and the final Rolling Admissions Round concludes on May 31, 2026. Submissions past 23:59 Indochina Time (UTC+7) on the respective deadline dates will not be reviewed for that cycle. Shortlisted candidates must complete a 30-minute interactive evaluative interview conducted in English by a dual-member faculty panel. The interview assesses problem-solving methodology, ethical reasoning,",
+        "metadata": {
+          "year": 2025,
+          "section": "admissions",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7599592441765917
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p5_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 5,
+        "text": "Section 1: Undergraduate Admissions & Matriculation 1.3 Application Rounds, Deadlines, and Evaluative Interview The annual undergraduate admissions cycle comprises three sequential evaluation windows: the Early Decision Round, the Regular Decision Round, and the Rolling Admissions Round. Applicants are strongly advised to submit documentation during earlier windows to optimize merit scholarship consideration. For the 2025-2026 academic year, the deadline for the Early Decision Round is November",
+        "metadata": {
+          "year": 2025,
+          "section": "admissions",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7440230283178375
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p31_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 31,
+        "text": "nagement and the College of Engineering & Computer Science is 815,000,000 VND (equivalent to approximately 35,000 USD), billed in two equal semester installments. Tuition invoices are issued electronically 30 calendar days prior to the start of each semester. The mandatory payment deadline is 17:00 on the Friday preceding the first day of class for that semester. Late payments incur an automatic administrative late surcharge of 2% per month calculated on the unpaid balance. Students with outstan",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.6425722065913538
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q04",
+    "split": "dev",
+    "question": "Sinh viên đại học cần đăng ký tối thiểu và tối đa bao nhiêu tín chỉ trong một học kỳ chính tiêu chuẩn?",
+    "expected_answer": "Tối thiểu 12 tín chỉ để duy trì toàn thời gian và tối đa 20 tín chỉ.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 7,
+    "evidence_quote": "minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p7_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 7,
+        "text": "hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, repres",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7970283125354792
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p7_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 7,
+        "text": "Section 2: Course Registration & Credit Limits 2.1 Academic Credit Framework and Term Workload Limits Academic progression at VinUniversity is measured in United States semester credit units. One lecture credit corresponds to 15 contact hours of classroom instruction plus an expected 30 hours of supplementary student preparation, analysis, and study over the semester. Laboratory, clinical, and studio credits require a minimum of 30 to 45 contact hours per credit. Undergraduate degree candidates",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7322503916266101
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p7_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 7,
+        "text": "um allowable credit load is 8 credit units, representing no more than two intensive academic courses. Registration below 12 credit units triggers part-time status, which requires prior approval from the Dean of College and may result in the forfeiture of merit scholarships and residential housing privileges.",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1209,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.7320602916093102
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q05",
+    "split": "dev",
+    "question": "Điều kiện về điểm GPA tích lũy và số tín chỉ để sinh viên được phép đăng ký vượt tải (overload) lên đến 23 tín chỉ là gì?",
+    "expected_answer": "CGPA tối thiểu 3.50 và đã tích lũy ít nhất 30 tín chỉ tại VinUniversity.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 8,
+    "evidence_quote": "cumulative grade point average (CGPA) of at least 3.50 on a 4.0 scale and must have successfully earned at least 30 credit units in residency",
+    "filter": {
+      "section": "course_registration"
+    },
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p8_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 8,
+        "text": "Section 2: Course Registration & Credit Limits 2.2 Overload Credit Approval Criteria and Procedures Enrolling in academic credit beyond the maximum ceiling of 20 units in a regular semester constitutes an academic overload. Overload enrollment demands rigorous intellectual stamina and is restricted to students demonstrating outstanding scholarly competence. To qualify for an academic overload up to a hard ceiling of 23 credit units, a student must possess a cumulative grade point average (CGPA)",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.8564958012317849
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p8_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 8,
+        "text": "t possess a cumulative grade point average (CGPA) of at least 3.50 on a 4.0 scale and must have successfully earned at least 30 credit units in residency at VinUniversity without any unexcused course failures or academic integrity infractions. Overload petitions must be initiated through the student academic portal no later than two weeks prior to the start of the semester and require written endorsement from the Academic Advisor, followed by formal sanction by the Program Director. First-year u",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7661636171466472
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p7_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 7,
+        "text": "hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, repres",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.696227846533685
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hit_rank": 2,
+    "filter_compliant": true
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "question": "Thời hạn Add/Drop môn học vào đầu học kỳ kéo dài trong bao lâu?",
+    "expected_answer": "14 ngày (hai tuần học), kết thúc vào 17:00 thứ Sáu của tuần thứ hai.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 9,
+    "evidence_quote": "Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p9_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 9,
+        "text": "Section 2: Course Registration & Credit Limits 2.3 Add/Drop Course Period and Schedule Adjustment At the opening of each regular semester, an official Add/Drop Period is provided to enable students to modify their registered course schedules in response to curriculum requirements, instructor evaluations, and personal learning pace. The Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the sec",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.818133650794616
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p9_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 9,
+        "text": "of class and ending at 17:00 on Friday of the second academic week. During this window, courses dropped do not appear on the student's permanent academic transcript, and no record of enrollment is retained. Adding courses is strictly subject to available seat capacity, meeting stated prerequisite requirements, and ensuring that no timetable scheduling conflicts exist with other enrolled courses. Faculty instructors do not possess authority to grant enrollment overrides beyond registered room fi",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7580639873473797
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p31_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 31,
+        "text": "lated on the unpaid balance. Students with outstanding unpaid tuition balances past the conclusion of the Add/Drop Period will have their course registrations cancelled and be placed on involuntary financial suspension.",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1119,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.6850454429934983
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hit_rank": null,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "question": "Sinh viên được phép rút môn (Course Withdrawal) nhận điểm W từ tuần thứ mấy và tối đa bao nhiêu lần trong suốt khóa học?",
+    "expected_answer": "Từ tuần 3 đến 17:00 thứ Sáu tuần 8; tối đa 3 lần nhận điểm W.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 10,
+    "evidence_quote": "withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p10_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 10,
+        "text": "Section 2: Course Registration & Credit Limits 2.4 Course Withdrawal Window and Prerequisites Enforcement Subsequent to the conclusion of the Add/Drop Period, a student may officially withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester. A course withdrawal results in a permanent recorded grade notation of 'W' on the student's official academic transcript. The 'W' grade carries no grade point weight and does not impact",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7900583320365833
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p10_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 10,
+        "text": "carries no grade point weight and does not impact cumulative GPA calculation; however, tuition fees paid for withdrawn courses are entirely non-refundable. Students may not withdraw from a course if such withdrawal reduces their semester credit load below the mandatory 12-credit full-time minimum, unless granted medical leave by University Health Services. A student is permitted a maximum of three 'W' grades across their entire undergraduate tenure. All course prerequisites specified in the Uni",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7768760865439767
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p9_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 9,
+        "text": "Section 2: Course Registration & Credit Limits 2.3 Add/Drop Course Period and Schedule Adjustment At the opening of each regular semester, an official Add/Drop Period is provided to enable students to modify their registered course schedules in response to curriculum requirements, instructor evaluations, and personal learning pace. The Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the sec",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.696251057639954
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q08",
+    "split": "dev",
+    "question": "Tỷ lệ chuyên cần tối thiểu sinh viên bắt buộc phải duy trì để được phép tham gia thi kết thúc môn học là bao nhiêu?",
+    "expected_answer": "Tối thiểu 80% tổng số giờ học theo thời khóa biểu.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 11,
+    "evidence_quote": "minimum attendance rate of 80% of all scheduled instructional contact hours in each enrolled course",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p12_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 12,
+        "text": "tal within three business days of returning to campus. Even with verified excused absences, a student who misses more than 35% of total instructional contact hours in a course cannot receive a passing grade due to inadequate experiential exposure and must repeat the course in a subsequent term.",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1195,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.7144801433436
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p11_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 11,
+        "text": "f all scheduled instructional contact hours in each enrolled course. Failure to achieve 80% attendance without approved medical or university-sanctioned excused absence results in immediate academic disqualification from sitting the final course examination. Students disqualified for excessive absenteeism automatically receive a failing course grade of 'F' with 0.0 grade points, which is computed into both the semester and cumulative grade point averages. Instructors must issue formal written wa",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.710858961200224
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p11_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 11,
+        "text": "Section 3: Class Attendance & Leave of Absence 3.1 Mandatory Attendance Standards and Classroom Engagement Active participation and regular physical classroom attendance are vital components of the participatory pedagogical philosophy at VinUniversity. Attendance is rigorously tracked across all lecture, seminar, discussion group, laboratory, and clinical sessions. Undergraduate students are required to maintain a minimum attendance rate of 80% of all scheduled instructional contact hours in eac",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7056290310940055
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hit_rank": null,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q09",
+    "split": "dev",
+    "question": "Sinh viên vắng mặt quá bao nhiêu phần trăm tổng số giờ học thì dù có lý do chính đáng vẫn không được công nhận qua môn và phải học lại?",
+    "expected_answer": "Quá 35% tổng số giờ học.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 12,
+    "evidence_quote": "misses more than 35% of total instructional contact hours in a course cannot receive a passing grade",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p12_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 12,
+        "text": "tal within three business days of returning to campus. Even with verified excused absences, a student who misses more than 35% of total instructional contact hours in a course cannot receive a passing grade due to inadequate experiential exposure and must repeat the course in a subsequent term.",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1195,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.7597578023926617
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p11_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 11,
+        "text": "f all scheduled instructional contact hours in each enrolled course. Failure to achieve 80% attendance without approved medical or university-sanctioned excused absence results in immediate academic disqualification from sitting the final course examination. Students disqualified for excessive absenteeism automatically receive a failing course grade of 'F' with 0.0 grade points, which is computed into both the semester and cumulative grade point averages. Instructors must issue formal written wa",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7514853348870876
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p11_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 11,
+        "text": "averages. Instructors must issue formal written warnings to students whose cumulative unexcused absences exceed 10% of total contact hours. Tardiness exceeding 15 minutes past the scheduled class start time is recorded as a half-absence; three recorded tardies equal one full instructional absence in official attendance accounting.",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1232,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.7372708418112467
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q10",
+    "split": "dev",
+    "question": "Thời gian tối đa được phép nghỉ học tạm thời (Leave of Absence) trong toàn bộ khóa học đại học là bao lâu?",
+    "expected_answer": "Tối đa hai học kỳ chính.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 13,
+    "evidence_quote": "cumulative lifetime maximum allowance for voluntary leave of absence is two regular semesters",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p13_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 13,
+        "text": "Section 3: Class Attendance & Leave of Absence 3.3 Voluntary Leave of Absence Application and Limits A student in good academic standing who faces personal, financial, family, or health challenges may submit a formal application for a Voluntary Leave of Absence (LOA) to temporarily pause their university studies without terminating degree candidacy. An approved Leave of Absence is granted for a duration of one or two consecutive regular semesters. The cumulative lifetime maximum allowance for vo",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7890925416687563
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p13_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 13,
+        "text": ". The cumulative lifetime maximum allowance for voluntary leave of absence is two regular semesters across the entire undergraduate degree program. Applications for voluntary leave must be filed with the Office of the Registrar at least four weeks prior to the start of the prospective semester. Retroactive leave requests during an active semester are strictly prohibited except in cases of catastrophic medical emergency certified by a licensed medical board. During the period of an authorized Lea",
+        "metadata": {
+          "year": 2025,
+          "section": "attendance_leave",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7762836156507404
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p28_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 28,
+        "text": "ven academic years (fourteen regular semesters) for 5-year undergraduate engineering curricula. Approved leaves of absence do not count toward the maximum allowable duration of study, provided the total cumulative leave does not exceed the two-semester statutory limit set forth in Section 3.3. Any candidate who fails to fulfill all degree prerequisites within the prescribed maximum duration limit will have their degree candidacy automatically terminated without issuance of a diploma.",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 938,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7484675472319875
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hit_rank": 2,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q11",
+    "split": "dev",
+    "question": "Thang điểm chữ A+ và A- tương ứng với bao nhiêu điểm số theo thang 4.0 tại VinUniversity?",
+    "expected_answer": "A+ tương ứng 4.0 điểm, A- tương ứng 3.7 điểm.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 15,
+    "evidence_quote": "Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good)",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p15_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 15,
+        "text": "Section 4: Grading System & GPA Calculation 4.1 Letter Grade Scale and Grade Point Equivalencies Academic performance in undergraduate courses at VinUniversity is evaluated using an alphabetical grading scale mapped to standard 4.0 numerical grade point equivalents. Instructors assign letter grades reflecting student mastery of stated course learning outcomes. The standard grading scale is structured as follows: Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent)",
+        "metadata": {
+          "year": 2025,
+          "section": "grading_gpa",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.8410127517130778
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p15_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 15,
+        "text": "eptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good); Grade B+ (80-84%, 3.3 points, Good); Grade B (75-79%, 3.0 points, Satisfactory); Grade B- (70-74%, 2.7 points, Adequate). Lower passing performance is designated as: Grade C+ (65-69%, 2.3 points, Marginal Pass); Grade C (60-64%, 2.0 points, Minimum Major Pass); Grade D (50-59%, 1.0 point, Bare Pass, credit earned but cannot satisfy major core prerequisites). Grade F represents Failure (0-49%, 0.0 points",
+        "metadata": {
+          "year": 2025,
+          "section": "grading_gpa",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7151653599357015
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p27_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 27,
+        "text": "such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satis",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.6809384670809717
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "hit_rank": null,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q12",
+    "split": "dev",
+    "question": "Thời hạn tối đa để sinh viên hoàn thành các nội dung còn nợ của điểm Incomplete (I) trước khi bị chuyển thành điểm F là bao lâu?",
+    "expected_answer": "Bốn tuần kể từ ngày bắt đầu học kỳ chính tiếp theo.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 17,
+    "evidence_quote": "finished and evaluated within four calendar weeks from the first day of instruction of the immediately subsequent regular semester",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p17_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 17,
+        "text": "mandatory four-week deadline, the recorded 'I' notation automatically and permanently converts to a default failing grade of 'F' on the student's academic record.",
+        "metadata": {
+          "year": 2025,
+          "section": "grading_gpa",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1062,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.8487472032139952
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p17_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 17,
+        "text": "f total course evaluation components with a cumulative passing average and must submit a formal Incomplete Contract co-signed by the course instructor prior to final examination week. All outstanding coursework specified in the Incomplete Contract must be finished and evaluated within four calendar weeks from the first day of instruction of the immediately subsequent regular semester. If the student fails to complete the required work within the mandatory four-week deadline, the recorded 'I' not",
+        "metadata": {
+          "year": 2025,
+          "section": "grading_gpa",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.8408661194173866
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p17_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 17,
+        "text": "Section 4: Grading System & GPA Calculation 4.3 Incomplete Grade (I) Regulations and Conversion Timeline The notation 'I' (Incomplete) represents an interim designation granted solely when extraordinary, non-academic emergencies prevent a student from completing a minor remaining portion of course requirements (such as a final paper or exam) by term conclusion. To be eligible for an Incomplete grade, the student must have completed at least 70% of total course evaluation components with a cumula",
+        "metadata": {
+          "year": 2025,
+          "section": "grading_gpa",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.8249099541372219
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hit_rank": 2,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q13",
+    "split": "dev",
+    "question": "Điều kiện về số tín chỉ và điểm GPA học kỳ để sinh viên được ghi danh vào bảng vinh danh Dean List là gì?",
+    "expected_answer": "Tối thiểu 15 tín chỉ tính điểm chữ và GPA học kỳ từ 3.75 trở lên, không có môn dưới B.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 19,
+    "evidence_quote": "minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B'",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p19_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 19,
+        "text": "t achieve both a Semester GPA (SGPA) and Cumulative GPA (CGPA) of at least 2.00 on a 4.0 scale. Students demonstrating superior academic excellence are honored with placement on the Dean's List. To qualify for the Dean's List in a given regular semester, an undergraduate must complete a minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B', no 'I' notations, and no academic integrity penalties. Dean's List honorees receive a formal certi",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.8118353855252662
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p19_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 19,
+        "text": "lties. Dean's List honorees receive a formal certificate of commendation from the College Dean and notation on their permanent academic transcript.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1047,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.7206316665389252
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p19_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 19,
+        "text": "Section 5: Academic Standing, Warning & Dismissal 5.1 Categories of Academic Standing and Dean's List Criteria Academic standing is officially evaluated by the Registrar at the conclusion of each regular Fall and Spring semester. All enrolled undergraduate students are categorized under one of four statuses: Good Standing, Academic Warning, Academic Probation, or Academic Dismissal. To maintain Good Academic Standing, an undergraduate student must achieve both a Semester GPA (SGPA) and Cumulativ",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7137098152345582
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q14",
+    "split": "dev",
+    "question": "Sinh viên bị rơi vào tình trạng Cảnh báo học vụ (Academic Warning) khi điểm GPA kỳ hoặc GPA tích lũy rơi vào ngưỡng nào?",
+    "expected_answer": "GPA học kỳ dưới 2.00 hoặc GPA tích lũy từ 1.80 đến 1.99.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 20,
+    "evidence_quote": "Semester GPA falls below 2.00 in any single semester, or whose Cumulative GPA falls between 1.80 and 1.99",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p20_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 20,
+        "text": "Section 5: Academic Standing, Warning & Dismissal 5.2 Academic Warning Triggers and Mandatory Tutoring A student whose Semester GPA falls below 2.00 in any single semester, or whose Cumulative GPA falls between 1.80 and 1.99, is immediately placed on Academic Warning status for the subsequent semester. Academic Warning serves as an early institutional notification that the student is in jeopardy of academic failure. Students on Academic Warning are restricted to a maximum enrollment of 14 credit",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7742761017074096
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p19_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 19,
+        "text": "Section 5: Academic Standing, Warning & Dismissal 5.1 Categories of Academic Standing and Dean's List Criteria Academic standing is officially evaluated by the Registrar at the conclusion of each regular Fall and Spring semester. All enrolled undergraduate students are categorized under one of four statuses: Good Standing, Academic Warning, Academic Probation, or Academic Dismissal. To maintain Good Academic Standing, an undergraduate student must achieve both a Semester GPA (SGPA) and Cumulativ",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_standing",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7425152978159976
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p33_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 33,
+        "text": "rded violations of the Student Code of Conduct. Failure to meet either the CGPA threshold or the credit completion requirement triggers automatic placement on Scholarship Probation for the following academic semester.",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1117,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.708684985143433
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q15",
+    "split": "dev",
+    "question": "Khi được giảng viên cho phép dùng công cụ Generative AI trong bài làm, sinh viên bắt buộc phải công bố những nội dung gì?",
+    "expected_answer": "Tên công cụ và phiên bản model, toàn bộ câu lệnh prompt, và phần giải trình cách xác thực và chỉnh sửa kết quả.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 24,
+    "evidence_quote": "specific tool and model version employed, the complete prompt strings used, and a concise narrative explaining how generated outputs were verified, edited, and integrated",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p24_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 24,
+        "text": "de, Copilot, or Gemini) may only be used when explicitly permitted in writing within the course syllabus or written assignment guidelines provided by the instructor. When AI utilization is permitted, students must provide explicit attribution in an 'AI Acknowledgement Section' detailing: the specific tool and model version employed, the complete prompt strings used, and a concise narrative explaining how generated outputs were verified, edited, and integrated. Submitting AI-generated prose, code",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7937620566848165
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p24_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 24,
+        "text": "Section 6: Academic Integrity & Student Conduct 6.2 Responsible Use of Generative AI and Citation Rules VinUniversity recognizes generative artificial intelligence (GenAI) technologies as potentially transformative cognitive tools. However, their educational utilization must be strictly regulated to preserve authentic learning and student agency. The baseline institutional rule across all courses is that generative AI tools (such as ChatGPT, Claude, Copilot, or Gemini) may only be used when expl",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7506627822496259
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p24_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 24,
+        "text": "nd integrated. Submitting AI-generated prose, code, or data as one's original intellectual creation without explicit disclosure is classified as Category 2 Academic Misconduct, subject to mandatory punitive proceedings.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1119,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.6953769107177407
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "question": "Hành vi sử dụng công cụ AI tạo sinh nộp bài mà không khai báo bị xếp vào mức vi phạm liêm chính học thuật nào?",
+    "expected_answer": "Vi phạm Mức 2 (Category 2 Academic Misconduct), bị điểm F môn học và thử thách kỷ luật 2 kỳ.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 24,
+    "evidence_quote": "classified as Category 2 Academic Misconduct, subject to mandatory punitive proceedings",
+    "filter": {
+      "section": "academic_integrity"
+    },
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p25_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 25,
+        "text": "ions: Written formal warning, mandatory completion of the Academic Integrity Tutorial, and maximum grade of zero on the specific assignment. Category 2 (Moderate Infractions): Substantial plagiarism in research papers, using unauthorized materials during quizzes, or unauthorized use of generative AI in midterms. Sanctions: Grade of 'F' for the course, formal disciplinary probation recorded in student file for two semesters. Category 3 (Severe/Repeat Infractions): Premeditated cheating on final e",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7642739943379853
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p24_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 24,
+        "text": "nd integrated. Submitting AI-generated prose, code, or data as one's original intellectual creation without explicit disclosure is classified as Category 2 Academic Misconduct, subject to mandatory punitive proceedings.",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1119,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.7641733232828736
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p24_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 24,
+        "text": "de, Copilot, or Gemini) may only be used when explicitly permitted in writing within the course syllabus or written assignment guidelines provided by the instructor. When AI utilization is permitted, students must provide explicit attribution in an 'AI Acknowledgement Section' detailing: the specific tool and model version employed, the complete prompt strings used, and a concise narrative explaining how generated outputs were verified, edited, and integrated. Submitting AI-generated prose, code",
+        "metadata": {
+          "year": 2025,
+          "section": "academic_integrity",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7385948752143122
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hit_rank": 2,
+    "filter_compliant": true
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "Số tín chỉ tích lũy tối thiểu và điều kiện cư trú học thuật tại trường (Academic Residency) để tốt nghiệp chương trình cử nhân 4 năm là bao nhiêu?",
+    "expected_answer": "Tối thiểu 128 tín chỉ và ít nhất 50% số tín chỉ (tối thiểu 64 tín chỉ) phải hoàn thành trực tiếp tại VinUniversity.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 27,
+    "evidence_quote": "minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p27_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 27,
+        "text": "such as Business Administration, Computer Science, and Data Science) and 150 credits for 5-year engineering programs. Students must achieve a minimum cumulative GPA (CGPA) of 2.00 on a 4.00 scale across all courses attempted. A strict Academic Residency Requirement mandates that at least 50% of the total credits required for the degree (minimum 64 credits), including all 3000-level and 4000-level major core courses, must be completed in direct residency at VinUniversity. Students must also satis",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7344657623437518
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p27_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 27,
+        "text": "Section 7: Degree Requirements, Graduation & Honors 7.1 Minimum Degree Completion Requirements and Residency To be awarded an undergraduate Bachelor's degree from VinUniversity, a candidate must successfully complete all prescribed curricular elements detailed in their program catalog within the allowable degree time horizon. The minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs (such as Business Administration, Computer Science,",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7061408383727295
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p7_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 7,
+        "text": "hours per credit. Undergraduate degree candidates must maintain full-time academic status by registering for a minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units, representing 4 to 5 major courses. The maximum allowable credit enrollment without special authorization is 20 credit units per standard 15-week semester. During the optional Summer Term (8 weeks), the maximum allowable credit load is 8 credit units, repres",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.68120323340125
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hit_rank": 2,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "Mức điểm GPA tích lũy tối thiểu để sinh viên tốt nghiệp được trao danh hiệu danh dự Summa Cum Laude là bao nhiêu?",
+    "expected_answer": "CGPA từ 3.90 đến 4.00.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 30,
+    "evidence_quote": "Summa Cum Laude (With Highest Distinction) for graduates achieving a final CGPA of 3.90 to 4.00",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p30_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 30,
+        "text": "Section 7: Degree Requirements, Graduation & Honors 7.4 Latin Honors and Valedictorian Selection Standards Undergraduate degree candidates graduating with exemplary academic distinction are recognized at Commencement with prestigious Latin Honors based strictly on final Cumulative GPA upon degree conferral. The criteria for Latin Honors are: Summa Cum Laude (With Highest Distinction) for graduates achieving a final CGPA of 3.90 to 4.00; Magna Cum Laude (With Great Distinction) for graduates achi",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7504678559383701
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p30_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 30,
+        "text": "Laude (With Great Distinction) for graduates achieving a final CGPA of 3.75 to 3.89; Cum Laude (With Distinction) for graduates achieving a final CGPA of 3.50 to 3.74. In addition to GPA benchmarks, eligibility for Latin Honors requires that the graduate has never been found responsible for any Category 2 or 3 violation of academic integrity and has completed at least 80% of degree credits in letter-graded coursework. The University Valedictorian is selected from among Summa Cum Laude graduates",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7381864755135414
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p30_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 30,
+        "text": "n is selected from among Summa Cum Laude graduates by a special faculty committee, factoring in scholarly research publications, leadership impact, and contribution to campus community life.",
+        "metadata": {
+          "year": 2025,
+          "section": "graduation_honors",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1090,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.6922899083435938
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Sinh viên nhận học bổng tài năng 70% và 50% phải duy trì điểm GPA tích lũy tối thiểu là bao nhiêu sau mỗi năm học để không bị mất học bổng?",
+    "expected_answer": "Duy trì CGPA tối thiểu 3.20 trên thang 4.0 và hoàn thành ít nhất 30 tín chỉ mỗi năm.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 33,
+    "evidence_quote": "Recipients of 70% and 50% scholarships must maintain a CGPA of at least 3.20",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p33_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 33,
+        "text": "olds: Recipients of the 100% President's Scholarship and 90% Dean's Scholarship must maintain a Cumulative GPA (CGPA) of at least 3.50 on a 4.00 scale. Recipients of 70% and 50% scholarships must maintain a CGPA of at least 3.20. Furthermore, scholarship recipients must successfully earn at least 30 academic credit units across the combined Fall and Spring semesters of each academic year and must maintain Good Disciplinary Standing with zero recorded violations of the Student Code of Conduct. Fa",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7617696914237253
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p33_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 33,
+        "text": "Section 8: Tuition Schedule & Scholarships 8.3 Annual Scholarship Maintenance and CGPA Retention Thresholds Merit scholarship recipients must maintain rigorous academic and behavioral standards to sustain their financial scholarship awards across subsequent academic years. Scholarship status is formally reviewed annually at the conclusion of the Spring semester. To maintain scholarship eligibility, students must meet minimum cumulative GPA thresholds: Recipients of the 100% President's Scholarsh",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7600886937340533
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p34_fix_000",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 34,
+        "text": "Section 8: Tuition Schedule & Scholarships 8.4 Scholarship Probation and Downgrade/Revocation Rules Scholarship Probation serves as an intervention grace period of one regular semester during which the student retains their current scholarship funding level while attempting to restore their CGPA to the prescribed benchmark. If, at the conclusion of the probationary semester, the student fails to restore their CGPA to the required threshold, the scholarship is subjected to a tiered downgrade: A 1",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 500,
+          "language": "en",
+          "start_char": 0,
+          "document_type": "handbook"
+        },
+        "score": 0.7075218731053663
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "hit_rank": 1,
+    "filter_compliant": null
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "Chính sách hoàn học phí khi sinh viên chính thức rút học trong tuần thứ 3 đến tuần thứ 4 của học kỳ là bao nhiêu phần trăm?",
+    "expected_answer": "Hoàn lại 50% học phí.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 35,
+    "evidence_quote": "Withdrawal during Week 3-4: 50% tuition refund",
+    "filter": null,
+    "hits": [
+      {
+        "chunk_id": "vinuni-handbook-2025_p35_fix_002",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 35,
+        "text": "uition refund; (3) Withdrawal during Week 5-6: 25% tuition refund; (4) Withdrawal after Week 6: 0% refund (no refund). Residential dormitory fees and university dining plan charges are non-refundable after the conclusion of the second week of the semester.",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 1156,
+          "language": "en",
+          "start_char": 900,
+          "document_type": "handbook"
+        },
+        "score": 0.7731288506317459
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p35_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 35,
+        "text": "y and may include on-campus student work-study stipends providing up to 20 hours per week of paid administrative or research assistantship employment. For students who officially withdraw from the university during an active semester, tuition fee refunds are strictly prorated according to the following schedule: (1) Withdrawal during Week 1-2 (Add/Drop Period): 100% tuition refund less non-refundable deposit; (2) Withdrawal during Week 3-4: 50% tuition refund; (3) Withdrawal during Week 5-6: 25%",
+        "metadata": {
+          "year": 2025,
+          "section": "tuition_scholarships",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7339238369934132
+      },
+      {
+        "chunk_id": "vinuni-handbook-2025_p10_fix_001",
+        "document_id": "vinuni-handbook-2025",
+        "source": "data/vinuni_academic_handbook_2025_2026.pdf",
+        "page": 10,
+        "text": "carries no grade point weight and does not impact cumulative GPA calculation; however, tuition fees paid for withdrawn courses are entirely non-refundable. Students may not withdraw from a course if such withdrawal reduces their semester credit load below the mandatory 12-credit full-time minimum, unless granted medical leave by University Health Services. A student is permitted a maximum of three 'W' grades across their entire undergraduate tenure. All course prerequisites specified in the Uni",
+        "metadata": {
+          "year": 2025,
+          "section": "course_registration",
+          "audience": "undergraduate",
+          "chunking": "fixed_size",
+          "end_char": 950,
+          "language": "en",
+          "start_char": 450,
+          "document_type": "handbook"
+        },
+        "score": 0.7309143217843252
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "hit_rank": 2,
+    "filter_compliant": null
+  }
+]

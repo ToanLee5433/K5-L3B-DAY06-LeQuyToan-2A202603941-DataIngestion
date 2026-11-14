@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Điểm IELTS tối thiểu để được xét tuyển thẳng không điều kiện vào VinUniversity là bao nhiêu?",
+    "expected_answer": "IELTS Academic tối thiểu 6.5, không kỹ năng nào dưới 6.0.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 4,
+    "evidence_quote": "overall band score of at least 6.5 on the International English Language Testing System (IELTS Academic), with no individual sub-band score falling below 6.0",
+    "filter": {
+      "section": "admissions"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "Tiền đặt cọc xác nhận nhập học sau khi nhận Offer of Admission là bao nhiêu và thời hạn chấp nhận là bao lâu?",
+    "expected_answer": "20.000.000 VNĐ, hoàn thành trong vòng 14 ngày kể từ khi nhận thư mời.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 6,
+    "evidence_quote": "non-refundable enrollment deposit of 20,000,000 VND is required upon acceptance",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "direct",
+    "question": "Hạn chót nộp hồ sơ xét tuyển đợt Regular Decision cho năm học 2025-2026 là ngày nào?",
+    "expected_answer": "Ngày 15 tháng 3 năm 2026.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 5,
+    "evidence_quote": "the Regular Decision Round closes on March 15, 2026",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "condition",
+    "question": "Sinh viên đại học cần đăng ký tối thiểu và tối đa bao nhiêu tín chỉ trong một học kỳ chính tiêu chuẩn?",
+    "expected_answer": "Tối thiểu 12 tín chỉ để duy trì toàn thời gian và tối đa 20 tín chỉ.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 7,
+    "evidence_quote": "minimum of 12 credit units in both the Fall and Spring semesters. The standard semester academic workload is 15 to 18 credit units",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "condition",
+    "question": "Điều kiện về điểm GPA tích lũy và số tín chỉ để sinh viên được phép đăng ký vượt tải (overload) lên đến 23 tín chỉ là gì?",
+    "expected_answer": "CGPA tối thiểu 3.50 và đã tích lũy ít nhất 30 tín chỉ tại VinUniversity.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 8,
+    "evidence_quote": "cumulative grade point average (CGPA) of at least 3.50 on a 4.0 scale and must have successfully earned at least 30 credit units in residency",
+    "filter": {
+      "section": "course_registration"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "Thời hạn Add/Drop môn học vào đầu học kỳ kéo dài trong bao lâu?",
+    "expected_answer": "14 ngày (hai tuần học), kết thúc vào 17:00 thứ Sáu của tuần thứ hai.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 9,
+    "evidence_quote": "Add/Drop Period runs for exactly 14 calendar days (two full academic weeks) starting from 08:00 on the first day of class and ending at 17:00 on Friday of the second academic week",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "rephrase",
+    "question": "Sinh viên được phép rút môn (Course Withdrawal) nhận điểm W từ tuần thứ mấy và tối đa bao nhiêu lần trong suốt khóa học?",
+    "expected_answer": "Từ tuần 3 đến 17:00 thứ Sáu tuần 8; tối đa 3 lần nhận điểm W.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 10,
+    "evidence_quote": "withdraw from an enrolled course between the beginning of the 3rd week and 17:00 on Friday of the 8th week of the regular semester",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Tỷ lệ chuyên cần tối thiểu sinh viên bắt buộc phải duy trì để được phép tham gia thi kết thúc môn học là bao nhiêu?",
+    "expected_answer": "Tối thiểu 80% tổng số giờ học theo thời khóa biểu.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 11,
+    "evidence_quote": "minimum attendance rate of 80% of all scheduled instructional contact hours in each enrolled course",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "exception",
+    "question": "Sinh viên vắng mặt quá bao nhiêu phần trăm tổng số giờ học thì dù có lý do chính đáng vẫn không được công nhận qua môn và phải học lại?",
+    "expected_answer": "Quá 35% tổng số giờ học.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 12,
+    "evidence_quote": "misses more than 35% of total instructional contact hours in a course cannot receive a passing grade",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "Thời gian tối đa được phép nghỉ học tạm thời (Leave of Absence) trong toàn bộ khóa học đại học là bao lâu?",
+    "expected_answer": "Tối đa hai học kỳ chính.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 13,
+    "evidence_quote": "cumulative lifetime maximum allowance for voluntary leave of absence is two regular semesters",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "Thang điểm chữ A+ và A- tương ứng với bao nhiêu điểm số theo thang 4.0 tại VinUniversity?",
+    "expected_answer": "A+ tương ứng 4.0 điểm, A- tương ứng 3.7 điểm.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 15,
+    "evidence_quote": "Grade A+ (95-100%, 4.0 points, Exceptional); Grade A (90-94%, 4.0 points, Excellent); Grade A- (85-89%, 3.7 points, Very Good)",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "condition",
+    "question": "Thời hạn tối đa để sinh viên hoàn thành các nội dung còn nợ của điểm Incomplete (I) trước khi bị chuyển thành điểm F là bao lâu?",
+    "expected_answer": "Bốn tuần kể từ ngày bắt đầu học kỳ chính tiếp theo.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 17,
+    "evidence_quote": "finished and evaluated within four calendar weeks from the first day of instruction of the immediately subsequent regular semester",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "condition",
+    "question": "Điều kiện về số tín chỉ và điểm GPA học kỳ để sinh viên được ghi danh vào bảng vinh danh Dean List là gì?",
+    "expected_answer": "Tối thiểu 15 tín chỉ tính điểm chữ và GPA học kỳ từ 3.75 trở lên, không có môn dưới B.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 19,
+    "evidence_quote": "minimum of 15 letter-graded credit units, attain an SGPA of 3.75 or higher, and have no recorded grade below 'B'",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "direct",
+    "question": "Sinh viên bị rơi vào tình trạng Cảnh báo học vụ (Academic Warning) khi điểm GPA kỳ hoặc GPA tích lũy rơi vào ngưỡng nào?",
+    "expected_answer": "GPA học kỳ dưới 2.00 hoặc GPA tích lũy từ 1.80 đến 1.99.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 20,
+    "evidence_quote": "Semester GPA falls below 2.00 in any single semester, or whose Cumulative GPA falls between 1.80 and 1.99",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "rephrase",
+    "question": "Khi được giảng viên cho phép dùng công cụ Generative AI trong bài làm, sinh viên bắt buộc phải công bố những nội dung gì?",
+    "expected_answer": "Tên công cụ và phiên bản model, toàn bộ câu lệnh prompt, và phần giải trình cách xác thực và chỉnh sửa kết quả.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 24,
+    "evidence_quote": "specific tool and model version employed, the complete prompt strings used, and a concise narrative explaining how generated outputs were verified, edited, and integrated",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "exception",
+    "question": "Hành vi sử dụng công cụ AI tạo sinh nộp bài mà không khai báo bị xếp vào mức vi phạm liêm chính học thuật nào?",
+    "expected_answer": "Vi phạm Mức 2 (Category 2 Academic Misconduct), bị điểm F môn học và thử thách kỷ luật 2 kỳ.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 24,
+    "evidence_quote": "classified as Category 2 Academic Misconduct, subject to mandatory punitive proceedings",
+    "filter": {
+      "section": "academic_integrity"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "condition",
+    "question": "Số tín chỉ tích lũy tối thiểu và điều kiện cư trú học thuật tại trường (Academic Residency) để tốt nghiệp chương trình cử nhân 4 năm là bao nhiêu?",
+    "expected_answer": "Tối thiểu 128 tín chỉ và ít nhất 50% số tín chỉ (tối thiểu 64 tín chỉ) phải hoàn thành trực tiếp tại VinUniversity.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 27,
+    "evidence_quote": "minimum requirement for bachelor's graduation is the completion of 128 academic semester credits for 4-year programs",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "direct",
+    "question": "Mức điểm GPA tích lũy tối thiểu để sinh viên tốt nghiệp được trao danh hiệu danh dự Summa Cum Laude là bao nhiêu?",
+    "expected_answer": "CGPA từ 3.90 đến 4.00.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 30,
+    "evidence_quote": "Summa Cum Laude (With Highest Distinction) for graduates achieving a final CGPA of 3.90 to 4.00",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "condition",
+    "question": "Sinh viên nhận học bổng tài năng 70% và 50% phải duy trì điểm GPA tích lũy tối thiểu là bao nhiêu sau mỗi năm học để không bị mất học bổng?",
+    "expected_answer": "Duy trì CGPA tối thiểu 3.20 trên thang 4.0 và hoàn thành ít nhất 30 tín chỉ mỗi năm.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 33,
+    "evidence_quote": "Recipients of 70% and 50% scholarships must maintain a CGPA of at least 3.20",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "direct",
+    "question": "Chính sách hoàn học phí khi sinh viên chính thức rút học trong tuần thứ 3 đến tuần thứ 4 của học kỳ là bao nhiêu phần trăm?",
+    "expected_answer": "Hoàn lại 50% học phí.",
+    "gold_source_id": "vinuni-handbook-2025",
+    "gold_page": 35,
+    "evidence_quote": "Withdrawal during Week 3-4: 50% tuition refund",
+    "filter": null
+  }
+]

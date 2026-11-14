@@ -12,6 +12,32 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
 
+### 1. Khởi động PostgreSQL + pgvector (Docker)
+```bash
+cd starter
+docker compose up -d
+python scripts/check_setup.py
+```
+
+### 2. Thiết lập cấu hình môi trường (.env)
+Tạo file `starter/.env` (hoặc `.env` ở root):
+```env
+DATABASE_URL=postgresql://day6:day6_local_only@127.0.0.1:55433/day6_lab
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+### 3. Cài đặt thư viện Python
+```bash
+pip install psycopg[binary] pypdf python-dotenv
+```
+
+### 4. Chạy toàn bộ Pipeline Ingestion & Benchmark
+```bash
+python starter/src/run.py
+```
+Toàn bộ kết quả truy xuất top-3, trace chi tiết và bảng metrics sẽ được xuất tự động vào thư mục `results/` và cập nhật vào `artifacts/experiment_log.csv`.
+Báo cáo chi tiết xem tại `report/individual/2A202603941_LeQuyToan.md`.
+
 ## 1. Xây pipeline
 
 ![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
